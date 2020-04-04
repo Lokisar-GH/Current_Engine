@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<root GUIActivated="yes" consoleclasspath="$aidir/SkirmishAI.jar:$aidir/UnderlyingAI.jar:$aidir/../../../Interfaces/Java/0.1/AIInterface.jar:$aidir/../../../Interfaces/Java/0.1/jlib/jna.jar:$aidir/../../../Interfaces/Java/0.1/jlib/vecmath.jar" debug="no" defaultWorkflowName="default" losMapInterpolationDistance="100" losmapdistancethresholdforunitupdate="100" losrefreshallintervalframecount="2000" mapDrawGranularity="8" mapHack="no" maxLinesOnMap="1000" maxTimeToConserveMobileEnemyOnThreatMapGameSeconds="30" maxinfantryslope="0.33" maxvehicleslope="0.08" metalspotmarkerunitname="armmex" spreadsearchnextmovemarkerunitname="armrad" tickFrameInterval="30" typicallevel1tankunitdefname="armstump" usedmetalspotmarkerunitname="armfort" welcomeMessageSecondsInterval="10">
+<list fieldname="commanderunitnames">
+<listitem value="armcom"/>
+<listitem value="corcom"/>
+</list>
+<list fieldname="basicmetalextractorunitnames">
+<listitem value="armmex"/>
+<listitem value="cormex"/>
+</list>
+<list fieldname="basicenergyextractorunitnames">
+<listitem value="armsolar"/>
+<listitem value="corsolar"/>
+</list>
+<list fieldname="basicconstructionvehicleunitnames">
+<listitem value="armcv"/>
+<listitem value="corcv"/>
+</list>
+<list fieldname="welcomeMessages">
+<listitem value="Welcome to HughAI, by Hugh Perkins 2006, 2009"/>
+<listitem value="This AI works best with Balanced Annihilation."/>
+<listitem value="You can configure HughAI from the attached gui, and in workflow files in the xxx_workflows directory."/>
+<listitem value="You can say '.hughai help' for text commands, or use the attached GUI panel."/>
+<listitem value="For more information and questions, please don't hesitate to post in the HughAI thread in the forums, or email me at hughperkins@gmail.com."/>
+</list>
+<list fieldname="reconnaissanceunitnames">
+<listitem value="armfav"/>
+<listitem value="corfav"/>
+</list>
+<list fieldname="offensiveunitnames">
+<listitem value="armsam"/>
+<listitem value="armstump"/>
+<listitem value="armrock"/>
+<listitem value="armjeth"/>
+<listitem value="armkam"/>
+<listitem value="armanac"/>
+<listitem value="armsfig"/>
+<listitem value="armmh"/>
+<listitem value="armah"/>
+<listitem value="armbull"/>
+<listitem value="armmart"/>
+<listitem value="armmav"/>
+<listitem value="armyork"/>
+<listitem value="correap"/>
+<listitem value="cormist"/>
+<listitem value="corraid"/>
+<listitem value="cormart"/>
+<listitem value="corsent"/>
+<listitem value="corpyro"/>
+</list>
+<list fieldname="scoutraiderprioritytargets">
+<listitem value="armmex"/>
+<listitem value="cormex"/>
+<listitem value="armrad"/>
+</list>
+</root>

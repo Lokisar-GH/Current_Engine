@@ -1,0 +1,9 @@
+{
+	"server" : {
+		"address" : "23.83.237.166",
+		"port" : 8200,
+		"serverName" : "Spring",
+		"protocol" : "spring"
+	},
+	"game" : "generic"
+}

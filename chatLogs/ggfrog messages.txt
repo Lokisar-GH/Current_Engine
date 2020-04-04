@@ -1,0 +1,186 @@
+
+[04:50] ggfrog: ********** Available commands for your access level **********
+[04:50] ggfrog: !addBot [<name> [<side> <ai>]] - adds a local AI bot (missing parameters are taken from "localBots" preset setting if possible)
+[04:50] ggfrog: !addBox <left> <top> <right> <bottom> [<teamNumber>] - adds a new start box (0,0 is top left corner, 200,200 is bottom right corner)
+[04:50] ggfrog: !advert [<newAdvertMessage>] - updates the advert message or disables advert system if no message is provided (lines are separated by '|' character)
+[04:50] ggfrog: !auth [<password>] - (un)authenticates yourself to the AutoHost (LAN mode only)
+[04:50] ggfrog: !balance - balances teams according to current balanceMode, nbTeams, teamSize and nbPlayerById parameters
+[04:50] ggfrog: !ban <usernameOrFilters> [<banType> [<duration> [<reason>]]] - ban a user from AutoHost channel and/or battle and/or game (use ; to separate filters, and ~ at start for regexp)
+[04:50] ggfrog: !banIp <username>|#<accountId> [<banType> [<duration> [<reason>]]] - ban a user from battle lobby, based on his latest IP (same as doing "!ban ip=<userIp>")
+[04:50] ggfrog: !banIps <username>|#<accountId> [<banType> [<duration> [<reason>]]] - ban a user from battle lobby, based on all his known IPs (same as doing "!ban ip=<userIp>" for all IPs)
+[04:50] ggfrog: !bKick <username> - kicks <username> from battle lobby
+[04:50] ggfrog: !boss [<username>] - enables boss mode for <username> (reduces rights of other non-privilegied users), or disable boss mode if <username> isn't specified
+[04:50] ggfrog: !bPreset <battlePreset> - changes current battle preset (use "!list bPresets" to list available battle presets)
+[04:50] ggfrog: !bSet <battleSetting> <newValue> - changes a battle setting manually (use "!list bSettings" to list available settings)
+[04:50] ggfrog: !callVote <command> - calls a vote to execute command <command> (alias: !cv)
+[04:50] ggfrog: !cancelQuit - cancels a quit or restart command
+[04:50] ggfrog: !cheat [0|1|<cheatCommand>] - Enable/disable cheat mode, or execute a cheat command
+[04:50] ggfrog: !chpasswd <user> [<password>] - (un)sets an AutoHost user password (used when Lobby server is running in LAN mode only)
+[04:50] ggfrog: !chrank <user> [<rankMode>] - (un)sets an AutoHost user rank mode (used for auto-balancing if skillMode is set to "rank")
+[04:50] ggfrog: !chskill <user> [<skillMode>] - (un)sets an AutoHost user skill mode (used for auto-balancing)
+[04:50] ggfrog: !cKick <username> - kicks <username> from channel
+[04:50] ggfrog: !clearBox [<teamNumber>|extra] - removes the box for team <teamNumber> or all extra teams (removes all boxes if <teamNumber> and "extra" not specified)
+[04:50] ggfrog: !closeBattle - closes current battle (use "openBattle" command to reopen it)
+[04:50] ggfrog: !endVote - cancels current vote
+[04:50] ggfrog: !fixColors - tries to fix colors automatically
+[04:50] ggfrog: !force <username> id|team|spec|bonus [number] - forces a player to spec, or sets his id/team/bonus to <number> (for AI bots, <username> can be prefixed with '%' to avoid ambiguity)
+[04:50] ggfrog: !forcePreset <preset> - changes current global SPADS preset, bypassing the allowed presets list (use "!list presets" to list available presets)
+[04:50] ggfrog: !forceStart - launches the game even if teams are uneven (but everyone still has to be ready), or forces game start if it is already launched
+[04:50] ggfrog: !gKick <username> - kicks <username> from game
+[04:50] ggfrog: !help [<command>|[global|set|hSet|bSet|pSet] <settingName>] - lists allowed commands, or prints detailed help for a specific command or setting
+[04:50] ggfrog: !helpall - lists all commands
+[04:50] ggfrog: !hostStats - prints global hosting statistics
+[04:50] ggfrog: !hPreset <hostingPreset> - changes current hosting preset (use "!list hPresets" to list available hosting presets)
+[04:50] ggfrog: !hSet <hostingSetting> <newValue> - changes a hosting setting manually (use "list hSettings" to list available hosting settings)
+[04:50] ggfrog: !joinAs spec|<inGamePlayer>|#<inGameId> [<joiningPlayer>] - allows a user to join the game in progress as spectator or player
+[04:50] ggfrog: !kick <username> - kicks <username> from channel, battle or game, depending on the way the command is sent to AutoHost
+[04:50] ggfrog: !kickBan <username> - kicks and bans <username> temporarily from channel, battle and game
+[04:50] ggfrog: !learnMaps [<mapFilter> [<hostFilter>]] - learns map hashes from other battles (only learns maps matching <mapFilter> and <hostFilters> if specified)
+[04:50] ggfrog: !list users|presets|bPresets|hPresets|settings|bSettings|hSettings|aliases|bans|maps|rotationMaps|pref|plugins|pSettings [all|map|mod|engine|<filters>] - lists various settings
+[04:50] ggfrog: !loadBoxes [<mapName> [<nbTeams> [<nbExtraBox>]]] - loads start boxes for given map, number of teams and number of extra boxes (use current values if not provided)
+[04:50] ggfrog: !lock - locks battle lobby
+[04:50] ggfrog: !mapLink - gives a link to download the current map
+[04:50] ggfrog: !nextMap - changes map according to rotation mode specified by "rotationManual" setting
+[04:50] ggfrog: !nextPreset - changes preset according to rotation mode specified by "rotationManual" setting
+[04:50] ggfrog: !notify - sets/unsets an end-game notification: the AutoHost will notify you when the current game ends
+[04:50] ggfrog: !openBattle - reopens the battle (battle is open by default)
+[04:50] ggfrog: !plugin <pluginName> load|unload|reload|reloadConf [keepSettings]|set <param> [<value>] - performs various operations on a plugin
+[04:50] ggfrog: !preset <globalPreset> - changes current global SPADS preset (use "!list presets" to list available presets)
+[04:50] ggfrog: !promote - promotes current battle on channel(s) (not in #main since it's forbidden)
+[04:50] ggfrog: !pSet <preferenceSetting> [<newValue>] - updates a preference (use "!list pref" to list your current preferences)
+[04:50] ggfrog: !quit [empty|spec] - forces AutoHost to quit (wait end of game, + empty battle if "empty" is specified, or only spec if "spec" is specified)
+[04:50] ggfrog: !rebalance - rebalances teams (try to change them if they were already balanced)
+[04:50] ggfrog: !rehost - rehosts battle (needed for hosting settings changes to be applied)
+[04:50] ggfrog: !reloadArchives [full] - reloads Spring archive files (Mods and maps)
+[04:50] ggfrog: !reloadConf [keepSettings] [keepMacros] [<macro>=<value> [..]] - reloads all configuration files
+[04:50] ggfrog: !removeBot <botName> - removes a local AI bot
+[04:50] ggfrog: !restart [empty|spec] [<macro>=<value> [..]] - restarts SPADS (wait game end, and empty battle lobby if "empty" is specified)
+[04:50] ggfrog: !ring [<username>] - rings all unready players, or ring <username> if <username> is specified
+[04:50] ggfrog: !saveBoxes - saves map boxes for current map
+[04:50] ggfrog: !say <message> - sends chat message <message> from lobby to game
+[04:50] ggfrog: !searchUser <userFilter>|@<ipFilter> - shows main information concerning all known accounts matching <userFilter> or <ipFilter>
+[04:50] ggfrog: !send <command> - sends command <command> to server on AutoHost interface
+[04:50] ggfrog: !sendLobby <command> - sends command <command> to lobby server
+[04:50] ggfrog: !set <spadsSetting> <newValue> - changes a SPADS setting manually (use "!list settings" to list available settings)
+[04:50] ggfrog: !smurfs [<username>|#<accountId>] - finds smurf accounts of players in battle, or those of <name> if specified (requires user data retention)
+[04:50] ggfrog: !specAfk - Force all unready and AFK/idle players to spec
+[04:50] ggfrog: !split h|v|c1|c2|c|s <percent> - splits map for starting positions
+[04:50] ggfrog: !start - launches the game if everyone is ready and teams are even
+[04:50] ggfrog: !stats - prints statistics for the last game played on the AutoHost
+[04:50] ggfrog: !status [battle|game] - prints battle or game status (players teams, IDs, status...)
+[04:50] ggfrog: !stop - forces current running game to stop
+[04:50] ggfrog: !unban <usernameOrFilters>|(<banEntryHash>) - removes <usernameOrFilters> or <banEntryHash> from banlist (refer to ban command for filters syntax)
+[04:50] ggfrog: !unbanIp <username>|#<accountId> - removes bans matching current account IP from banlist (same as doing "!unban ip=<userIp>")
+[04:50] ggfrog: !unbanIps <username>|#<accountId> - removes bans matching all known account IPs from banlist (same as doing "!unban ip=<userIp>" for all IPs)
+[04:50] ggfrog: !unlock - unlocks current battle (only if it has been locked manually with lock command)
+[04:50] ggfrog: !unlockSpec - unlocks temporarily an autolocked battle to allow you to join as spectator
+[04:50] ggfrog: !update [<release>] - updates SPADS according to the autoUpdateRelease setting or the release specified as parameter if present
+[04:50] ggfrog: !version - requests versions of all SPADS components
+[04:50] ggfrog: !vote yes|y|no|n|blank|b - votes
+[04:50] ggfrog: !whois <username>|#<accountId>|@<ipAddress> - prints detailed account information
+[04:50] ggfrog: --> Use "!list aliases" to list available command aliases.
+[04:50] ggfrog: ********** Available aliases **********
+[04:50] ggfrog: !b - !vote b
+[04:50] ggfrog: !coop - !pSet shareId
+[04:50] ggfrog: !cv - !callVote
+[04:50] ggfrog: !ev - !endVote
+[04:50] ggfrog: !fb - !force *
+[04:50] ggfrog: !h - !help
+[04:50] ggfrog: !map - !set map
+[04:50] ggfrog: !n - !vote n
+[04:50] ggfrog: !rc - !reloadConf
+[04:50] ggfrog: !rck - !reloadConf keepSettings
+[04:50] ggfrog: !s - !status
+[04:50] ggfrog: !sb - !status battle
+[04:50] ggfrog: !spec - !force %1% spec
+[04:50] ggfrog: !su - !searchUser
+[04:50] ggfrog: !us - !unlockSpec
+[04:50] ggfrog: !w - !whois
+[04:50] ggfrog: !y - !vote y
+[04:51] ggfrog is now offline
+[04:51] ggfrog just got online
+[04:54] ggfrog is now offline
+[05:00] ggfrog just got online
+[23:40] ggfrog: The !exit command is deprecated on this AutoHost, please use the unified command "!stop" instead
+[00:21] ggfrog: The !exit command is deprecated on this AutoHost, please use the unified command "!stop" instead
+[00:22] ggfrog: ********** Available commands for your access level **********
+[00:22] ggfrog: !addBot [<name> [<side> <ai>]] - adds a local AI bot (missing parameters are taken from "localBots" preset setting if possible)
+[00:22] ggfrog: !addBox <left> <top> <right> <bottom> [<teamNumber>] - adds a new start box (0,0 is top left corner, 200,200 is bottom right corner)
+[00:22] ggfrog: !advert [<newAdvertMessage>] - updates the advert message or disables advert system if no message is provided (lines are separated by '|' character)
+[00:22] ggfrog: !auth [<password>] - (un)authenticates yourself to the AutoHost (LAN mode only)
+[00:22] ggfrog: !balance - balances teams according to current balanceMode, nbTeams, teamSize and nbPlayerById parameters
+[00:22] ggfrog: !ban <usernameOrFilters> [<banType> [<duration> [<reason>]]] - ban a user from AutoHost channel and/or battle and/or game (use ; to separate filters, and ~ at start for regexp)
+[00:22] ggfrog: !banIp <username>|#<accountId> [<banType> [<duration> [<reason>]]] - ban a user from battle lobby, based on his latest IP (same as doing "!ban ip=<userIp>")
+[00:22] ggfrog: !banIps <username>|#<accountId> [<banType> [<duration> [<reason>]]] - ban a user from battle lobby, based on all his known IPs (same as doing "!ban ip=<userIp>" for all IPs)
+[00:22] ggfrog: !bKick <username> - kicks <username> from battle lobby
+[00:22] ggfrog: !boss [<username>] - enables boss mode for <username> (reduces rights of other non-privilegied users), or disable boss mode if <username> isn't specified
+[00:22] ggfrog: !bPreset <battlePreset> - changes current battle preset (use "!list bPresets" to list available battle presets)
+[00:22] ggfrog: !bSet <battleSetting> <newValue> - changes a battle setting manually (use "!list bSettings" to list available settings)
+[00:22] ggfrog: !callVote <command> - calls a vote to execute command <command> (alias: !cv)
+[00:22] ggfrog: !cancelQuit - cancels a quit or restart command
+[00:22] ggfrog: !cheat [0|1|<cheatCommand>] - Enable/disable cheat mode, or execute a cheat command
+[00:22] ggfrog: !chpasswd <user> [<password>] - (un)sets an AutoHost user password (used when Lobby server is running in LAN mode only)
+[00:22] ggfrog: !chrank <user> [<rankMode>] - (un)sets an AutoHost user rank mode (used for auto-balancing if skillMode is set to "rank")
+[00:22] ggfrog: !chskill <user> [<skillMode>] - (un)sets an AutoHost user skill mode (used for auto-balancing)
+[00:22] ggfrog: !cKick <username> - kicks <username> from channel
+[00:22] ggfrog: !clearBox [<teamNumber>|extra] - removes the box for team <teamNumber> or all extra teams (removes all boxes if <teamNumber> and "extra" not specified)
+[00:22] ggfrog: !closeBattle - closes current battle (use "openBattle" command to reopen it)
+[00:22] ggfrog: !endVote - cancels current vote
+[00:22] ggfrog: !fixColors - tries to fix colors automatically
+[00:22] ggfrog: !force <username> id|team|spec|bonus [number] - forces a player to spec, or sets his id/team/bonus to <number> (for AI bots, <username> can be prefixed with '%' to avoid ambiguity)
+[00:22] ggfrog: !forcePreset <preset> - changes current global SPADS preset, bypassing the allowed presets list (use "!list presets" to list available presets)
+[00:22] ggfrog: !forceStart - launches the game even if teams are uneven (but everyone still has to be ready), or forces game start if it is already launched
+[00:22] ggfrog: !gKick <username> - kicks <username> from game
+[00:22] ggfrog: !help [<command>|[global|set|hSet|bSet|pSet] <settingName>] - lists allowed commands, or prints detailed help for a specific command or setting
+[00:22] ggfrog: !helpall - lists all commands
+[00:22] ggfrog: !hostStats - prints global hosting statistics
+[00:22] ggfrog: !hPreset <hostingPreset> - changes current hosting preset (use "!list hPresets" to list available hosting presets)
+[00:22] ggfrog: !hSet <hostingSetting> <newValue> - changes a hosting setting manually (use "list hSettings" to list available hosting settings)
+[00:22] ggfrog: !joinAs spec|<inGamePlayer>|#<inGameId> [<joiningPlayer>] - allows a user to join the game in progress as spectator or player
+[00:22] ggfrog: !kick <username> - kicks <username> from channel, battle or game, depending on the way the command is sent to AutoHost
+[00:22] ggfrog: !kickBan <username> - kicks and bans <username> temporarily from channel, battle and game
+[00:22] ggfrog: !learnMaps [<mapFilter> [<hostFilter>]] - learns map hashes from other battles (only learns maps matching <mapFilter> and <hostFilters> if specified)
+[00:22] ggfrog: !list users|presets|bPresets|hPresets|settings|bSettings|hSettings|aliases|bans|maps|rotationMaps|pref|plugins|pSettings [all|map|mod|engine|<filters>] - lists various settings
+[00:22] ggfrog: !loadBoxes [<mapName> [<nbTeams> [<nbExtraBox>]]] - loads start boxes for given map, number of teams and number of extra boxes (use current values if not provided)
+[00:22] ggfrog: !lock - locks battle lobby
+[00:22] ggfrog: !mapLink - gives a link to download the current map
+[00:22] ggfrog: !nextMap - changes map according to rotation mode specified by "rotationManual" setting
+[00:22] ggfrog: !nextPreset - changes preset according to rotation mode specified by "rotationManual" setting
+[00:22] ggfrog: !notify - sets/unsets an end-game notification: the AutoHost will notify you when the current game ends
+[00:22] ggfrog: !openBattle - reopens the battle (battle is open by default)
+[00:22] ggfrog: !plugin <pluginName> load|unload|reload|reloadConf [keepSettings]|set <param> [<value>] - performs various operations on a plugin
+[00:22] ggfrog: !preset <globalPreset> - changes current global SPADS preset (use "!list presets" to list available presets)
+[00:22] ggfrog: !promote - promotes current battle on channel(s) (not in #main since it's forbidden)
+[00:22] ggfrog: !pSet <preferenceSetting> [<newValue>] - updates a preference (use "!list pref" to list your current preferences)
+[00:22] ggfrog: !quit [empty|spec] - forces AutoHost to quit (wait end of game, + empty battle if "empty" is specified, or only spec if "spec" is specified)
+[00:22] ggfrog: !rebalance - rebalances teams (try to change them if they were already balanced)
+[00:22] ggfrog: !rehost - rehosts battle (needed for hosting settings changes to be applied)
+[00:22] ggfrog: !reloadArchives [full] - reloads Spring archive files (Mods and maps)
+[00:22] ggfrog: !reloadConf [keepSettings] [keepMacros] [<macro>=<value> [..]] - reloads all configuration files
+[00:22] ggfrog: !removeBot <botName> - removes a local AI bot
+[00:22] ggfrog: !restart [empty|spec] [<macro>=<value> [..]] - restarts SPADS (wait game end, and empty battle lobby if "empty" is specified)
+[00:22] ggfrog: !ring [<username>] - rings all unready players, or ring <username> if <username> is specified
+[00:22] ggfrog: !saveBoxes - saves map boxes for current map
+[00:22] ggfrog: !say <message> - sends chat message <message> from lobby to game
+[00:22] ggfrog: !searchUser <userFilter>|@<ipFilter> - shows main information concerning all known accounts matching <userFilter> or <ipFilter>
+[00:22] ggfrog: !send <command> - sends command <command> to server on AutoHost interface
+[00:22] ggfrog: !sendLobby <command> - sends command <command> to lobby server
+[00:22] ggfrog: !set <spadsSetting> <newValue> - changes a SPADS setting manually (use "!list settings" to list available settings)
+[00:22] ggfrog: !smurfs [<username>|#<accountId>] - finds smurf accounts of players in battle, or those of <name> if specified (requires user data retention)
+[00:22] ggfrog: !specAfk - Force all unready and AFK/idle players to spec
+[00:22] ggfrog: !split h|v|c1|c2|c|s <percent> - splits map for starting positions
+[00:22] ggfrog: !start - launches the game if everyone is ready and teams are even
+[00:22] ggfrog: !stats - prints statistics for the last game played on the AutoHost
+[00:22] ggfrog: !status [battle|game] - prints battle or game status (players teams, IDs, status...)
+[00:22] ggfrog: !stop - forces current running game to stop
+[00:22] ggfrog: !unban <usernameOrFilters>|(<banEntryHash>) - removes <usernameOrFilters> or <banEntryHash> from banlist (refer to ban command for filters syntax)
+[00:22] ggfrog: !unbanIp <username>|#<accountId> - removes bans matching current account IP from banlist (same as doing "!unban ip=<userIp>")
+[00:22] ggfrog: !unbanIps <username>|#<accountId> - removes bans matching all known account IPs from banlist (same as doing "!unban ip=<userIp>" for all IPs)
+[00:22] ggfrog: !unlock - unlocks current battle (only if it has been locked manually with lock command)
+[00:22] ggfrog: !unlockSpec - unlocks temporarily an autolocked battle to allow you to join as spectator
+[00:22] ggfrog: !update [<release>] - updates SPADS according to the autoUpdateRelease setting or the release specified as parameter if present
+[00:22] ggfrog: !version - requests versions of all SPADS components
+[00:22] ggfrog: !vote yes|y|no|n|blank|b - votes
+[00:22] ggfrog: !whois <username>|#<accountId>|@<ipAddress> - prints detailed account information
+[00:22] ggfrog: --> Use "!list aliases" to list available command aliases.
+[00:25] ggfrog: The !exit command is deprecated on this AutoHost, please use the unified command "!stop" instead

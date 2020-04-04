@@ -1,0 +1,589 @@
+1 amphaa Angler size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+2 amphassault Grizzly size: 8,8 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+3 amphbomb Limpet size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+4 amphcon Conch size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+5 amphfloater Buoy size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+6 amphimpulse Archer size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+7 amphlaunch Lobster size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+8 amphraid Duck size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+9 amphriot Scallop size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+10 amphtele Djinn size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+11 armcom0 Strike Commander - Level 0 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+12 armcom1 Strike Commander size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+13 armcom2 Strike Commander - Level 2 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+14 armcom3 Strike Commander - Level 3 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+15 armcom4 Strike Commander - Level 4 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+16 armcom5 Strike Commander - Level 5 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+17 assaultcruiser Vanquisher size: 10,10 maxSlope: 1.0 depth 15.0 slopeMod 3.9960039 getDepthMod(-10): 0.5 movefamily: 3
+18 asteroid Asteroid size: 4,4
+19 athena Athena size: 4,4
+20 benzcom0 Siege Commander - Level 0 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+21 benzcom1 Siege Commander size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+22 benzcom2 Siege Commander - Level 2 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+23 benzcom3 Siege Commander - Level 3 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+24 benzcom4 Siege Commander - Level 4 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+25 benzcom5 Siege Commander - Level 5 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+26 bomberassault Eclipse size: 6,6
+27 bomberdisarm Thunderbird size: 6,6
+28 bomberheavy Likho size: 6,6
+29 bomberprec Raven size: 6,6
+30 bomberriot Phoenix size: 8,8
+31 bomberstrike Kestrel size: 6,6
+32 chicken Chicken size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+33 chicken_blimpy Blimpy size: 8,8
+34 chicken_digger Digger size: 4,4 maxSlope: 0.4122147 depth 22.0 slopeMod 9.680198 getDepthMod(-10): 0.58823526 movefamily: 1
+35 chicken_digger_b Digger (burrowed) size: 4,4 maxSlope: 1.0 depth 16.0 slopeMod 3.9960039 getDepthMod(-10): 0.58823526 movefamily: 1
+36 chicken_dodo Dodo size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+37 chicken_dragon White Dragon size: 10,10 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 0.5 movefamily: 2
+38 chicken_drone Drone size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+39 chicken_drone_starter Drone size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+40 chicken_leaper Leaper size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+41 chicken_listener Listener size: 8,8 maxSlope: 0.4122147 depth 22.0 slopeMod 9.680198 getDepthMod(-10): 0.58823526 movefamily: 1
+42 chicken_listener_b Listener (burrowed) size: 4,4 maxSlope: 1.0 depth 16.0 slopeMod 3.9960039 getDepthMod(-10): 0.58823526 movefamily: 1
+43 chicken_pigeon Pigeon size: 2,2
+44 chicken_rafflesia Rafflesia size: 6,6
+45 chicken_roc Roc size: 4,4
+46 chicken_shield Blooper size: 8,8 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+47 chicken_spidermonkey Spidermonkey size: 6,6 maxSlope: 1.0 depth 5000.0 slopeMod 3.9960039 getDepthMod(-10): 1.0 movefamily: 1
+48 chicken_sporeshooter Sporeshooter size: 6,6 maxSlope: 1.0 depth 5000.0 slopeMod 3.9960039 getDepthMod(-10): 1.0 movefamily: 1
+49 chicken_tiamat Tiamat size: 8,8 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+50 chickena Cockatrice size: 8,8 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+51 chickenblobber Blobber size: 8,8 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 0.5 movefamily: 2
+52 chickenbroodqueen Chicken Brood Queen size: 8,8 maxSlope: 1.0 depth 22.0 slopeMod 3.9960039 getDepthMod(-10): 0.58823526 movefamily: 1
+53 chickenc Basilisk size: 6,6 maxSlope: 1.0 depth 5000.0 slopeMod 3.9960039 getDepthMod(-10): 1.0 movefamily: 1
+54 chickend Chicken Tube size: 6,6
+55 chickenf Talon size: 2,2
+56 chickenflyerqueen Chicken Flyer Queen size: 16,16
+57 chickenlandqueen Chicken Queen size: 16,16 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+58 chickenr Lobber size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 0.5 movefamily: 2
+59 chickens Spiker size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 0.5 movefamily: 2
+60 chickenspire Chicken Spire size: 8,8
+61 chickenwurm Wurm size: 8,8 maxSlope: 1.0 depth 5000.0 slopeMod 3.9960039 getDepthMod(-10): 1.0 movefamily: 1
+62 cloakaa Gremlin size: 4,4 maxSlope: 0.4122147 depth 22.0 slopeMod 9.680198 getDepthMod(-10): 0.58823526 movefamily: 1
+63 cloakarty Sling size: 6,6 maxSlope: 0.4122147 depth 22.0 slopeMod 9.680198 getDepthMod(-10): 0.58823526 movefamily: 1
+64 cloakassault Knight size: 6,6 maxSlope: 0.4122147 depth 22.0 slopeMod 9.680198 getDepthMod(-10): 0.58823526 movefamily: 1
+65 cloakbomb Imp size: 4,4 maxSlope: 1.0 depth 16.0 slopeMod 3.9960039 getDepthMod(-10): 0.58823526 movefamily: 1
+66 cloakcon Conjurer size: 4,4 maxSlope: 0.4122147 depth 22.0 slopeMod 9.680198 getDepthMod(-10): 0.58823526 movefamily: 1
+67 cloakheavyraid Scythe size: 4,4 maxSlope: 0.4122147 depth 22.0 slopeMod 9.680198 getDepthMod(-10): 0.58823526 movefamily: 1
+68 cloakjammer Iris size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+69 cloakraid Glaive size: 4,4 maxSlope: 0.4122147 depth 22.0 slopeMod 9.680198 getDepthMod(-10): 0.58823526 movefamily: 1
+70 cloakriot Reaver size: 6,6 maxSlope: 0.4122147 depth 22.0 slopeMod 9.680198 getDepthMod(-10): 0.58823526 movefamily: 1
+71 cloakskirm Ronin size: 4,4 maxSlope: 0.4122147 depth 22.0 slopeMod 9.680198 getDepthMod(-10): 0.58823526 movefamily: 1
+72 cloaksnipe Phantom size: 6,6 maxSlope: 0.4122147 depth 22.0 slopeMod 9.680198 getDepthMod(-10): 0.58823526 movefamily: 1
+73 comm_battle_pea Peashooter Commander size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+74 comm_cai_assault_0 Zweihander level 0 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+75 comm_cai_assault_1 Zweihander level 1 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+76 comm_cai_assault_2 Zweihander level 2 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+77 comm_cai_assault_3 Zweihander level 3 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+78 comm_cai_assault_4 Zweihander level 4 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+79 comm_cai_assault_5 Zweihander level 5 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+80 comm_cai_hispeed_0 Blade Runner level 0 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+81 comm_cai_hispeed_1 Blade Runner level 1 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+82 comm_cai_hispeed_2 Blade Runner level 2 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+83 comm_cai_hispeed_3 Blade Runner level 3 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+84 comm_cai_hispeed_4 Blade Runner level 4 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+85 comm_cai_hispeed_5 Blade Runner level 5 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+86 comm_cai_range_0 Mauser level 0 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+87 comm_cai_range_1 Mauser level 1 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+88 comm_cai_range_2 Mauser level 2 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+89 comm_cai_range_3 Mauser level 3 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+90 comm_cai_range_4 Mauser level 4 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+91 comm_cai_range_5 Mauser level 5 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+92 comm_cai_riot_0 Riot Cop level 0 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+93 comm_cai_riot_1 Riot Cop level 1 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+94 comm_cai_riot_2 Riot Cop level 2 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+95 comm_cai_riot_3 Riot Cop level 3 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+96 comm_cai_riot_4 Riot Cop level 4 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+97 comm_cai_riot_5 Riot Cop level 5 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+98 comm_cai_specialist_0 Eagle Eye level 0 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+99 comm_cai_specialist_1 Eagle Eye level 1 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+100 comm_cai_specialist_2 Eagle Eye level 2 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+101 comm_cai_specialist_3 Eagle Eye level 3 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+102 comm_cai_specialist_4 Eagle Eye level 4 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+103 comm_cai_specialist_5 Eagle Eye level 5 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+104 comm_campaign_ada Ada's Commander size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+105 comm_campaign_biovizier The Biovizier size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+106 comm_campaign_freemachine Libertas Machina size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+107 comm_campaign_isonade Lord Isonade size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+108 comm_campaign_legion Legate Fidus size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+109 comm_campaign_odin Odin size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+110 comm_campaign_praetorian Scipio Astra size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+111 comm_campaign_promethean The Promethean size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+112 comm_econ_cai Base Builder size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+113 comm_flamer The Fury size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+114 comm_guardian Star Guardian size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+115 comm_hammer Hammer Slammer size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+116 comm_hunter Bear Hunter size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+117 comm_marine Space Marine size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+118 comm_marksman The Marksman size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+119 comm_marksman_cai The Marksman size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+120 comm_mission_tutorial1 Tutorial Commander size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+121 comm_recon Ghost Recon size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+122 comm_recon_pea Peashooter Commander size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+123 comm_riot Crowd Controller size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+124 comm_riot_cai Crowd Controller size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+125 comm_rocketeer Rocket Surgeon size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+126 comm_strike_hmg Heavy Machine Gun Commander size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+127 comm_strike_lpb Light Particle Beam Commander size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+128 comm_strike_pea Peashooter Commander size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+129 comm_stun_cai Exotic Assault size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+130 comm_support_pea Peashooter Commander size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+131 comm_thunder Thunder Wizard size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+132 comm_trainer_battle_0 Battle Trainer level 0 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+133 comm_trainer_battle_1 Battle Trainer level 1 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+134 comm_trainer_battle_2 Battle Trainer level 2 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+135 comm_trainer_battle_3 Battle Trainer level 3 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+136 comm_trainer_battle_4 Battle Trainer level 4 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+137 comm_trainer_battle_5 Battle Trainer level 5 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+138 comm_trainer_recon_0 Recon Trainer level 0 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+139 comm_trainer_recon_1 Recon Trainer level 1 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+140 comm_trainer_recon_2 Recon Trainer level 2 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+141 comm_trainer_recon_3 Recon Trainer level 3 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+142 comm_trainer_recon_4 Recon Trainer level 4 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+143 comm_trainer_recon_5 Recon Trainer level 5 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+144 comm_trainer_siege_0 Siege Trainer level 0 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+145 comm_trainer_siege_1 Siege Trainer level 1 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+146 comm_trainer_siege_2 Siege Trainer level 2 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+147 comm_trainer_siege_3 Siege Trainer level 3 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+148 comm_trainer_siege_4 Siege Trainer level 4 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+149 comm_trainer_siege_5 Siege Trainer level 5 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+150 comm_trainer_strike_0 Strike Trainer level 0 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+151 comm_trainer_strike_1 Strike Trainer level 1 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+152 comm_trainer_strike_2 Strike Trainer level 2 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+153 comm_trainer_strike_3 Strike Trainer level 3 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+154 comm_trainer_strike_4 Strike Trainer level 4 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+155 comm_trainer_strike_5 Strike Trainer level 5 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+156 comm_trainer_support_0 Support Trainer level 0 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+157 comm_trainer_support_1 Support Trainer level 1 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+158 comm_trainer_support_2 Support Trainer level 2 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+159 comm_trainer_support_3 Support Trainer level 3 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+160 comm_trainer_support_4 Support Trainer level 4 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+161 comm_trainer_support_5 Support Trainer level 5 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+162 commrecon0 Recon Commander - Level 0 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+163 commrecon1 Recon Commander size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+164 commrecon2 Recon Commander - Level 2 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+165 commrecon3 Recon Commander - Level 3 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+166 commrecon4 Recon Commander - Level 4 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+167 commrecon5 Recon Commander - Level 5 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+168 commstrike0 Strike Commander - Level 0 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+169 commstrike1 Strike Commander size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+170 commstrike2 Strike Commander - Level 2 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+171 commstrike3 Strike Commander - Level 3 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+172 commstrike4 Strike Commander - Level 4 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+173 commstrike5 Strike Commander - Level 5 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+174 commsupport0 Support Commander - Level 0 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+175 commsupport1 Support Commander size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+176 commsupport2 Support Commander - Level 2 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+177 commsupport3 Support Commander - Level 3 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+178 commsupport4 Support Commander - Level 4 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+179 commsupport5 Support Commander - Level 5 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+180 corcom0 Battle Commander - Level 0 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+181 corcom1 Battle Commander size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+182 corcom2 Battle Commander - Level 2 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+183 corcom3 Battle Commander - Level 3 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+184 corcom4 Battle Commander - Level 4 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+185 corcom5 Battle Commander - Level 5 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+186 cremcom0 Commander - Level 0 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+187 cremcom1 Commander size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+188 cremcom2 Commander - Level 2 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+189 cremcom3 Commander - Level 3 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+190 cremcom4 Commander - Level 4 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+191 cremcom5 Commander - Level 5 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+192 damagesink Damage Sink thing size: 4,4
+193 dronecarry Gull size: 4,4
+194 dronefighter Spicula size: 4,4
+195 droneheavyslow Viper size: 4,4
+196 dronelight Firefly size: 4,4
+197 dynassault0 Guardian Commander - Level 0 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+198 dynassault1 Guardian Commander size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+199 dynassault1_00 dynassault1 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+200 dynassault2 Guardian Commander - Level 2 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+201 dynassault2_00 dynassault2 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+202 dynassault2_10 dynassault2 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+203 dynassault3 Guardian Commander - Level 3 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+204 dynassault3_00 dynassault3 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+205 dynassault3_01 dynassault3 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+206 dynassault3_10 dynassault3 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+207 dynassault3_11 dynassault3 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+208 dynassault4 Guardian Commander - Level 4 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+209 dynassault4_00 dynassault4 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+210 dynassault4_01 dynassault4 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+211 dynassault4_10 dynassault4 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+212 dynassault4_11 dynassault4 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+213 dynassault5 Guardian Commander - Level 5 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+214 dynassault5_00 dynassault5 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+215 dynassault5_01 dynassault5 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+216 dynassault5_10 dynassault5 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+217 dynassault5_11 dynassault5 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+218 dynfancy_guardian_base Guardian Trainer size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+219 dynfancy_recon2_base Recon Trainer size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+220 dynfancy_recon_base Recon Trainer size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+221 dynfancy_strike_base Strike Trainer size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+222 dynfancy_strike_lobster_base Strike Trainer size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+223 dynfancy_support2_base Engineer Trainer size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+224 dynfancy_support3_base Engineer Trainer size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+225 dynfancy_support4_base Engineer Trainer size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+226 dynfancy_support_base Engineer Trainer size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+227 dynhub_assault_base Guardian Support size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+228 dynhub_recon_base Recon Support size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+229 dynhub_strike_base Strike Support size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+230 dynhub_support_base Engineer Support size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+231 dynknight0 Strike Commander - Level 0 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+232 dynknight1 Strike Commander size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+233 dynknight1_0000 dynknight1 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+234 dynknight1_0001 dynknight1 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+235 dynknight1_0010 dynknight1 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+236 dynknight1_0011 dynknight1 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+237 dynknight1_0100 dynknight1 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+238 dynknight1_0101 dynknight1 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+239 dynknight1_0110 dynknight1 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+240 dynknight1_0111 dynknight1 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+241 dynknight1_1000 dynknight1 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+242 dynknight1_1001 dynknight1 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+243 dynknight1_1010 dynknight1 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+244 dynknight1_1011 dynknight1 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+245 dynknight1_1100 dynknight1 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+246 dynknight1_1101 dynknight1 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+247 dynknight1_1110 dynknight1 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+248 dynknight1_1111 dynknight1 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+249 dynknight2 Strike Commander - Level 2 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+250 dynknight2_0000 dynknight2 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+251 dynknight2_0001 dynknight2 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+252 dynknight2_0010 dynknight2 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+253 dynknight2_0011 dynknight2 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+254 dynknight2_0100 dynknight2 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+255 dynknight2_0101 dynknight2 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+256 dynknight2_0110 dynknight2 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+257 dynknight2_0111 dynknight2 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+258 dynknight2_1000 dynknight2 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+259 dynknight2_1001 dynknight2 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+260 dynknight2_1010 dynknight2 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+261 dynknight2_1011 dynknight2 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+262 dynknight2_1100 dynknight2 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+263 dynknight2_1101 dynknight2 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+264 dynknight2_1110 dynknight2 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+265 dynknight2_1111 dynknight2 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+266 dynknight3 Strike Commander - Level 3 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+267 dynknight3_0000 dynknight3 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+268 dynknight3_0001 dynknight3 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+269 dynknight3_0010 dynknight3 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+270 dynknight3_0011 dynknight3 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+271 dynknight3_0100 dynknight3 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+272 dynknight3_0101 dynknight3 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+273 dynknight3_0110 dynknight3 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+274 dynknight3_0111 dynknight3 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+275 dynknight3_1000 dynknight3 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+276 dynknight3_1001 dynknight3 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+277 dynknight3_1010 dynknight3 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+278 dynknight3_1011 dynknight3 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+279 dynknight3_1100 dynknight3 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+280 dynknight3_1101 dynknight3 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+281 dynknight3_1110 dynknight3 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+282 dynknight3_1111 dynknight3 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+283 dynknight4 Strike Commander - Level 4 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+284 dynknight4_0000 dynknight4 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+285 dynknight4_0001 dynknight4 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+286 dynknight4_0010 dynknight4 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+287 dynknight4_0011 dynknight4 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+288 dynknight4_0100 dynknight4 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+289 dynknight4_0101 dynknight4 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+290 dynknight4_0110 dynknight4 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+291 dynknight4_0111 dynknight4 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+292 dynknight4_1000 dynknight4 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+293 dynknight4_1001 dynknight4 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+294 dynknight4_1010 dynknight4 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+295 dynknight4_1011 dynknight4 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+296 dynknight4_1100 dynknight4 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+297 dynknight4_1101 dynknight4 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+298 dynknight4_1110 dynknight4 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+299 dynknight4_1111 dynknight4 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+300 dynknight5 Strike Commander - Level 5 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+301 dynknight5_0000 dynknight5 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+302 dynknight5_0001 dynknight5 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+303 dynknight5_0010 dynknight5 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+304 dynknight5_0011 dynknight5 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+305 dynknight5_0100 dynknight5 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+306 dynknight5_0101 dynknight5 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+307 dynknight5_0110 dynknight5 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+308 dynknight5_0111 dynknight5 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+309 dynknight5_1000 dynknight5 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+310 dynknight5_1001 dynknight5 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+311 dynknight5_1010 dynknight5 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+312 dynknight5_1011 dynknight5 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+313 dynknight5_1100 dynknight5 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+314 dynknight5_1101 dynknight5 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+315 dynknight5_1110 dynknight5 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+316 dynknight5_1111 dynknight5 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+317 dynrecon0 Recon Commander - Level 0 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+318 dynrecon1 Recon Commander size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+319 dynrecon1_0 dynrecon1 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+320 dynrecon2 Recon Commander - Level 2 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+321 dynrecon2_0 dynrecon2 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+322 dynrecon2_1 dynrecon2 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+323 dynrecon3 Recon Commander - Level 3 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+324 dynrecon3_0 dynrecon3 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+325 dynrecon3_1 dynrecon3 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+326 dynrecon4 Recon Commander - Level 4 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+327 dynrecon4_0 dynrecon4 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+328 dynrecon4_1 dynrecon4 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+329 dynrecon5 Recon Commander - Level 5 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+330 dynrecon5_0 dynrecon5 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+331 dynrecon5_1 dynrecon5 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+332 dynstrike0 Strike Commander - Level 0 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+333 dynstrike1 Strike Commander size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+334 dynstrike1_00 dynstrike1 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+335 dynstrike2 Strike Commander - Level 2 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+336 dynstrike2_00 dynstrike2 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+337 dynstrike2_10 dynstrike2 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+338 dynstrike3 Strike Commander - Level 3 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+339 dynstrike3_00 dynstrike3 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+340 dynstrike3_01 dynstrike3 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+341 dynstrike3_10 dynstrike3 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+342 dynstrike3_11 dynstrike3 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+343 dynstrike4 Strike Commander - Level 4 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+344 dynstrike4_00 dynstrike4 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+345 dynstrike4_01 dynstrike4 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+346 dynstrike4_10 dynstrike4 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+347 dynstrike4_11 dynstrike4 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+348 dynstrike5 Strike Commander - Level 5 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+349 dynstrike5_00 dynstrike5 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+350 dynstrike5_01 dynstrike5 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+351 dynstrike5_10 dynstrike5 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+352 dynstrike5_11 dynstrike5 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+353 dynsupport0 Engineer Commander - Level 0 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+354 dynsupport1 Engineer Commander size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+355 dynsupport1_000 dynsupport1 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+356 dynsupport2 Engineer Commander - Level 2 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+357 dynsupport2_000 dynsupport2 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+358 dynsupport2_001 dynsupport2 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+359 dynsupport2_100 dynsupport2 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+360 dynsupport2_101 dynsupport2 size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+361 dynsupport3 Engineer Commander - Level 3 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+362 dynsupport3_000 dynsupport3 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+363 dynsupport3_001 dynsupport3 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+364 dynsupport3_010 dynsupport3 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+365 dynsupport3_011 dynsupport3 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+366 dynsupport3_100 dynsupport3 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+367 dynsupport3_101 dynsupport3 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+368 dynsupport3_110 dynsupport3 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+369 dynsupport3_111 dynsupport3 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+370 dynsupport4 Engineer Commander - Level 4 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+371 dynsupport4_000 dynsupport4 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+372 dynsupport4_001 dynsupport4 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+373 dynsupport4_010 dynsupport4 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+374 dynsupport4_011 dynsupport4 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+375 dynsupport4_100 dynsupport4 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+376 dynsupport4_101 dynsupport4 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+377 dynsupport4_110 dynsupport4 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+378 dynsupport4_111 dynsupport4 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+379 dynsupport5 Engineer Commander - Level 5 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+380 dynsupport5_000 dynsupport5 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+381 dynsupport5_001 dynsupport5 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+382 dynsupport5_010 dynsupport5 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+383 dynsupport5_011 dynsupport5 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+384 dynsupport5_100 dynsupport5 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+385 dynsupport5_101 dynsupport5 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+386 dynsupport5_110 dynsupport5 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+387 dynsupport5_111 dynsupport5 size: 6,6 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+388 dyntrainer_assault_base Guardian size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+389 dyntrainer_recon_base Recon size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+390 dyntrainer_strike_base Strike size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+391 dyntrainer_support_base Engineer size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+392 empiricaldpser Empirical DPS thing size: 4,4
+393 empiricaldpsersmall Empirical DPS thing (small) size: 4,4
+394 empmissile Shockley size: 2,2
+395 energyfusion Fusion Reactor size: 10,8
+396 energygeo Geothermal Generator size: 10,10
+397 energyheavygeo Advanced Geothermal size: 10,10
+398 energypylon Energy Pylon size: 6,6
+399 energysingu Singularity Reactor size: 14,14
+400 energysolar Solar Collector size: 10,10
+401 energywind Wind/Tidal Generator size: 6,6
+402 factoryamph Amphbot Factory size: 14,14
+403 factorycloak Cloakbot Factory size: 14,20
+404 factorygunship Gunship Plant size: 14,14
+405 factoryhover Hovercraft Platform size: 16,24
+406 factoryjump Jumpbot Factory size: 14,14
+407 factoryplane Airplane Plant size: 16,14
+408 factoryshield Shieldbot Factory size: 12,18
+409 factoryship Shipyard size: 16,24
+410 factoryspider Spider Factory size: 14,14
+411 factorytank Tank Foundry size: 16,16
+412 factoryveh Rover Assembly size: 16,16
+413 fakeunit Fake radar signal size: 2,2
+414 fakeunit_aatarget Fake AA target size: 2,2
+415 fakeunit_los LOS Provider size: 6,6
+416 generic_tech Generic Neutral Structure size: 16,18
+417 grebe Grebe size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+418 gunshipaa Trident size: 6,6
+419 gunshipassault Revenant size: 6,6
+420 gunshipbomb Blastwing size: 4,4
+421 gunshipcon Wasp size: 4,4
+422 gunshipemp Gnat size: 4,4
+423 gunshipheavyskirm Nimbus size: 6,6
+424 gunshipheavytrans Hercules size: 8,8
+425 gunshipkrow Krow size: 10,10
+426 gunshipraid Locust size: 4,4
+427 gunshipskirm Harpy size: 6,6
+428 gunshiptrans Charon size: 6,6
+429 hoveraa Flail size: 6,6 maxSlope: 0.10899347 depth 5000.0 slopeMod 40.0 getDepthMod(-10): 0.5 movefamily: 2
+430 hoverarty Lance size: 8,8 maxSlope: 0.10899347 depth 5000.0 slopeMod 40.0 getDepthMod(-10): 0.5 movefamily: 2
+431 hoverassault Halberd size: 6,6 maxSlope: 0.10899347 depth 5000.0 slopeMod 40.0 getDepthMod(-10): 0.5 movefamily: 2
+432 hovercon Quill size: 4,4 maxSlope: 0.10899347 depth 5000.0 slopeMod 40.0 getDepthMod(-10): 0.5 movefamily: 2
+433 hoverdepthcharge Claymore size: 6,6 maxSlope: 0.10899347 depth 5000.0 slopeMod 40.0 getDepthMod(-10): 0.5 movefamily: 2
+434 hoverheavyraid Bolas size: 6,6 maxSlope: 0.10899347 depth 5000.0 slopeMod 40.0 getDepthMod(-10): 0.5 movefamily: 2
+435 hoverminer Dampener size: 6,6 maxSlope: 0.10899347 depth 5000.0 slopeMod 40.0 getDepthMod(-10): 0.5 movefamily: 2
+436 hoverraid Dagger size: 4,4 maxSlope: 0.10899347 depth 5000.0 slopeMod 40.0 getDepthMod(-10): 0.5 movefamily: 2
+437 hoverriot Mace size: 8,8 maxSlope: 0.10899347 depth 5000.0 slopeMod 40.0 getDepthMod(-10): 0.5 movefamily: 2
+438 hovershotgun Punisher size: 6,6 maxSlope: 0.10899347 depth 5000.0 slopeMod 40.0 getDepthMod(-10): 0.5 movefamily: 2
+439 hoverskirm Scalpel size: 6,6 maxSlope: 0.10899347 depth 5000.0 slopeMod 40.0 getDepthMod(-10): 0.5 movefamily: 2
+440 hoverskirm2 Trisula size: 4,4 maxSlope: 0.10899347 depth 5000.0 slopeMod 40.0 getDepthMod(-10): 0.5 movefamily: 2
+441 hoversonic Morningstar size: 6,6 maxSlope: 0.10899347 depth 5000.0 slopeMod 40.0 getDepthMod(-10): 0.5 movefamily: 2
+442 jumpaa Toad size: 4,4 maxSlope: 0.4122147 depth 22.0 slopeMod 9.680198 getDepthMod(-10): 0.58823526 movefamily: 1
+443 jumparty Firewalker size: 8,8 maxSlope: 0.4122147 depth 22.0 slopeMod 9.680198 getDepthMod(-10): 0.58823526 movefamily: 1
+444 jumpassault Jack size: 4,4 maxSlope: 0.4122147 depth 22.0 slopeMod 9.680198 getDepthMod(-10): 0.58823526 movefamily: 1
+445 jumpblackhole Placeholder size: 4,4 maxSlope: 0.4122147 depth 22.0 slopeMod 9.680198 getDepthMod(-10): 0.58823526 movefamily: 1
+446 jumpbomb Skuttle size: 4,4 maxSlope: 0.4122147 depth 16.0 slopeMod 9.680198 getDepthMod(-10): 0.58823526 movefamily: 1
+447 jumpcon Constable size: 4,4 maxSlope: 0.4122147 depth 22.0 slopeMod 9.680198 getDepthMod(-10): 0.58823526 movefamily: 1
+448 jumpraid Pyro size: 4,4 maxSlope: 0.4122147 depth 22.0 slopeMod 9.680198 getDepthMod(-10): 0.58823526 movefamily: 1
+449 jumpscout Puppy size: 4,4 maxSlope: 0.4122147 depth 16.0 slopeMod 9.680198 getDepthMod(-10): 0.58823526 movefamily: 1
+450 jumpskirm Moderator size: 6,6 maxSlope: 0.4122147 depth 22.0 slopeMod 9.680198 getDepthMod(-10): 0.58823526 movefamily: 1
+451 jumpsumo Jugglenaut size: 8,8 maxSlope: 0.4122147 depth 22.0 slopeMod 9.680198 getDepthMod(-10): 0.58823526 movefamily: 1
+452 mahlazer Starlight size: 20,20
+453 napalmmissile Inferno size: 2,2
+454 nebula Nebula size: 10,10
+455 neebcomm Neeb Comm size: 8,8 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+456 planecon Crane size: 4,4
+457 planefighter Swift size: 4,4
+458 planeheavyfighter Raptor size: 4,4
+459 planelightscout Sparrow size: 4,4
+460 planescout Owl size: 6,6
+461 pw_artefact Ancient Artefact size: 8,8
+462 pw_bomberfac Bomber Factory size: 32,22
+463 pw_dropfac Dropship Factory size: 40,32
+464 pw_estorage Energy Storage size: 6,6
+465 pw_estorage2 Double Energy Storage size: 10,6
+466 pw_garrison Field Garrison size: 22,12
+467 pw_gaspowerstation Gas Power Station size: 12,12
+468 pw_generic Generic Neutral Structure size: 16,18
+469 pw_grid Planetary Defense Grid size: 16,16
+470 pw_guerilla Guerilla Jumpgate size: 12,12
+471 pw_hq_attacker Attacker Command size: 16,16
+472 pw_hq_defender Defender Command size: 16,16
+473 pw_inhibitor Wormhole Inhibitor size: 14,10
+474 pw_interception Interception Network size: 12,12
+475 pw_metal Ancient Fabricator size: 24,24
+476 pw_mine Power Generator Unit size: 14,14
+477 pw_mine2 Orbital Solar Array size: 8,8
+478 pw_mine3 Planetary Geothermal Tap size: 24,24
+479 pw_mstorage2 Metal Storage size: 14,10
+480 pw_relay Communication Relay size: 8,8
+481 pw_techlab Tech Lab size: 16,18
+482 pw_warpgate Warp Gate size: 16,18
+483 pw_warpgatealt Warp Gate size: 16,16
+484 pw_warpjammer Warp Jammer size: 16,16
+485 pw_wormhole Wormhole Generator size: 6,6
+486 pw_wormhole2 Improved Wormhole size: 12,12
+487 raveparty Disco Rave Party size: 14,14
+488 rocksink Rocking Damage Sink thing size: 4,4
+489 roost Roost size: 6,6
+490 seismic Quake size: 2,2
+491 shieldaa Vandal size: 4,4 maxSlope: 0.4122147 depth 22.0 slopeMod 9.680198 getDepthMod(-10): 0.58823526 movefamily: 1
+492 shieldarty Racketeer size: 4,4 maxSlope: 0.4122147 depth 22.0 slopeMod 9.680198 getDepthMod(-10): 0.58823526 movefamily: 1
+493 shieldassault Thug size: 6,6 maxSlope: 0.4122147 depth 22.0 slopeMod 9.680198 getDepthMod(-10): 0.58823526 movefamily: 1
+494 shieldbomb Snitch size: 4,4 maxSlope: 0.4122147 depth 16.0 slopeMod 9.680198 getDepthMod(-10): 0.58823526 movefamily: 1
+495 shieldcon Convict size: 4,4 maxSlope: 0.4122147 depth 22.0 slopeMod 9.680198 getDepthMod(-10): 0.58823526 movefamily: 1
+496 shieldfelon Felon size: 6,6 maxSlope: 0.4122147 depth 22.0 slopeMod 9.680198 getDepthMod(-10): 0.58823526 movefamily: 1
+497 shieldraid Bandit size: 4,4 maxSlope: 0.4122147 depth 22.0 slopeMod 9.680198 getDepthMod(-10): 0.58823526 movefamily: 1
+498 shieldriot Outlaw size: 6,6 maxSlope: 0.4122147 depth 22.0 slopeMod 9.680198 getDepthMod(-10): 0.58823526 movefamily: 1
+499 shieldscout Dirtbag size: 4,4 maxSlope: 0.4122147 depth 22.0 slopeMod 9.680198 getDepthMod(-10): 0.58823526 movefamily: 1
+500 shieldshield Aspis size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+501 shieldskirm Rogue size: 4,4 maxSlope: 0.4122147 depth 22.0 slopeMod 9.680198 getDepthMod(-10): 0.58823526 movefamily: 1
+502 shipaa Zephyr size: 8,8 maxSlope: 1.0 depth 5.0 slopeMod 3.9960039 getDepthMod(-10): 0.5 movefamily: 3
+503 shiparty Envoy size: 8,8 maxSlope: 1.0 depth 5.0 slopeMod 3.9960039 getDepthMod(-10): 0.5 movefamily: 3
+504 shipassault Siren size: 8,8 maxSlope: 1.0 depth 5.0 slopeMod 3.9960039 getDepthMod(-10): 0.5 movefamily: 3
+505 shipcarrier Reef size: 10,10 maxSlope: 1.0 depth 15.0 slopeMod 3.9960039 getDepthMod(-10): 0.5 movefamily: 3
+506 shipcon Mariner size: 6,6 maxSlope: 1.0 depth 5.0 slopeMod 3.9960039 getDepthMod(-10): 0.5 movefamily: 3
+507 shipheavyarty Shogun size: 10,10 maxSlope: 1.0 depth 15.0 slopeMod 3.9960039 getDepthMod(-10): 0.5 movefamily: 3
+508 shipriot Corsair size: 8,8 maxSlope: 1.0 depth 5.0 slopeMod 3.9960039 getDepthMod(-10): 0.5 movefamily: 3
+509 shipscout Cutter size: 6,6 maxSlope: 1.0 depth 5.0 slopeMod 3.9960039 getDepthMod(-10): 0.5 movefamily: 3
+510 shipskirm Mistral size: 6,6 maxSlope: 1.0 depth 5.0 slopeMod 3.9960039 getDepthMod(-10): 0.5 movefamily: 3
+511 shiptorpraider Hunter size: 6,6 maxSlope: 1.0 depth 5.0 slopeMod 3.9960039 getDepthMod(-10): 0.5 movefamily: 3
+512 shiptransport Surfboard size: 8,8 maxSlope: 1.0 depth 5.0 slopeMod 3.9960039 getDepthMod(-10): 0.5 movefamily: 3
+513 spideraa Tarantula size: 6,6 maxSlope: 1.0 depth 22.0 slopeMod 3.9960039 getDepthMod(-10): 0.58823526 movefamily: 1
+514 spideranarchid Anarchid size: 6,6 maxSlope: 1.0 depth 22.0 slopeMod 3.9960039 getDepthMod(-10): 0.58823526 movefamily: 1
+515 spiderantiheavy Widow size: 4,4 maxSlope: 1.0 depth 22.0 slopeMod 3.9960039 getDepthMod(-10): 0.58823526 movefamily: 1
+516 spiderassault Hermit size: 4,4 maxSlope: 1.0 depth 22.0 slopeMod 3.9960039 getDepthMod(-10): 0.58823526 movefamily: 1
+517 spidercon Weaver size: 4,4 maxSlope: 1.0 depth 16.0 slopeMod 3.9960039 getDepthMod(-10): 0.58823526 movefamily: 1
+518 spidercrabe Crab size: 8,8 maxSlope: 1.0 depth 22.0 slopeMod 3.9960039 getDepthMod(-10): 0.58823526 movefamily: 1
+519 spideremp Venom size: 6,6 maxSlope: 1.0 depth 22.0 slopeMod 3.9960039 getDepthMod(-10): 0.58823526 movefamily: 1
+520 spiderriot Redback size: 6,6 maxSlope: 1.0 depth 22.0 slopeMod 3.9960039 getDepthMod(-10): 0.58823526 movefamily: 1
+521 spiderscout Flea size: 4,4 maxSlope: 1.0 depth 16.0 slopeMod 3.9960039 getDepthMod(-10): 0.58823526 movefamily: 1
+522 spiderskirm Recluse size: 6,6 maxSlope: 1.0 depth 22.0 slopeMod 3.9960039 getDepthMod(-10): 0.58823526 movefamily: 1
+523 starlight_satellite Glint size: 2,2 maxSlope: 0.4122147 depth 22.0 slopeMod 9.680198 getDepthMod(-10): 0.58823526 movefamily: 1
+524 staticantinuke Antinuke size: 10,16
+525 staticarty Cerberus size: 10,10
+526 staticcon Caretaker size: 6,6
+527 staticheavyarty Big Bertha size: 8,8
+528 staticheavyradar Advanced Radar size: 4,4
+529 staticjammer Cornea size: 4,4
+530 staticmex Metal Extractor size: 6,6
+531 staticmissilesilo Missile Silo size: 12,12
+532 staticnuke Trinity size: 12,16
+533 staticradar Radar Tower size: 4,4
+534 staticrearm Airpad size: 18,18
+535 staticshield Aegis size: 4,4
+536 staticsonar Sonar Station size: 4,4
+537 staticstorage Storage size: 6,6
+538 striderantiheavy Ultimatum size: 4,4 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+539 striderarty Merlin size: 8,8 maxSlope: 0.4122147 depth 22.0 slopeMod 9.680198 getDepthMod(-10): 0.58823526 movefamily: 1
+540 striderbantha Paladin size: 8,8 maxSlope: 0.4122147 depth 22.0 slopeMod 9.680198 getDepthMod(-10): 0.58823526 movefamily: 1
+541 striderdante Dante size: 8,8 maxSlope: 0.4122147 depth 22.0 slopeMod 9.680198 getDepthMod(-10): 0.58823526 movefamily: 1
+542 striderdetriment Detriment size: 12,12 maxSlope: 0.4122147 depth 5000.0 slopeMod 9.680198 getDepthMod(-10): 1.0 movefamily: 1
+543 striderfunnelweb Funnelweb size: 8,8 maxSlope: 1.0 depth 22.0 slopeMod 3.9960039 getDepthMod(-10): 0.58823526 movefamily: 1
+544 striderhub Strider Hub size: 8,8
+545 striderscorpion Scorpion size: 8,8 maxSlope: 1.0 depth 22.0 slopeMod 3.9960039 getDepthMod(-10): 0.58823526 movefamily: 1
+546 subraider Seawolf size: 6,6 maxSlope: 1.0 depth 15.0 slopeMod 3.9960039 getDepthMod(-10): 0.5 movefamily: 3
+547 subscout Lancelet size: 4,4 maxSlope: 1.0 depth 15.0 slopeMod 3.9960039 getDepthMod(-10): 0.5 movefamily: 3
+548 subtacmissile Scylla size: 6,6 maxSlope: 1.0 depth 15.0 slopeMod 3.9960039 getDepthMod(-10): 0.5 movefamily: 3
+549 tacnuke Eos size: 2,2
+550 tankaa Ettin size: 6,6 maxSlope: 0.10899347 depth 22.0 slopeMod 20.0 getDepthMod(-10): 0.58823526 movefamily: 0
+551 tankarty Emissary size: 6,6 maxSlope: 0.10899347 depth 22.0 slopeMod 20.0 getDepthMod(-10): 0.58823526 movefamily: 0
+552 tankassault Minotaur size: 8,8 maxSlope: 0.10899347 depth 22.0 slopeMod 20.0 getDepthMod(-10): 0.58823526 movefamily: 0
+553 tankcon Welder size: 4,4 maxSlope: 0.10899347 depth 22.0 slopeMod 20.0 getDepthMod(-10): 0.58823526 movefamily: 0
+554 tankheavyarty Tremor size: 8,8 maxSlope: 0.10899347 depth 22.0 slopeMod 20.0 getDepthMod(-10): 0.58823526 movefamily: 0
+555 tankheavyassault Cyclops size: 8,8 maxSlope: 0.10899347 depth 22.0 slopeMod 20.0 getDepthMod(-10): 0.58823526 movefamily: 0
+556 tankheavyraid Blitz size: 6,6 maxSlope: 0.10899347 depth 22.0 slopeMod 20.0 getDepthMod(-10): 0.58823526 movefamily: 0
+557 tankraid Kodachi size: 6,6 maxSlope: 0.10899347 depth 22.0 slopeMod 20.0 getDepthMod(-10): 0.58823526 movefamily: 0
+558 tankriot Ogre size: 8,8 maxSlope: 0.10899347 depth 22.0 slopeMod 20.0 getDepthMod(-10): 0.58823526 movefamily: 0
+559 tele_beacon Lamp size: 4,4
+560 terraunit Terraform size: 4,4
+561 tiptest Turn In Place test size: 6,6 maxSlope: 0.10899347 depth 22.0 slopeMod 20.0 getDepthMod(-10): 0.58823526 movefamily: 0
+562 turretaaclose Hacksaw size: 6,6
+563 turretaafar Chainsaw size: 8,8
+564 turretaaflak Thresher size: 6,6
+565 turretaaheavy Artemis size: 8,8
+566 turretaalaser Razor size: 6,6
+567 turretantiheavy Lucifer size: 8,8
+568 turretemp Faraday size: 4,4
+569 turretgauss Gauss size: 6,6
+570 turretheavy Desolator size: 6,6
+571 turretheavylaser Stinger size: 6,6
+572 turretimpulse Newton size: 4,4
+573 turretlaser Lotus size: 4,4
+574 turretmissile Picket size: 4,4
+575 turretriot Stardust size: 6,6
+576 turretsunlance Sunlance size: 8,8
+577 turrettorp Urchin size: 6,6
+578 vehaa Crasher size: 6,6 maxSlope: 0.10899347 depth 22.0 slopeMod 20.0 getDepthMod(-10): 0.58823526 movefamily: 0
+579 veharty Badger size: 6,6 maxSlope: 0.10899347 depth 22.0 slopeMod 20.0 getDepthMod(-10): 0.58823526 movefamily: 0
+580 vehassault Ravager size: 6,6 maxSlope: 0.10899347 depth 22.0 slopeMod 20.0 getDepthMod(-10): 0.58823526 movefamily: 0
+581 vehcapture Dominatrix size: 6,6 maxSlope: 0.10899347 depth 22.0 slopeMod 20.0 getDepthMod(-10): 0.58823526 movefamily: 0
+582 vehcon Mason size: 4,4 maxSlope: 0.10899347 depth 22.0 slopeMod 20.0 getDepthMod(-10): 0.58823526 movefamily: 0
+583 vehheavyarty Impaler size: 6,6 maxSlope: 0.10899347 depth 22.0 slopeMod 20.0 getDepthMod(-10): 0.58823526 movefamily: 0
+584 vehraid Scorcher size: 4,4 maxSlope: 0.10899347 depth 22.0 slopeMod 20.0 getDepthMod(-10): 0.58823526 movefamily: 0
+585 vehriot Ripper size: 6,6 maxSlope: 0.10899347 depth 22.0 slopeMod 20.0 getDepthMod(-10): 0.58823526 movefamily: 0
+586 vehscout Dart size: 4,4 maxSlope: 0.10899347 depth 22.0 slopeMod 20.0 getDepthMod(-10): 0.58823526 movefamily: 0
+587 vehsupport Fencer size: 6,6 maxSlope: 0.10899347 depth 22.0 slopeMod 20.0 getDepthMod(-10): 0.58823526 movefamily: 0
+588 wolverine_mine Claw size: 2,2
+589 zenith Zenith size: 16,16

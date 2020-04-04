@@ -1,0 +1,237 @@
+
+[04:49] * Hi Archangel (Bot owner), welcome to ggfrog (SPADS 0.12.6, automated host).
+[04:49] * For help, say "!help". Map link: http://springfiles.com/search_result.php?search=Comet%20Catcher%20Redux&select=select_all
+[04:49] * Hi Archangel (Bot owner), welcome to ggfrog (SPADS 0.12.6, automated host).
+[04:49] * For help, say "!help". Map link: http://springfiles.com/search_result.php?search=Comet%20Catcher%20Redux&select=select_all
+[04:49] * Hi Archangel (Bot owner), welcome to ggfrog (SPADS 0.12.6, automated host).
+[04:49] * For help, say "!help". Map link: http://springfiles.com/search_result.php?search=Comet%20Catcher%20Redux&select=select_all
+[04:49] * Hi Archangel (Bot owner), welcome to ggfrog (SPADS 0.12.6, automated host).
+[04:49] * For help, say "!help". Map link: http://springfiles.com/search_result.php?search=Comet%20Catcher%20Redux&select=select_all
+[04:50] * Hi Archangel (Bot owner), welcome to ggfrog (SPADS 0.12.6, automated host).
+[04:50] * For help, say "!help". Map link: http://springfiles.com/search_result.php?search=Comet%20Catcher%20Redux&select=select_all
+[04:50] Archangel: !game zk
+[04:50] * Invalid command "game"
+[04:50] Archangel: !help
+[04:50] Archangel: !list aliases
+[04:51] Archangel: !forceStart
+[04:51] * Unable to start game, Archangel is unsynced
+[04:51] * Hi Archangel (Bot owner), welcome to ggfrog (SPADS 0.12.6, automated host).
+[04:51] * For help, say "!help". Map link: http://springfiles.com/search_result.php?search=Comet%20Catcher%20Redux&select=select_all
+[04:54] * AutoHost shutdown scheduled (reason: SIGTERM signal received)
+[05:00] * Hi Archangel (Bot owner), welcome to ggfrog (SPADS 0.12.6, automated host).
+[05:00] * For help, say "!help". Map link: http://springfiles.com/search_result.php?search=Comet%20Catcher%20Redux&select=select_all
+[05:00] * Hi Archangel (Bot owner), welcome to ggfrog (SPADS 0.12.6, automated host).
+[05:00] * For help, say "!help". Map link: http://springfiles.com/search_result.php?search=Comet%20Catcher%20Redux&select=select_all
+[05:00] * Hi Archangel (Bot owner), welcome to ggfrog (SPADS 0.12.6, automated host).
+[05:00] * For help, say "!help". Map link: http://springfiles.com/search_result.php?search=Comet%20Catcher%20Redux&select=select_all
+[05:00] * Hi Archangel (Bot owner), welcome to ggfrog (SPADS 0.12.6, automated host).
+[05:00] * For help, say "!help". Map link: http://springfiles.com/search_result.php?search=Comet%20Catcher%20Redux&select=select_all
+[05:00] * Hi Archangel (Bot owner), welcome to ggfrog (SPADS 0.12.6, automated host).
+[05:00] * For help, say "!help". Map link: http://springfiles.com/search_result.php?search=Comet%20Catcher%20Redux&select=select_all
+[05:00] * Hi Archangel (Bot owner), welcome to ggfrog (SPADS 0.12.6, automated host).
+[05:00] * For help, say "!help". Map link: http://springfiles.com/search_result.php?search=Comet%20Catcher%20Redux&select=select_all
+[05:00] * Hi Archangel (Bot owner), welcome to ggfrog (SPADS 0.12.6, automated host).
+[05:00] * For help, say "!help". Map link: http://springfiles.com/search_result.php?search=Comet%20Catcher%20Redux&select=select_all
+[05:05] Archangel: !cv start
+[05:05] * Unable to start game, Archangel is unsynced
+[05:05] * Hi Archangel (Bot owner), welcome to ggfrog (SPADS 0.12.6, automated host).
+[05:05] * For help, say "!help". Map link: http://springfiles.com/search_result.php?search=Comet%20Catcher%20Redux&select=select_all
+[05:05] * Hi Archangel (Bot owner), welcome to ggfrog (SPADS 0.12.6, automated host).
+[05:05] * For help, say "!help". Map link: http://springfiles.com/search_result.php?search=Comet%20Catcher%20Redux&select=select_all
+[05:05] Archangel: !cv start
+[05:05] * Unable to start game, start position type is set to "Choose in game" but no start box is set - use !forceStart to bypass
+[05:05] Archangel: !forceStart
+[05:05] * Launching game...
+[05:06] * Game result undecided!
+[05:06] * Server stopped (running time: 32 seconds)
+[05:06] Archangel: !forceStart
+[05:06] * Launching game...
+[05:31] * Archangel won!
+[05:31] * Server stopped (running time: 24 minutes and 51 seconds)
+[16:09] * Hi Archangel (Bot owner), welcome to ggfrog (SPADS 0.12.6, automated host).
+[16:09] * For help, say "!help". Map link: http://springfiles.com/search_result.php?search=Red%20Comet&select=select_all
+[16:10] * Hi Archangel (Bot owner), welcome to ggfrog (SPADS 0.12.6, automated host).
+[16:10] * For help, say "!help". Map link: http://springfiles.com/search_result.php?search=Red%20Comet&select=select_all
+[16:10] * Hi Archangel (Bot owner), welcome to ggfrog (SPADS 0.12.6, automated host).
+[16:10] * For help, say "!help". Map link: http://springfiles.com/search_result.php?search=Red%20Comet&select=select_all
+[16:10] * Hi Archangel (Bot owner), welcome to ggfrog (SPADS 0.12.6, automated host).
+[16:10] * For help, say "!help". Map link: http://springfiles.com/search_result.php?search=Red%20Comet&select=select_all
+[16:10] Archangel: !cv start
+[16:10] * Unable to start game, Archangel is unsynced
+[16:10] * Hi Archangel (Bot owner), welcome to ggfrog (SPADS 0.12.6, automated host).
+[16:10] * For help, say "!help". Map link: http://springfiles.com/search_result.php?search=Red%20Comet&select=select_all
+[16:10] Archangel: !cv start
+[16:10] * Unable to start game, start position type is set to "Choose in game" but no start box is set - use !forceStart to bypass
+[16:10] Archangel: !forceStart
+[16:10] * Launching game...
+[16:16] * Hi Archangel (Bot owner), welcome to ggfrog (SPADS 0.12.6, automated host).
+[16:16] * A game is in progress since 5 minutes and 51 seconds.
+[16:16] * Say "!status" for more information, and "!notify" to be notified when this game ends.
+[16:17] * Archangel won!
+[16:17] * Server stopped (running time: 6 minutes and 47 seconds)
+[16:18] Archangel: !cv start
+[16:18] * Unable to start game, start position type is set to "Choose in game" but no start box is set - use !forceStart to bypass
+[16:19] Archangel: !forceStart
+[16:19] * Launching game...
+[16:56] * Archangel won!
+[16:56] * Server stopped (running time: 36 minutes and 48 seconds)
+[18:43] * Hi Archangel (Bot owner), welcome to ggfrog (SPADS 0.12.6, automated host).
+[18:43] * For help, say "!help". Map link: http://springfiles.com/search_result.php?search=Red%20Comet&select=select_all
+[18:43] * Hi Archangel (Bot owner), welcome to ggfrog (SPADS 0.12.6, automated host).
+[18:43] * For help, say "!help". Map link: http://springfiles.com/search_result.php?search=Red%20Comet&select=select_all
+[18:43] * Hi Archangel (Bot owner), welcome to ggfrog (SPADS 0.12.6, automated host).
+[18:43] * For help, say "!help". Map link: http://springfiles.com/search_result.php?search=Red%20Comet&select=select_all
+[18:43] * Hi Archangel (Bot owner), welcome to ggfrog (SPADS 0.12.6, automated host).
+[18:43] * For help, say "!help". Map link: http://springfiles.com/search_result.php?search=Red%20Comet&select=select_all
+[18:43] * Hi Archangel (Bot owner), welcome to ggfrog (SPADS 0.12.6, automated host).
+[18:43] * For help, say "!help". Map link: http://springfiles.com/search_result.php?search=Red%20Comet&select=select_all
+[18:43] * Hi Archangel (Bot owner), welcome to ggfrog (SPADS 0.12.6, automated host).
+[18:43] * For help, say "!help". Map link: http://springfiles.com/search_result.php?search=Red%20Comet&select=select_all
+[18:43] * Hi Archangel (Bot owner), welcome to ggfrog (SPADS 0.12.6, automated host).
+[18:43] * For help, say "!help". Map link: http://springfiles.com/search_result.php?search=Red%20Comet&select=select_all
+[18:43] Archangel: !map
+[18:43] * Automatic random map rotation: next map is "DeltaSiegeDry"
+[18:49] Archangel: !map co ca re
+[18:49] * Map changed by Archangel: Comet Catcher Redux
+[18:50] Archangel: !cv start
+[18:50] * Unable to start game, start position type is set to "Choose in game" but no start box is set - use !forceStart to bypass
+[18:50] Archangel: forceStart 
+[18:51] Archangel: !forceStart 
+[18:51] * Launching game...
+[18:52] * Hi Archangel (Bot owner), welcome to ggfrog (SPADS 0.12.6, automated host).
+[18:52] * A game is in progress since 1 minute and 28 seconds.
+[18:52] * Say "!status" for more information, and "!notify" to be notified when this game ends.
+[18:52] * Game result undecided!
+[18:52] * Server stopped (running time: 1 minute and 37 seconds)
+[18:53] Archangel: !cv start
+[18:53] * Unable to start game, start position type is set to "Choose in game" but no start box is set - use !forceStart to bypass
+[18:53] Archangel: !forceStart
+[18:53] * Launching game...
+[18:54] * Archangel won!
+[18:54] * Server stopped (running time: 47 seconds)
+[18:55] Archangel: !cv start
+[18:55] * Unable to start game, start position type is set to "Choose in game" but no start box is set - use !forceStart to bypass
+[18:55] Archangel: !forceStart
+[18:55] * Launching game...
+[18:56] * Hi Archangel (Bot owner), welcome to ggfrog (SPADS 0.12.6, automated host).
+[18:56] * For help, say "!help". Map link: http://springfiles.com/search_result.php?search=Comet%20Catcher%20Redux&select=select_all
+[18:56] * Hi Archangel (Bot owner), welcome to ggfrog (SPADS 0.12.6, automated host).
+[18:56] * For help, say "!help". Map link: http://springfiles.com/search_result.php?search=Comet%20Catcher%20Redux&select=select_all
+[18:59] * Kicking bot CircuitAIstable(9) [maxBots=8]
+[18:59] Archangel: !cv start
+[18:59] * Unable to start game, start position type is set to "Choose in game" but no start box is set - use !forceStart to bypass
+[19:00] Archangel: !forceStart
+[19:00] * Launching game...
+[19:09] * Game result undecided!
+[19:09] * Server stopped (running time: 9 minutes and 7 seconds)
+[19:09] * Kicking bot CircuitAIstable(9) [maxBots=8]
+[19:09] Archangel: !cv start
+[19:09] * Unable to start game, teams are uneven - use !forceStart to bypass
+[19:09] Archangel: !forceStart
+[19:09] Archangel: !forceStart
+[19:09] Archangel: !forceStart
+[19:09] * Launching game...
+[19:32] * Ally team 1 won! (Archangel, CircuitAIstable(4) (bot), CircuitAIstable(1) (bot), CircuitAIstable(5) (bot), CircuitAIstable(8) (bot))
+[19:32] * Server stopped (running time: 22 minutes and 31 seconds)
+[23:04] * Hi Archangel (Bot owner), welcome to ggfrog (SPADS 0.12.6, automated host).
+[23:04] * For help, say "!help". Map link: http://springfiles.com/search_result.php?search=Comet%20Catcher%20Redux&select=select_all
+[23:04] * Hi Archangel (Bot owner), welcome to ggfrog (SPADS 0.12.6, automated host).
+[23:04] * For help, say "!help". Map link: http://springfiles.com/search_result.php?search=Comet%20Catcher%20Redux&select=select_all
+[23:20] * Hi psalm46 (Newbie), welcome to ggfrog (SPADS 0.12.6, automated host).
+[23:21] Archangel: !cv start
+[23:21] * Unable to start game, start position type is set to "Choose in game" but no start box is set - use !forceStart to bypass
+[23:21] Archangel: !forceStart
+[23:21] * Launching game...
+[23:21] * Game result undecided!
+[23:21] * Server stopped (running time: 38 seconds)
+[23:25] * Hi psalm46 (Newbie), welcome to ggfrog (SPADS 0.12.6, automated host).
+[23:35] Archangel: !cv start
+[23:35] * Unable to start game, start position type is set to "Choose in game" but no start box is set - use !forceStart to bypass
+[23:35] Archangel: !forceStart
+[23:35] * Launching game...
+[23:40] ggfrog: <Archangel> !forceStart
+[23:40] * Forcing game start by Archangel
+[23:40] ggfrog: <Archangel> 你的名字有 问题 
+[23:40] ggfrog: <Archangel> 等一下 现在 在发生什么
+[23:40] ggfrog: <Archangel> !exit
+[23:40] * Stopping server (by Archangel)
+[23:40] * Game result undecided!
+[23:40] * Server stopped (running time: 4 minutes and 47 seconds)
+[23:40] Archangel: 刚才在发生什么
+[23:53] Archangel: !cv start
+[23:53] * Unable to start game, start position type is set to "Choose in game" but no start box is set - use !forceStart to bypass
+[23:54] Archangel: !forceStart
+[23:54] * Launching game...
+[00:18] ggfrog: <Archangel> ...
+[00:18] ggfrog: <Archangel> !resign
+[00:18] * Invalid command "resign"
+[00:18] * Ally team 1 won! (psalm46, CircuitAIstable(2) (bot))
+[00:18] *   Damage award:  CircuitAIstable(2) (bot)  (total damage: 127K.)       
+[00:18] *   Eco award:     CircuitAIstable(1) (bot)  (resources produced: 3554K.)
+[00:18] *   Micro award:   CircuitAIstable(2) (bot)  (damage efficiency: 92%)    
+[00:18] * Server stopped (running time: 24 minutes and 49 seconds)
+[00:19] Archangel: !forceStart
+[00:19] * Launching game...
+[00:21] ggfrog: <Archangel> !exit
+[00:21] * Stopping server (by Archangel)
+[00:21] * Game result undecided!
+[00:21] * Server stopped (running time: 1 minute and 6 seconds)
+[00:22] Archangel: !type coop
+[00:22] * Invalid command "type"
+[00:22] Archangel: !man
+[00:22] * Invalid command "man"
+[00:22] Archangel: !man type
+[00:22] * Invalid command "man"
+[00:22] Archangel: !help
+[00:24] Archangel: !cv start
+[00:24] * Unable to start game, start position type is set to "Choose in game" but no start box is set - use !forceStart to bypass
+[00:24] Archangel: !forceStart
+[00:24] * Launching game...
+[00:25] ggfrog: <Archangel> !exit
+[00:25] * Stopping server (by Archangel)
+[00:25] * Game result undecided!
+[00:25] * Server stopped (running time: 28 seconds)
+[00:25] Archangel: !cv start
+[00:25] * Unable to start game, start position type is set to "Choose in game" but no start box is set - use !forceStart to bypass
+[00:25] Archangel: !cv start
+[00:25] * Unable to start game, teams are uneven - use !forceStart to bypass
+[00:26] Archangel: !forceStart
+[00:26] * Launching game...
+[00:42] ggfrog: <psalm46> a
+[00:42] ggfrog: <Archangel> ?
+[00:42] * Ally team 1 won! (Archangel, psalm46)
+[00:42] *   Damage award:  Archangel  (total damage: 41111)       
+[00:42] *   Eco award:     Archangel  (resources produced: 1479K.)
+[00:42] *   Micro award:   Archangel  (damage efficiency: 157%)     [ OWNAGE! ]
+[00:42] * Server stopped (running time: 16 minutes and 10 seconds)
+[00:44] Archangel: !map chicken nu
+[00:44] * Could not find matching map for "chicken nu" in current map list
+[00:44] Archangel: !map chicken
+[00:44] * Could not find matching map for "chicken" in current map list
+[00:44] Archangel: !map
+[00:44] * Automatic random map rotation: next map is "DeltaSiegeDry"
+[00:44] Archangel: !map
+[00:44] * Automatic random map rotation: next map is "Comet Catcher Redux"
+[00:44] Archangel: !map
+[00:44] * Automatic random map rotation: next map is "DeltaSiegeDry"
+[00:44] Archangel: !map
+[00:44] * Automatic random map rotation: next map is "Comet Catcher Redux"
+[00:44] Archangel: !map
+[00:44] * Automatic random map rotation: next map is "Red Comet"
+[00:44] Archangel: !map
+[00:44] * Automatic random map rotation: next map is "DeltaSiegeDry"
+[00:44] Archangel: !map
+[00:44] * Automatic random map rotation: next map is "Comet Catcher Redux"
+[00:44] Archangel: !map
+[00:44] * Automatic random map rotation: next map is "Red Comet"
+[00:44] Archangel: !map
+[00:44] * Automatic random map rotation: next map is "Comet Catcher Redux"
+[00:44] Archangel: !map
+[00:44] * Automatic random map rotation: next map is "DeltaSiegeDry"
+[00:45] Archangel: !forceStart
+[00:45] * Launching game...
+[01:17] * Ally team 1 won! (Archangel, psalm46)
+[01:17] *   Damage award:  Archangel  (total damage: 224K.)         [ OWNAGE! ]
+[01:17] *   Eco award:     Archangel  (resources produced: 6027K.)
+[01:17] *   Micro award:   Archangel  (damage efficiency: 455%)     [ OWNAGE! ]
+[01:17] * Server stopped (running time: 32 minutes and 28 seconds)

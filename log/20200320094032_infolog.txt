@@ -1,0 +1,2613 @@
+[DataDirLocater::FindWriteableDataDir] using writeable data-directory "/home/michael/sprDev/spring-engine-linux-masterbuild/"
+Using writeable configuration source: "/home/michael/sprDev/spring-engine-linux-masterbuild/springsettings.cfg"
+LogOutput initialized. Logging to /home/michael/sprDev/spring-engine-linux-masterbuild/infolog.txt
+============== <Log Sections> ==============
+  Available:
+    ArchiveScanner
+    AutohostInterface
+    BumpWater
+    CSMFGroundTextures
+    CrashHandler
+    CregSerializer
+    DecalsDrawerGL4
+    DynWater
+    FarTextureHandler
+    Font
+    GameServer
+    GroundMoveType
+    KeyBindings
+    LuaSocket
+    Model
+    Net
+    Path
+    Piece
+    RoamMeshDrawer
+    Shader
+    SkyBox
+    Sound
+    Texture
+    VFS
+  Enabled:
+    Sound (Notice)
+    VFS (Info)
+  
+  Enable or disable log sections using the LogSections configuration key
+  or the SPRING_LOG_SECTIONS environment variable (both comma separated).
+  Use "none" to disable the default log sections.
+============== </Log Sections> ==============
+
+============== <User Config> ==============
+============== </User Config> ==============
+
+============== <User System> ==============
+  Spring Engine Version: 104.0.1-1435-g79d77ca maintenance
+      Build Environment: gcc libstdc++ version 20160609
+       Compiler Version: gcc-5.4.0 20160609
+       Operating System: Linux 4.15.0-1076-oem #86-Ubuntu SMP Wed Mar 4 05:40:20 UTC 2020 (x86_64)
+        Hardware Config: Intel(R) Xeon(R) E-2286M  CPU @ 2.40GHz; 15791MB RAM
+       Binary Word Size: 64-bit (native)
+          Process Clock: std::chrono::high_resolution_clock
+     Physical CPU Cores: 8
+      Logical CPU Cores: 16
+============== </User System> ==============
+
+[good_fpu_init][STREFLOP_SSE]
+	SSE 1.0 : 1,  SSE 2.0 : 1
+	SSE 3.0 : 1, SSSE 3.0 : 1
+	SSE 4.1 : 1,  SSE 4.2 : 1
+	SSE 4.0A: 0,  SSE 5.0A: 0
+[WatchDog::Install] installed (hang-timeout: 10s)
+[WatchDog::RegisterThread] registering controls for thread [main]
+[GL::CheckAvailableVideoModes] desktop={1920x1080x24bpp@120Hz} current={1920x1080x24bpp@120Hz}
+	display=1 modes=65 bounds={x=0, y=0, w=1920, h=1080}
+		[ 1] 1920x1080x24bpp@120Hz
+		[ 4] 1680x1050x24bpp@60Hz
+		[ 5] 1600x1024x24bpp@60Hz
+		[ 6] 1600x900x24bpp@120Hz
+		[ 8] 1440x900x24bpp@60Hz
+		[ 9] 1440x810x24bpp@120Hz
+		[16] 1280x800x24bpp@120Hz
+		[18] 1280x720x24bpp@120Hz
+		[23] 1024x576x24bpp@120Hz
+		[26] 960x600x24bpp@120Hz
+		[27] 960x540x24bpp@120Hz
+		[31] 864x486x24bpp@60Hz
+		[32] 840x525x24bpp@120Hz
+		[36] 800x512x24bpp@120Hz
+		[37] 800x450x24bpp@120Hz
+		[38] 720x450x24bpp@120Hz
+		[39] 720x405x24bpp@60Hz
+		[48] 640x400x24bpp@120Hz
+		[49] 640x360x24bpp@120Hz
+		[54] 512x288x24bpp@120Hz
+		[55] 480x270x24bpp@120Hz
+		[57] 432x243x24bpp@120Hz
+		[64] 320x180x24bpp@120Hz
+[GR::CreateSDLWindow] using 0x anti-aliasing and 24-bit depth-buffer (PF="SDL_PIXELFORMAT_RGB888") for main window
+[GR::CreateSDLWindow] using 0x anti-aliasing and 24-bit depth-buffer (PF="SDL_PIXELFORMAT_RGB888") for hidden window
+[GR::LogVersionInfo]
+	SDL version : 2.0.8 (linked) / 2.0.4 (compiled)
+	GL version  : 4.6.0 NVIDIA 410.93
+	GL vendor   : NVIDIA Corporation
+	GL renderer : Quadro FX Graphics Device/PCIe/SSE2
+	GLSL version: 4.60 NVIDIA
+	GLEW version: 2.1.0
+	GPU memory  : 4096MB (total) / 3384MB (available)
+	SDL swap-int: 1
+	
+	ARB shader support        : 1
+	GLSL shader support       : 1
+	FBO extension support     : 1
+	NVX GPU mem-info support  : 1
+	ATI GPU mem-info support  : 0
+	NPOT-texture support      : 1 (1)
+	S3TC/DXT1 texture support : 1/1
+	texture query-LOD support : 1 (1)
+	MSAA frame-buffer support : 1 (1)
+	24-bit Z-buffer support   : 1 (-)
+	primitive-restart support : 1 (1)
+	clip-space control support: 1 (1)
+	seamless cube-map support : 1 (1)
+	frag-depth layout support : 1 (-)
+	
+	max. FBO samples             : 64
+	max. texture size            : 32768
+	max. texture anisotropy level: 16.000000
+	max. vec4 varyings/attributes: 31/16
+	max. draw-buffers            : 8
+	max. rec. indices/vertices   : 1048576/1048576
+	max. uniform buffer-bindings : 84
+	max. uniform block-size      : 64KB
+	
+	enable ATI-hacks : 0
+	compress MIP-maps: 0
+[GR::ToggleGLDebugOutput] OpenGL debug-context not installed (dbgErrors=0 dbgTraces=0)
+[GR::UpdateGLConfigs]
+[VSync::SetInterval] interval=0 (disabled)
+[GR::UpdateGLGeometry][1] winSize=<1,1>
+[GR::UpdateGLGeometry][2] winSize=<1920,1080>
+[GR::InitGLState]
+[GR::LogDisplayMode] display-mode set to 1920x1080x24bpp@120Hz (fullscreen::decorated)
+[TexMemPool::Resize] poolSize=268435456u allocSize=0u texCount=0u
+[~ScopedOnceTimer][FtLibraryHandler::FontConfigInit (version 2.11.94)] 41ms
+[WatchDog::RegisterThread] registering controls for thread [vfsi]
+[DataDirLocater::FindWriteableDataDir] using writeable data-directory "/home/michael/sprDev/spring-engine-linux-masterbuild/"
+[DataDirLocater::Check] Portable Mode!
+[DataDirLocater::FilterUsableDataDirs] using read-write data directory: /home/michael/sprDev/spring-engine-linux-masterbuild/
+[DataDirLocater::FilterUsableDataDirs] using read-only data directory: /home/michael/.spring/
+[AS::ReadCacheData] ArchiveCache cache/104dev-maintenance/ArchiveCache16.lua doesn't exist
+Scanning: /home/michael/sprDev/spring-engine-linux-masterbuild/base
+Scanning: /home/michael/sprDev/spring-engine-linux-masterbuild/games
+[~ScopedOnceTimer][CArchiveScanner::ScanAllDirs] 11ms
+[VFS] [SpringVFS::ReserveArchives<this=0x7f5c300227e0>]
+[VFS] [SpringVFS::AddArchive<this=0x7f5c300227e0>(arName="Spring content v1", overwrite=false)] section=2 cached=0
+[VFS] [VFSHandler::SetGlobalInstanceRaw] handler=0x7f5c300227e0 (SpringVFS) global=(nil) (null)
+[WatchDog::DeregisterThread] deregistering controls for thread [vfsi]
+[ThreadPool::SetThreadCount][1] wanted=4 current=1 maximum=8 (init=1)
+[ThreadPool::SetThreadCount][2] workers=3
+[Threading] Main thread CPU affinity mask set: 8184 (config is 65528)
+[f=-000001] [~ScopedOnceTimer][ISound::Init::New] 0ms
+[f=-000001] [Sound] [ISound::Initialize] spawning sound-thread (0.1ms)
+[f=-000001] [Sound] [Sound::UpdateThread][1] cfgMaxSounds=128
+[f=-000001] [WatchDog::RegisterThread] registering controls for thread [audio]
+[f=-000001] [Sound] [Sound::InitThread][1]
+[f=-000001] [Sound] [Sound::OpenOpenALDevice] opening default device "OpenAL Soft"
+[f=-000001] [Sound] [Sound::OpenOpenALDevice] device=0x7f5c240219e0 context=0x7f5c2401a630
+[f=-000001] [Sound] [Sound::InitThread][4][OpenAL API Info]
+[f=-000001] [Sound]   Vendor:         OpenAL Community
+[f=-000001] [Sound]   Version:        1.1 ALSOFT 1.18.2
+[f=-000001] [Sound]   Renderer:       OpenAL Soft
+[f=-000001] [Sound]   AL Extensions:  AL_EXT_ALAW AL_EXT_BFORMAT AL_EXT_DOUBLE AL_EXT_EXPONENT_DISTANCE AL_EXT_FLOAT32 AL_EXT_IMA4 AL_EXT_LINEAR_DISTANCE AL_EXT_MCFORMATS AL_EXT_MULAW AL_EXT_MULAW_BFORMAT AL_EXT_MULAW_MCFORMATS AL_EXT_OFFSET AL_EXT_source_distance_model AL_EXT_SOURCE_RADIUS AL_EXT_STEREO_ANGLES AL_LOKI_quadriphonic AL_SOFT_block_alignment AL_SOFT_deferred_updates AL_SOFT_direct_channels AL_SOFT_gain_clamp_ex AL_SOFT_loop_points AL_SOFT_MSADPCM AL_SOFT_source_latency AL_SOFT_source_length AL_SOFT_source_resampler AL_SOFT_source_spatialize
+[f=-000001] [Sound]   ALC Extensions: ALC_ENUMERATE_ALL_EXT ALC_ENUMERATION_EXT ALC_EXT_CAPTURE ALC_EXT_DEDICATED ALC_EXT_disconnect ALC_EXT_EFX ALC_EXT_thread_local_context ALC_SOFTX_device_clock ALC_SOFT_HRTF ALC_SOFT_loopback ALC_SOFT_output_limiter ALC_SOFT_pause_device
+[f=-000001] [Sound]   Devices:
+[f=-000001] [Sound]     [Built-in Audio Analogue Stereo]
+[f=-000001] [Sound] [Sound::GetMaxMonoSources] #attribs=19
+[f=-000001] [Sound] [Sound::GetMaxMonoSources] {cfg,alc}MaxSounds={128,255}
+[f=-000001] [Sound]   EFX Enabled: yes
+[f=-000001] [Sound] [Sound::UpdateThread][2]
+[f=-000001] [~ScopedOnceTimer][ISound::Init::Dev] 100ms
+[f=-000001] [LuaMenuController::Reset] using menu archive "Chobby $VERSION"
+[f=-000001] [VFS] [LuaMenuVFS::AddArchive<this=0x7f5c300227e0>(arName="Chobby $VERSION", overwrite=false)] section=3 cached=0
+[f=-000001] [VFS] [LuaMenuVFS::AddArchive<this=0x7f5c300227e0>(arName="Spring content v1", overwrite=false)] section=2 cached=0
+[f=-000001] [VFS] [LuaMenuVFS::AddArchive<this=0x7f5c300227e0>(arName="Spring Bitmaps", overwrite=false)] section=2 cached=0
+[f=-000001] [VFS] [LuaMenuVFS::AddArchive<this=0x7f5c300227e0>(arName="Spring Cursors", overwrite=false)] section=2 cached=0
+[f=-000001] LuaMenu Entry Point: "LuaMenu/main.lua"
+[f=-000001] [LuaMenu] Searching for new Widgets
+[f=-000001] [LuaMenu] Scanning: LuaMenu/Addons/
+[f=-000001] [LuaMenu] Scanning: LuaMenu/Widgets/
+[f=-000001] [LuaMenu] Scanning: LuaMenu/SystemAddons/
+[f=-000001] [LuaMenu] Scanning: LuaMenu/SystemWidgets/
+[f=-000001] [LuaMenu] Scanning: LuaMenu/chili/
+[f=-000001] [LuaMenu] Scanning: libs/chilifx/LuaMenu/widgets
+[f=-000001] [LuaMenu] Scanning: libs/chilivn/LuaMenu/widgets
+[f=-000001] [LuaMenu] Scanning: libs/chotify/LuaMenu/widgets
+[f=-000001] [LuaMenu] Scanning: libs/i18n/LuaMenu/widgets
+[f=-000001] [LuaMenu] Scanning: libs/liblobby/LuaMenu/widgets
+[f=-000001] [LuaMenu] Warning: Missing GetInfo() in: base64.lua
+[f=-000001] [LuaMenu] Warning: Missing GetInfo() in: engineversion.lua
+[f=-000001] Spring.GetWindowGeometry, 1920, 1080, 0, 0
+[f=-000001] Spring.GetViewGeometry, 1920, 1080, 0, 0
+[f=-000001] gl.GetViewSizes, 1920, 1080
+[f=-000001] [LuaMenu] Warning: Missing GetInfo() in: function_override.lua
+[f=-000001] [LuaMenu] Warning: Missing GetInfo() in: json.lua
+[f=-000001] [LuaMenu] Warning: Missing GetInfo() in: tablefunctions.lua
+[f=-000001] [LuaMenu] Warning: Missing GetInfo() in: timefunctions.lua
+[f=-000001] [LuaMenu] Warning: Headers files aren't supported anymore use "require" instead!
+[f=-000001] [LuaMenu] Loading widgets   <>=vfs  **=raw  ()=unknown
+[f=-000001] [LuaMenu] Loading API widget:  Delay API              <api_delay.lua>
+[f=-000001] [LuaMenu] Loading API widget:  spring-launcher        <api_spring_launcher_loader.lua>
+[f=-000001] [spring-launcher] Disabling spring-launcher due to missing connection detalis.
+[f=-000001] [LuaMenu] Loading API widget:  Limit FPS              <api_limit_fps.lua>
+[f=-000001] [LuaMenu] Loading API widget:  Away Tracker           <gui_away_tracker.lua>
+[f=-000001] [LuaMenu] Loading API widget:  Chili Framework        <api_chili.lua>
+[f=-000001] [LuaMenu] Loading API widget:  LibLobby API           <api_lobby.lua>
+[f=-000001] [liblobby] liblobby configuration: 
+[f=-000001] [liblobby] serverName, Spring
+[f=-000001] [liblobby] port, 8200
+[f=-000001] [liblobby] protocol, spring
+[f=-000001] [liblobby] address, 23.83.237.166
+[f=-000001] [LuaMenu] Loading API widget:  i18n                   <api_i18n.lua>
+[f=-000001] [LuaMenu] Loading API widget:  ChiliFX                <api_chilifx.lua>
+[f=-000001] [ChiliFX] Enabled: true
+[f=-000001] [LuaMenu] Loading API widget:  Chotify                <api_chotify.lua>
+[f=-000001] [Chotify] Enabled: true
+[f=-000001] [LuaMenu] Loading API widget:  Download Handler       <api_download_handler.lua>
+[f=-000001] [LuaMenu] Loading API widget:  Ingame Interface       <api_ingame_interface.lua>
+[f=-000001] [LuaMenu] Loading widget:      Test                   <dbg_test.lua>
+[f=-000001] [LuaMenu] Loading widget:      Command Buffering      <api_command_buffering.lua>
+[f=-000001] [LuaMenu] Loading widget:      Battle List Window     <gui_battle_list_window.lua>
+[f=-000001] [LuaMenu] Loading widget:      Campaign Options Window  <gui_campaign_options.lua>
+[f=-000001] [LuaMenu] Loading widget:      Community Window       <gui_community_window.lua>
+[f=-000001] [LuaMenu] Loading widget:      Download Window        <gui_download_window.lua>
+[f=-000001] [LuaMenu] Loading widget:      Friend Window          <gui_friend_window.lua>
+[f=-000001] [LuaMenu] Loading widget:      Missions Handles       <gui_mission_handler.lua>
+[f=-000001] [LuaMenu] Loading widget:      Notification Handler   <api_notification_handler.lua>
+[f=-000001] [LuaMenu] Loading widget:      Planetwars List Window  <gui_planetwars_list_window.lua>
+[f=-000001] [LuaMenu] Loading widget:      Queue List Window      <gui_queue_list_window.lua>
+[f=-000001] [LuaMenu] Loading widget:      Replays window         <gui_replay_handler.lua>
+[f=-000001] [LuaMenu] Loading widget:      Settings Window        <gui_settings_window.lua>
+[f=-000001] [LuaMenu] Loading widget:      SpringBoard Window     <gui_springboard_window.lua>
+[f=-000001] [LuaMenu] Loading widget:      Users Handler          <api_user_handler.lua>
+[f=-000001] [LuaMenu] Loading widget:      ZK wrapper loopback interface  <zk_loopback.lua>
+[f=-000001] [Chobby] No port support, chobby_wrapper_port.txt not found.
+[f=-000001] [LuaMenu] Loading widget:      Cache Handler API      <api_cache_handler.lua>
+[f=-000001] [LuaMenu] Loading widget:      Internet Browser API   <api_internet_browser.lua>
+[f=-000001] [LuaMenu] Loading widget:      Map Handler API        <api_map_handler.lua>
+[f=-000001] [LuaMenu] Loading widget:      Spring-Launcher log-upload  <sl_upload_log.lua>
+[f=-000001] [Chobby] spring-launcher doesn't exist.
+[f=-000001] [LuaMenu] Loading widget:      Spring-Launcher wrapper loopback interface  <sl_loopback.lua>
+[f=-000001] [Chobby] spring-launcher doesn't exist.
+[f=-000001] [LuaMenu] Loading widget:      Campaign Data Handler  <api_campaign_data.lua>
+[f=-000001] [LuaMenu] Loading widget:      API Script Handler     <api_script_generator.lua>
+[f=-000001] [LuaMenu] Loading widget:      Analytics Handler      <api_analytics.lua>
+[f=-000001] [LuaMenu] Loading widget:      Animation control      <api_animation_control.lua>
+[f=-000001] [LuaMenu] Loading widget:      Battle Login Rejoin    <gui_battle_login_rejoin.lua>
+[f=-000001] [LuaMenu] Loading widget:      Battle Room Window     <gui_battle_room_window.lua>
+[f=-000001] [LuaMenu] Loading widget:      Battle status panel    <gui_battle_status_panel.lua>
+[f=-000001] [LuaMenu] Loading widget:      Benchmark Handler      <gui_benchmark_handler.lua>
+[f=-000001] [LuaMenu] Loading widget:      Campaign Commander Loadout  <gui_campaign_commander_loadout.lua>
+[f=-000001] [LuaMenu] Loading widget:      Campaign Handler       <gui_campaign_handler.lua>
+[f=-000001] [LuaMenu] Loading widget:      Campaign Handler ZK    <zk_campaign_handler.lua>
+[f=-000001] [LuaMenu] Loading widget:      Campaign Save/Load     <gui_campaign_saveload.lua>
+[f=-000001] [LuaMenu] Loading widget:      Campaign Technology Panel  <gui_campaign_technology_panel.lua>
+[f=-000001] [LuaMenu] Loading widget:      Chili Visual Novel     <campaign_chili_vn.lua>
+[f=-000001] [LuaMenu] Loading widget:      Codex Handler          <gui_campaign_codex_handler.lua>
+[f=-000001] [LuaMenu] Loading widget:      Color change window    <gui_color_change_window.lua>
+[f=-000001] [LuaMenu] Loading widget:      Cursor tooltip         <gui_tooltip.lua>
+[f=-000001] [LuaMenu] Loading widget:      Discord Handler        <api_discord_handler.lua>
+[f=-000001] [LuaMenu] Loading widget:      Load Game Menu         <gui_loadgame.lua>
+[f=-000001] [LuaMenu] Loading widget:      Login Window           <gui_login_window.lua>
+[f=-000001] [LuaMenu] Loading widget:      Maplist Panel          <gui_maplist_panel.lua>
+[f=-000001] [LuaMenu] Loading widget:      Mission Progress Handler  <api_mission_progress_handler.lua>
+[f=-000001] [LuaMenu] Loading widget:      Modoptions Panel       <gui_modoptions_panel.lua>
+[f=-000001] [LuaMenu] Loading widget:      Party status panel     <gui_party_status_panel.lua>
+[f=-000001] [LuaMenu] Loading widget:      Planet Battle Handler  <api_planet_battle_handler.lua>
+[f=-000001] [LuaMenu] Loading widget:      Popup Preloader        <gui_popup_preloader.lua>
+[f=-000001] [LuaMenu] Loading widget:      Queue status panel     <gui_queue_status_panel.lua>
+[f=-000001] [LuaMenu] Loading widget:      Rank update window     <gui_rank_update_window.lua>
+[f=-000001] [LuaMenu] Loading widget:      Steam Coop Handler     <gui_steam_coop_handler.lua>
+[f=-000001] [LuaMenu] Loading widget:      Steam Handler          <api_steam_handler.lua>
+[f=-000001] [LuaMenu] Loading widget:      Steam Release Notifier  <gui_steam_release_notifier.lua>
+[f=-000001] [LuaMenu] Loading widget:      User status panel      <gui_user_status_panel.lua>
+[f=-000001] [LuaMenu] Loading widget:      ZK Comm Config         <gui_zk_comm_config.lua>
+[f=-000001] [LuaMenu] Loading widget:      ZK replay downloader   <zk_replay_launcher.lua>
+[f=-000001] [LuaMenu] Loading widget:      ChiliProfiler          <dbg_chili_profiler.lua>
+[f=-000001] [LuaMenu] Loading widget:      Image Preloader        <dbg_img_preload.lua>
+[f=-000001] [LuaMenu] Warning: Headers files aren't supported anymore use "require" instead!
+[f=-000001] [LuaMenu] Warning: Headers files aren't supported anymore use "require" instead!
+[f=-000001] [LuaMenu] Loading widget:      Chili lobby            <gui_chili_lobby.lua>
+[f=-000001] [Chobby] Detected game config, generic
+[f=-000001] [Chobby] Detected game config, taprime
+[f=-000001] [Chobby] Detected game config, zk
+[f=-000001] [Chobby] Detected game config, zkdev
+[f=-000001] Vendor and GL, Nvidia, 4
+[f=-000001] High settings preset, 4194304
+[f=-000001] SetSettings Int, GroundScarAlphaFade, 1
+[f=-000001] SetSettings Int, GroundDetail, 120
+[f=-000001] SetSettings Int, GroundDecals, 5
+[f=-000001] Set ATI/intel/other non-nvidia compatibility state: Disabled (Automatic)
+[f=-000001] SetSettings Value, FeatureDrawDistance, 6000
+[f=-000001] SetSettings Value, FeatureFadeDistance, 4500
+[f=-000001] SetSettings Value, MiddleClickScrollSpeed, -0.0015
+[f=-000001] SetSettings Int, CubeTexSizeReflection, 128
+[f=-000001] SetSettings Int, CubeTexSizeSpecular, 128
+[f=-000001] [Settings] Warning: No such key: interfaceScale, but setting it as string anyway.
+[f=-000001] SetSettings Value, ScrollWheelSpeed, -25
+[f=-000001] SetSettings Value, DynamicSky, 0
+[f=-000001] SetSettings Value, AdvSky, 0
+[f=-000001] SetSettings Int, MaxParticles, 25000
+[f=-000001] SetSettings Value, AllowDeferredMapRendering, 1
+[f=-000001] SetSettings Value, AllowDeferredModelRendering, 1
+[f=-000001] SetSettings Int, Shadows, 1
+[f=-000001] SetSettings Value, FullscreenEdgeMove, 1
+[f=-000001] SetSettings Value, WindowedEdgeMove, 1
+[f=-000001] SetSettings Int, MaxDynamicMapLights, 1
+[f=-000001] SetSettings Value, UsePBO, 1
+[f=-000001] SetSettings Value, LuaShaders, 1
+[f=-000001] SetSettings Int, ForceDisableShaders, 0
+[f=-000001] SetSettings Value, AdvUnitShading, 1
+[f=-000001] SetSettings Value, AdvMapShading, 1
+[f=-000001] SetSettings Int, ROAM, 1
+[f=-000001] SetSettings Int, MaxDynamicModelLights, 1
+[f=-000001] SetSettings Int, LoadingMT, 0
+[f=-000001] SetSettings Value, 3DTrees, 1
+[f=-000001] SetSettings Value, BumpWaterAnisotropy, 2
+[f=-000001] SetSettings Value, BumpWaterShoreWaves, 1
+[f=-000001] SetSettings Value, BumpWaterBlurReflection, 1
+[f=-000001] SetSettings Int, BumpWaterRefraction, 1
+[f=-000001] SetSettings Int, BumpWaterTexSizeReflection, 256
+[f=-000001] SetSettings Int, BumpWaterDepthBits, 32
+[f=-000001] SetSettings Int, BumpWaterReflection, 2
+[f=-000001] SetSettings Value, CamFreeScrollSpeed, 50
+[f=-000001] SetSettings Int, RotOverheadScrollSpeed, 50
+[f=-000001] SetSettings Value, MiddleClickScrollSpeed, -0.0015
+[f=-000001] SetSettings Int, OverheadScrollSpeed, 50
+[f=-000001] SetSettings Int, FPSScrollSpeed, 50
+[f=-000001] SetSettings Value, ScrollWheelSpeed, -25
+[f=-000001] SetSettings Int, VSync, 0
+[f=-000001] SetSettings Int, Water, 4
+[f=-000001] [Settings] Warning: No such key: ZKUseNewChiliRTT, but setting it as string anyway.
+[f=-000001] SetSettings Int, GrassDetail, 9
+[f=-000001] SetSettings Int, TreeRadius, 1500
+[f=-000001] [Settings] Warning: No such key: SmoothPoints, but setting it as string anyway.
+[f=-000001] [Settings] Warning: No such key: SmoothLines, but setting it as string anyway.
+[f=-000001] SetSettings Int, MSAALevel, 8
+[f=-000001] [Settings] Warning: No such key: FSAA, but setting it as string anyway.
+[f=-000001] [i18n] Warning: "editor" is not translated in en
+[f=-000001] [i18n] Error: No translation found for "editor"
+[f=-000001] [LuaMenu] Loading widget:      Standalone lobby tools  <gui_standalone_lobby.lua>
+[f=-000001] [LuaMenu] Loading widget:      Block Input            <gui_block_input.lua>
+[f=-000001] [LuaMenu] Loading widget:      Music Player Lite      <snd_music_lite.lua>
+[f=-000001] [snd_music.lite.lua] No random track list found, disabling lobby music
+[f=-000001] [LuaMenu] LuaMenu v1.0 (Lua 5.1)
+[f=-000001] [LuaMenuController::Activate(msg="")] luaMenu=0x46e40bf0
+[f=-000001] SetLobbyButtonEnabled, true
+[f=-000001] SetSettings Int, MaxDynamicMapLights, 1
+[f=-000001] SetSettings Value, DynamicSky, 0
+[f=-000001] SetSettings Value, CamTimeFactor, 1
+[f=-000001] [Settings] Warning: No such key: ZKUseNewChiliRTT, but setting it as string anyway.
+[f=-000001] SetSettings Value, LODScale, 1
+[f=-000001] SetSettings Int, BumpWaterDepthBits, 32
+[f=-000001] SetSettings Value, HardwareCursor, 1
+[f=-000001] [Settings] Warning: No such key: VerboseLevel, but setting it as string anyway.
+[f=-000001] [Settings] Warning: No such key: BuildWarnings, but setting it as string anyway.
+[f=-000001] SetSettings Int, GroundDetail, 120
+[f=-000001] SetSettings Value, CamTimeExponent, 4
+[f=-000001] SetSettings Int, ShadowMapSize, 2048
+[f=-000001] SetSettings Int, MSAALevel, 8
+[f=-000001] SetSettings Int, RotOverheadScrollSpeed, 50
+[f=-000001] [Settings] Warning: No such key: SmoothPoints, but setting it as string anyway.
+[f=-000001] [Settings] Warning: No such key: LuaAutoModWidgets, but setting it as string anyway.
+[f=-000001] SetSettings Int, GrassDetail, 9
+[f=-000001] SetSettings Int, BumpWaterReflection, 2
+[f=-000001] SetSettings Value, LODScaleRefraction, 1
+[f=-000001] SetSettings Int, MaximumTransmissionUnit, 0
+[f=-000001] SetSettings Value, UseDistToGroundForIcons, 1.10000002
+[f=-000001] SetSettings Value, AdvSky, 0
+[f=-000001] SetSettings Int, CamMode, 1
+[f=-000001] SetSettings Int, MaxDynamicModelLights, 1
+[f=-000001] SetSettings Value, MiddleClickScrollSpeed, -0.0015
+[f=-000001] SetSettings Int, HangTimeout, 30
+[f=-000001] SetSettings Int, Water, 4
+[f=-000001] SetSettings Value, MouseDragScrollThreshold, 0
+[f=-000001] [Settings] Warning: No such key: LogFlush, but setting it as string anyway.
+[f=-000001] SetSettings Value, LuaGarbageCollectionMemLoadMult, 100
+[f=-000001] SetSettings Value, FeatureDrawDistance, 6000
+[f=-000001] SetSettings Value, UsePBO, 1
+[f=-000001] SetSettings Value, LuaShaders, 1
+[f=-000001] SetSettings Int, BumpWaterTexSizeReflection, 256
+[f=-000001] SetSettings Int, ForceDisableShaders, 0
+[f=-000001] SetSettings Int, GroundScarAlphaFade, 1
+[f=-000001] [Settings] Warning: No such key: Version, but setting it as string anyway.
+[f=-000001] SetSettings Int, OverheadScrollSpeed, 50
+[f=-000001] SetSettings Value, EdgeMoveWidth, 0.003
+[f=-000001] SetSettings Int, FontSize, 18
+[f=-000001] [Settings] Warning: No such key: snd_general, but setting it as string anyway.
+[f=-000001] SetSettings Value, BumpWaterBlurReflection, 1
+[f=-000001] SetSettings Value, LODScaleShadow, 1
+[f=-000001] SetSettings Int, UnitLodDist, 500
+[f=-000001] SetSettings Value, AdvMapShading, 1
+[f=-000001] [Settings] Warning: No such key: interfaceScale, but setting it as string anyway.
+[f=-000001] [Settings] Warning: No such key: MoveWarnings, but setting it as string anyway.
+[f=-000001] SetSettings Int, CubeTexSizeReflection, 128
+[f=-000001] SetSettings Value, AllowDeferredMapRendering, 1
+[f=-000001] SetSettings Int, VSync, 0
+[f=-000001] SetSettings Int, FPSScrollSpeed, 50
+[f=-000001] SetSettings Value, UseLuaMemPools, 0
+[f=-000001] SetSettings Value, AdvUnitShading, 1
+[f=-000001] SetSettings Int, ROAM, 1
+[f=-000001] SetSettings Value, 3DTrees, 1
+[f=-000001] SetSettings Value, WindowedEdgeMove, 1
+[f=-000001] SetSettings Value, FullscreenEdgeMove, 1
+[f=-000001] SetSettings Int, LoadingMT, 0
+[f=-000001] [Settings] Warning: No such key: WorkerThreadSpinTime, but setting it as string anyway.
+[f=-000001] SetSettings Value, EdgeMoveDynamic, 0
+[f=-000001] SetSettings Value, CamFreeScrollSpeed, 50
+[f=-000001] SetSettings Int, TreeRadius, 1500
+[f=-000001] SetSettings Value, ScrollWheelSpeed, -25
+[f=-000001] [Settings] Warning: No such key: SmoothLines, but setting it as string anyway.
+[f=-000001] SetSettings Value, ShowClock, 0
+[f=-000001] SetSettings Value, DualScreenMiniMapOnLeft, 1
+[f=-000001] [Settings] Warning: No such key: LinkBandwidth, but setting it as string anyway.
+[f=-000001] SetSettings Int, ReconnectTimeout, 0
+[f=-000001] [Settings] Warning: No such key: DisplayDebugPrefixConsole, but setting it as string anyway.
+[f=-000001] SetSettings Int, GroundDecals, 5
+[f=-000001] [Settings] Warning: No such key: ReflectiveWater, but setting it as string anyway.
+[f=-000001] SetSettings Int, BumpWaterRefraction, 1
+[f=-000001] SetSettings Int, MaxParticles, 25000
+[f=-000001] [Settings] Warning: Unexpected key type: std::string, but setting it as string anyway.
+[f=-000001] SetSettings Value, RotateLogFiles, 1
+[f=-000001] SetSettings Value, FeatureFadeDistance, 4500
+[f=-000001] SetSettings Int, Shadows, 1
+[f=-000001] SetSettings Value, BumpWaterShoreWaves, 1
+[f=-000001] [Settings] Warning: No such key: MinimapOnLeft, but setting it as string anyway.
+[f=-000001] SetSettings Int, MaxSounds, 32
+[f=-000001] SetSettings Value, MiniMapMarker, 0
+[f=-000001] [Settings] Warning: No such key: NormalMapping, but setting it as string anyway.
+[f=-000001] SetSettings Value, LODScaleReflection, 1
+[f=-000001] SetSettings Value, FPSFOV, 90
+[f=-000001] SetSettings Value, BumpWaterAnisotropy, 2
+[f=-000001] SetSettings Int, InitialNetworkTimeout, 0
+[f=-000001] SetSettings Value, OverheadMaxHeightFactor, 1.39999998
+[f=-000001] [Settings] Warning: No such key: FSAA, but setting it as string anyway.
+[f=-000001] SetSettings Int, CubeTexSizeSpecular, 128
+[f=-000001] SetSettings Value, VFSCacheArchiveFiles, 0
+[f=-000001] SetSettings Value, AllowDeferredModelRendering, 1
+[f=-000001] 
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SHOWN][1] fullScreen=1
+[f=-000001] [~ScopedOnceTimer][Sound::Iconified] 0ms
+[f=-000001] [~ScopedOnceTimer][FBO::GLContextReinit] 0ms
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SHOWN][2]
+
+[f=-000001] 
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SHOWN][1] fullScreen=1
+[f=-000001] [~ScopedOnceTimer][Sound::Iconified] 0ms
+[f=-000001] [~ScopedOnceTimer][FBO::GLContextReinit] 0ms
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SHOWN][2]
+
+[f=-000001] 
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SIZE_CHANGED][1] fullScreen=1
+[f=-000001] [GR::UpdateGLConfigs]
+[f=-000001] [GR::UpdateGLGeometry][1] winSize=<1920,1080>
+[f=-000001] [GR::UpdateGLGeometry][2] winSize=<1920,1080>
+[f=-000001] [GR::InitGLState]
+[f=-000001] [GR::LogDisplayMode] display-mode set to 1920x1080x24bpp@120Hz (fullscreen::decorated)
+[f=-000001] [~ScopedOnceTimer][GlobalRendering::UpdateGL] 0ms
+[f=-000001] [~ScopedOnceTimer][ActiveController::ResizeEvent] 0ms
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SIZE_CHANGED][2]
+
+[f=-000001] DesignEvent, events_2018_04_25:lobby:started, nil
+[f=-000001] DesignEvent, events_2018_04_25:graphics:openglVersion:4.6.0, nil
+[f=-000001] DesignEvent, events_2018_04_25:graphics:gpu:Quadro_FX_Graphics_Device_PCIe_SSE2, nil
+[f=-000001] DesignEvent, events_2018_04_25:graphics:glRenderer:Quadro_FX_Graphics_Device_PCIe_SSE2, nil
+[f=-000001] [gui_mission_handler.lua] Error: Error loading missions.
+[f=-000001] [gui_mission_handler.lua] Error: Error loading missions.
+[f=-000001] Deleting path cache, 0
+[f=-000001] steamMode, false, true
+[f=-000001] [i18n] Warning: "Email" is not translated in en
+[f=-000001] [i18n] Error: No translation found for "Email"
+[f=-000001] Login
+[f=-000001] steamMode, false, true
+[f=-000001] Scanning: /home/michael/sprDev/spring-engine-linux-masterbuild/base
+[f=-000001] Scanning: /home/michael/sprDev/spring-engine-linux-masterbuild/maps
+[f=-000001] Scanning: /home/michael/sprDev/spring-engine-linux-masterbuild/games
+[f=-000001] [~ScopedOnceTimer][CArchiveScanner::ScanAllDirs] 22ms
+[f=-000001] DesignEvent, events_2018_04_25:lobby:server_connect, nil
+[f=-000001] OnConnected
+[f=-000001] DesignEvent, events_2018_04_25:lobby:logged_in, nil
+[f=-000001] DesignEvent, events_2018_04_25:lobby:multiplayer, nil
+[f=-000001] DesignEvent, events_2018_04_25:lobby:multiplayer:battle_list, nil
+[f=-000001] Warning: Couldn't find texture "LuaMenu/Images/MinimapThumbnailsComet_Catcher_Redux.jpg"!
+[f=-000001] [chobby] Showing battle with ID, 1792
+[f=-000001] DesignEvent, events_2018_04_25:lobby:battle:myBattle, nil
+[f=-000001] [i18n] Warning: "spectator" is not translated in en
+[f=-000001] [i18n] Error: No translation found for "spectator"
+[f=-000001] [i18n] Warning: "player" is not translated in en
+[f=-000001] [i18n] Error: No translation found for "player"
+[f=-000001] Warning: Couldn't find texture "LuaMenu/Images/Minimaps/Comet_Catcher_Redux.jpg"!
+[f=-000001] [liblobby] Error: No such function: FAILED, for command: FAILED msg=not in battle	cmd=LEAVEBATTLE
+[f=-000001] [chobby] Showing battle with ID, 1793
+[f=-000001] Scanning: /home/michael/sprDev/spring-engine-linux-masterbuild/base
+[f=-000001] Scanning: /home/michael/sprDev/spring-engine-linux-masterbuild/maps
+[f=-000001] Scanning: /home/michael/sprDev/spring-engine-linux-masterbuild/games
+[f=-000001] [~ScopedOnceTimer][CArchiveScanner::ScanAllDirs] 0ms
+[f=-000001] [liblobby] Error: No such function: FAILED, for command: FAILED msg=not in battle	cmd=LEAVEBATTLE
+[f=-000001] [chobby] Showing battle with ID, 1794
+[f=-000001] Scanning: /home/michael/sprDev/spring-engine-linux-masterbuild/base
+[f=-000001] Scanning: /home/michael/sprDev/spring-engine-linux-masterbuild/maps
+[f=-000001] Scanning: /home/michael/sprDev/spring-engine-linux-masterbuild/games
+[f=-000001] [~ScopedOnceTimer][CArchiveScanner::ScanAllDirs] 0ms
+[f=-000001] DesignEvent, events_2018_04_25:lobby:panel:downloads, nil
+[f=-000001] [liblobby] Error: No such function: FAILED, for command: FAILED msg=not in battle	cmd=LEAVEBATTLE
+[f=-000001] [chobby] Showing battle with ID, 1797
+[f=-000001] DesignEvent, events_2018_04_25:lobby:multiplayer:custom:play, nil
+[f=-000001] DesignEvent, events_2018_04_25:lobby:panel:chat, nil
+[f=-000001] DesignEvent, events_2018_04_25:lobby:panel:friends, nil
+[f=-000001] [liblobby] Error: No such function: FAILED, for command: FAILED msg=not in battle	cmd=LEAVEBATTLE
+[f=-000001] [chobby] Showing battle with ID, 1808
+[f=-000001] LuaArchive::GetAvailableAIs] game="Tech Annihilation v3.08.0" (cached=0 loaded=0) map="" (cached=0 loaded=0)
+[f=-000001] [VFS] [LuaArchiveVFS::UnMapArchives<this=0x7f5c300227e0>(reload=0)] (#mod=0 #map=0 #menu=2682)
+[f=-000001] [VFS] [LuaArchiveVFS::AddArchive<this=0x7f5c300227e0>(arName="Tech Annihilation v3.08.0", overwrite=false)] section=0 cached=0
+[f=-000001] [ArchiveLoader::OpenArchive(name="" type="")] could not load or open archive (nil)
+[f=-000001] [VFS] Error: [LuaArchiveVFS::AddArchive<this=0x7f5c300227e0>] failed to open archive 'Tech Annihilation v3.08.0' (path '', type 0)
+[f=-000001] [VFS] [LuaArchiveVFS::ReMapArchives<this=0x7f5c300227e0>(reload=0)] (#mod=0 #map=0 #menu=0)
+[f=-000001] Do something if map or game is missing
+[f=-000001] Do something if map or game is missing
+[f=-000001] Logout
+[f=-000001] Login
+[f=-000001] steamMode, false, true
+[f=-000001] OnConnected
+[f=-000001] [liblobby] Error: No such function: FAILED, for command: FAILED msg=not in battle	cmd=LEAVEBATTLE
+[f=-000001] [chobby] Showing battle with ID, 1810
+[f=-000001] [liblobby] Error: No such function: FAILED, for command: FAILED msg=not in battle	cmd=LEAVEBATTLE
+[f=-000001] [chobby] Showing battle with ID, 1812
+[f=-000001] Scanning: /home/michael/sprDev/spring-engine-linux-masterbuild/base
+[f=-000001] Scanning: /home/michael/sprDev/spring-engine-linux-masterbuild/maps
+[f=-000001] Scanning: /home/michael/sprDev/spring-engine-linux-masterbuild/games
+[f=-000001] Scanning: /home/michael/sprDev/spring-engine-linux-masterbuild/packages
+[f=-000001] [~CPoolArchive] archiveFile="/home/michael/sprDev/spring-engine-linux-masterbuild/packages/9d9bfc0d1230874f900f6c8903e204e5.sdp" numZipFiles=10580 sumInflSize=234622kb sumReadTime=0ms
+[f=-000001] 	file="modinfo.lua" indx=2404 inflSize=0kb readTime=0ms
+[f=-000001] 	file="anims/cursorattack_2.bmp" indx=4 inflSize=3kb readTime=0ms
+[f=-000001] 	file="anims/cursorattack_6.bmp" indx=8 inflSize=3kb readTime=0ms
+[f=-000001] 	file="anims/cursorattack_7.bmp" indx=9 inflSize=3kb readTime=0ms
+[f=-000001] 	file="anims/cursorattack_5.bmp" indx=7 inflSize=2kb readTime=0ms
+[f=-000001] 	file="anims/cursorattack_1.bmp" indx=3 inflSize=3kb readTime=0ms
+[f=-000001] 	file=".gitignore" indx=1 inflSize=0kb readTime=0ms
+[f=-000001] 	file="anims/cursorattack_3.bmp" indx=5 inflSize=2kb readTime=0ms
+[f=-000001] 	file=".gitattributes" indx=0 inflSize=0kb readTime=0ms
+[f=-000001] 	file="anims/cursorattack_0.bmp" indx=2 inflSize=3kb readTime=0ms
+[f=-000001] [~ScopedOnceTimer][CArchiveScanner::ScanAllDirs] 7ms
+[f=-000001] [liblobby] Error: No such function: FAILED, for command: FAILED msg=not in battle	cmd=LEAVEBATTLE
+[f=-000001] [chobby] Showing battle with ID, 1815
+[f=-000001] [liblobby] Error: No such function: FAILED, for command: FAILED msg=not in battle	cmd=LEAVEBATTLE
+[f=-000001] [chobby] Showing battle with ID, 1816
+[f=-000001] [liblobby] Error: No such function: FAILED, for command: FAILED msg=not in battle	cmd=LEAVEBATTLE
+[f=-000001] [chobby] Showing battle with ID, 1822
+[f=-000001] [liblobby] Error: No such function: FAILED, for command: FAILED msg=not in battle	cmd=LEAVEBATTLE
+[f=-000001] [chobby] Showing battle with ID, 1823
+[f=-000001] [liblobby] Error: No such function: FAILED, for command: FAILED msg=not in battle	cmd=LEAVEBATTLE
+[f=-000001] [chobby] Showing battle with ID, 1824
+[f=-000001] [liblobby] Error: No such function: FAILED, for command: FAILED msg=not in battle	cmd=LEAVEBATTLE
+[f=-000001] [chobby] Showing battle with ID, 1825
+[f=-000001] [liblobby] Error: No such function: FAILED, for command: FAILED msg=not in battle	cmd=LEAVEBATTLE
+[f=-000001] [chobby] Showing battle with ID, 1826
+[f=-000001] DesignEvent, events_2018_04_25:lobby:panel:settings, nil
+[f=-000001] Scanning: /home/michael/sprDev/spring-engine-linux-masterbuild/base
+[f=-000001] Scanning: /home/michael/sprDev/spring-engine-linux-masterbuild/maps
+[f=-000001] Scanning: /home/michael/sprDev/spring-engine-linux-masterbuild/games
+[f=-000001] Scanning: /home/michael/sprDev/spring-engine-linux-masterbuild/packages
+[f=-000001] [~CPoolArchive] archiveFile="/home/michael/sprDev/spring-engine-linux-masterbuild/packages/3d98c8b413b6215a1869e2214e4c86c6.sdp" numZipFiles=7655 sumInflSize=694292kb sumReadTime=0ms
+[f=-000001] 	file="modinfo.lua" indx=4759 inflSize=0kb readTime=0ms
+[f=-000001] 	file="anims/cursorattack_0.png" indx=4 inflSize=1kb readTime=0ms
+[f=-000001] 	file="anims/cursorattack_4.png" indx=8 inflSize=1kb readTime=0ms
+[f=-000001] 	file="anims/cursordefend.txt" indx=9 inflSize=0kb readTime=0ms
+[f=-000001] 	file="anims/cursorattack_3.png" indx=7 inflSize=1kb readTime=0ms
+[f=-000001] 	file="anims/cursorattack.txt" indx=3 inflSize=0kb readTime=0ms
+[f=-000001] 	file=".tx/config" indx=1 inflSize=1kb readTime=0ms
+[f=-000001] 	file="anims/cursorattack_1.png" indx=5 inflSize=1kb readTime=0ms
+[f=-000001] 	file=".gitattributes" indx=0 inflSize=0kb readTime=0ms
+[f=-000001] 	file="al2.0.txt" indx=2 inflSize=8kb readTime=0ms
+[f=-000001] [~ScopedOnceTimer][CArchiveScanner::ScanAllDirs] 5ms
+[f=-000001] LuaArchive::GetAvailableAIs] game="Zero-K v1.8.3.5" (cached=0 loaded=0) map="" (cached=0 loaded=0)
+[f=-000001] [VFS] [LuaArchiveVFS::UnMapArchives<this=0x7f5c300227e0>(reload=0)] (#mod=0 #map=0 #menu=2682)
+[f=-000001] [VFS] [LuaArchiveVFS::AddArchive<this=0x7f5c300227e0>(arName="Zero-K v1.8.3.5", overwrite=false)] section=0 cached=0
+[f=-000001] [VFS] [LuaArchiveVFS::ReMapArchives<this=0x7f5c300227e0>(reload=0)] (#mod=7655 #map=0 #menu=0)
+[f=-000001] DesignEvent, events_2018_04_25:lobby:multiplayer:custom:start, nil
+[f=-000001] [liblobby] Error: No such function: FAILED, for command: FAILED msg=not in battle	cmd=LEAVEBATTLE
+[f=-000001] [chobby] Showing battle with ID, 1827
+[f=-000001] [liblobby] Error: No such function: FAILED, for command: FAILED msg=not in battle	cmd=LEAVEBATTLE
+[f=-000001] [chobby] Showing battle with ID, 1828
+[f=-000001] [liblobby] Error: No such function: FAILED, for command: FAILED msg=not in battle	cmd=LEAVEBATTLE
+[f=-000001] [chobby] Showing battle with ID, 1829
+[f=-000001] SetLobbyFullscreenMode, 1
+[f=-000001] SetSettings Int, XResolutionWindowed, 1920
+[f=-000001] SetSettings Int, YResolutionWindowed, 1080
+[f=-000001] SetSettings Int, WindowPosX, 0
+[f=-000001] SetSettings Int, WindowPosY, 0
+[f=-000001] SetSettings Value, WindowBorderless, 1
+[f=-000001] SetSettings Int, MaxDynamicMapLights, 1
+[f=-000001] SetSettings Value, DynamicSky, 0
+[f=-000001] SetSettings Value, CamTimeFactor, 1
+[f=-000001] [Settings] Warning: No such key: ZKUseNewChiliRTT, but setting it as string anyway.
+[f=-000001] SetSettings Value, LODScale, 1
+[f=-000001] SetSettings Int, BumpWaterDepthBits, 32
+[f=-000001] SetSettings Value, HardwareCursor, 1
+[f=-000001] [Settings] Warning: No such key: VerboseLevel, but setting it as string anyway.
+[f=-000001] [Settings] Warning: No such key: BuildWarnings, but setting it as string anyway.
+[f=-000001] SetSettings Int, GroundDetail, 120
+[f=-000001] SetSettings Value, CamTimeExponent, 4
+[f=-000001] SetSettings Int, ShadowMapSize, 2048
+[f=-000001] SetSettings Int, MSAALevel, 8
+[f=-000001] SetSettings Int, RotOverheadScrollSpeed, 50
+[f=-000001] [Settings] Warning: No such key: SmoothPoints, but setting it as string anyway.
+[f=-000001] [Settings] Warning: No such key: LuaAutoModWidgets, but setting it as string anyway.
+[f=-000001] SetSettings Int, GrassDetail, 9
+[f=-000001] SetSettings Int, BumpWaterReflection, 2
+[f=-000001] SetSettings Value, LODScaleRefraction, 1
+[f=-000001] SetSettings Int, MaximumTransmissionUnit, 0
+[f=-000001] SetSettings Value, UseDistToGroundForIcons, 1.10000002
+[f=-000001] SetSettings Value, AdvSky, 0
+[f=-000001] SetSettings Int, CamMode, 1
+[f=-000001] SetSettings Int, MaxDynamicModelLights, 1
+[f=-000001] SetSettings Value, MiddleClickScrollSpeed, -0.0015
+[f=-000001] SetSettings Int, HangTimeout, 30
+[f=-000001] SetSettings Int, Water, 4
+[f=-000001] SetSettings Value, MouseDragScrollThreshold, 0
+[f=-000001] [Settings] Warning: No such key: LogFlush, but setting it as string anyway.
+[f=-000001] SetSettings Value, LuaGarbageCollectionMemLoadMult, 100
+[f=-000001] SetSettings Value, FeatureDrawDistance, 6000
+[f=-000001] SetSettings Value, UsePBO, 1
+[f=-000001] SetSettings Value, LuaShaders, 1
+[f=-000001] SetSettings Int, BumpWaterTexSizeReflection, 256
+[f=-000001] SetSettings Int, ForceDisableShaders, 0
+[f=-000001] SetSettings Int, GroundScarAlphaFade, 1
+[f=-000001] [Settings] Warning: No such key: Version, but setting it as string anyway.
+[f=-000001] SetSettings Int, OverheadScrollSpeed, 50
+[f=-000001] SetSettings Value, EdgeMoveWidth, 0.003
+[f=-000001] SetSettings Int, FontSize, 18
+[f=-000001] [Settings] Warning: No such key: snd_general, but setting it as string anyway.
+[f=-000001] SetSettings Value, BumpWaterBlurReflection, 1
+[f=-000001] SetSettings Value, LODScaleShadow, 1
+[f=-000001] SetSettings Int, UnitLodDist, 500
+[f=-000001] SetSettings Value, AdvMapShading, 1
+[f=-000001] [Settings] Warning: No such key: interfaceScale, but setting it as string anyway.
+[f=-000001] [Settings] Warning: No such key: MoveWarnings, but setting it as string anyway.
+[f=-000001] SetSettings Int, CubeTexSizeReflection, 128
+[f=-000001] SetSettings Value, AllowDeferredMapRendering, 1
+[f=-000001] SetSettings Int, VSync, 0
+[f=-000001] SetSettings Int, FPSScrollSpeed, 50
+[f=-000001] SetSettings Value, UseLuaMemPools, 0
+[f=-000001] SetSettings Value, AdvUnitShading, 1
+[f=-000001] SetSettings Int, ROAM, 1
+[f=-000001] SetSettings Value, 3DTrees, 1
+[f=-000001] SetSettings Value, WindowedEdgeMove, 1
+[f=-000001] SetSettings Value, FullscreenEdgeMove, 1
+[f=-000001] SetSettings Int, LoadingMT, 0
+[f=-000001] [Settings] Warning: No such key: WorkerThreadSpinTime, but setting it as string anyway.
+[f=-000001] SetSettings Value, EdgeMoveDynamic, 0
+[f=-000001] SetSettings Value, CamFreeScrollSpeed, 50
+[f=-000001] SetSettings Int, TreeRadius, 1500
+[f=-000001] SetSettings Value, ScrollWheelSpeed, -25
+[f=-000001] [Settings] Warning: No such key: SmoothLines, but setting it as string anyway.
+[f=-000001] SetSettings Value, ShowClock, 0
+[f=-000001] SetSettings Value, DualScreenMiniMapOnLeft, 1
+[f=-000001] [Settings] Warning: No such key: LinkBandwidth, but setting it as string anyway.
+[f=-000001] SetSettings Int, ReconnectTimeout, 0
+[f=-000001] [Settings] Warning: No such key: DisplayDebugPrefixConsole, but setting it as string anyway.
+[f=-000001] SetSettings Int, GroundDecals, 5
+[f=-000001] [Settings] Warning: No such key: ReflectiveWater, but setting it as string anyway.
+[f=-000001] SetSettings Int, BumpWaterRefraction, 1
+[f=-000001] SetSettings Int, MaxParticles, 25000
+[f=-000001] [Settings] Warning: Unexpected key type: std::string, but setting it as string anyway.
+[f=-000001] SetSettings Value, RotateLogFiles, 1
+[f=-000001] SetSettings Value, FeatureFadeDistance, 4500
+[f=-000001] SetSettings Int, Shadows, 1
+[f=-000001] SetSettings Value, BumpWaterShoreWaves, 1
+[f=-000001] [Settings] Warning: No such key: MinimapOnLeft, but setting it as string anyway.
+[f=-000001] SetSettings Int, MaxSounds, 32
+[f=-000001] SetSettings Value, MiniMapMarker, 0
+[f=-000001] [Settings] Warning: No such key: NormalMapping, but setting it as string anyway.
+[f=-000001] SetSettings Value, LODScaleReflection, 1
+[f=-000001] SetSettings Value, FPSFOV, 90
+[f=-000001] SetSettings Value, BumpWaterAnisotropy, 2
+[f=-000001] SetSettings Int, InitialNetworkTimeout, 0
+[f=-000001] SetSettings Value, OverheadMaxHeightFactor, 1.39999998
+[f=-000001] [Settings] Warning: No such key: FSAA, but setting it as string anyway.
+[f=-000001] SetSettings Int, CubeTexSizeSpecular, 128
+[f=-000001] SetSettings Value, VFSCacheArchiveFiles, 0
+[f=-000001] SetSettings Value, AllowDeferredModelRendering, 1
+[f=-000001] compatProfile, false
+[f=-000001] DesignEvent, events_2018_04_25:lobby:multiplayer:game_loading, nil
+[f=-000001] DesignEvent, events_2018_04_25:game_start:multiplayer:connecting_unknown, nil
+[f=-000001] Game starts!
+[f=-000001] [GAME]
+{
+	HostIP=23.83.237.166;
+	HostPort=8452;
+	SourcePort=0;
+	IsHost=0;
+	MyPlayerName=Archangel;
+	MyPasswd=0;
+}
+[f=-000001] [ReloadOrRestart] Spring "/home/michael/sprDev/spring-engine-linux-masterbuild/spring" should be reloading
+[f=-000001] [SpringApp::Reload][1]
+[f=-000001] [ThreadPool::SetThreadCount][1] wanted=0 current=4 maximum=8 (init=0)
+[f=-000001] 	[async=0] threads=4 tasks=99 {sum,avg}{exec,wait}time={{58.119, 0.587}, {3.315, 0.033}}ms
+[f=-000001] 		thread=1 tasks=33 {sum,min,max,avg}{exec,wait}time={{20.108, 0.200, 0.975, 0.609}, {0.349, 0.000, 0.068, 0.011}}ms
+[f=-000001] 		thread=2 tasks=33 {sum,min,max,avg}{exec,wait}time={{19.071, 0.208, 0.968, 0.578}, {1.396, 0.000, 0.066, 0.042}}ms
+[f=-000001] 		thread=3 tasks=33 {sum,min,max,avg}{exec,wait}time={{18.940, 0.200, 0.951, 0.574}, {1.569, 0.001, 0.065, 0.048}}ms
+[f=-000001] 	[async=1] threads=4 tasks=3 {sum,avg}{exec,wait}time={{0.040, 0.013}, {0.104, 0.035}}ms
+[f=-000001] 		thread=1 tasks=1 {sum,min,max,avg}{exec,wait}time={{0.015, 0.015, 0.015, 0.015}, {0.034, 0.034, 0.034, 0.034}}ms
+[f=-000001] 		thread=2 tasks=1 {sum,min,max,avg}{exec,wait}time={{0.011, 0.011, 0.011, 0.011}, {0.034, 0.034, 0.034, 0.034}}ms
+[f=-000001] 		thread=3 tasks=1 {sum,min,max,avg}{exec,wait}time={{0.014, 0.014, 0.014, 0.014}, {0.036, 0.036, 0.036, 0.036}}ms
+[f=-000001] [ThreadPool::SetThreadCount][2] workers=0
+[f=-000001] [ThreadPool::SetThreadCount][1] wanted=4 current=1 maximum=8 (init=1)
+[f=-000001] [ThreadPool::SetThreadCount][2] workers=3
+[f=-000001] [Threading] Main thread CPU affinity mask set: 8184 (config is 65528)
+[f=-000001] [SpringApp::Reload][2]
+[f=-000001] [SpringApp::Reload][3]
+[f=-000001] [Sound] [Sound::Kill] soundThread.joinable()=1
+[f=-000001] [WatchDog::DeregisterThread] deregistering controls for thread [audio]
+[f=-000001] [Sound] [Sound::UpdateThread][3] #sources=128 #items=2
+[f=-000001] [Sound] [Sound::UpdateThread][4] ctx=0x7f5c2401a630 dev=0x7f5c240219e0
+[f=-000001] [Sound] [Sound::UpdateThread][5] ctx=0x7f5c2401a630 dev=0x7f5c240219e0
+[f=-000001] [Sound] [Sound::Cleanup][alcDestroyContext(0x7f5c2401a630)]
+[f=-000001] [Sound] [Sound::Cleanup][alcCloseDevice(0x7f5c240219e0)]
+[f=-000001] [Sound] [Sound::UpdateThread][6]
+[f=-000001] [SpringApp::Reload][4]
+[f=-000001] [SpringApp::Reload][5]
+[f=-000001] [SpringApp::Reload][6]
+[f=-000001] [VFS] [SpringVFS::UnMapArchives<this=0x7f5c300227e0>(reload=1)] (#mod=0 #map=0 #menu=2682)
+[f=-000001] Scanning: /home/michael/sprDev/spring-engine-linux-masterbuild/base
+[f=-000001] Scanning: /home/michael/sprDev/spring-engine-linux-masterbuild/maps
+[f=-000001] Scanning: /home/michael/sprDev/spring-engine-linux-masterbuild/games
+[f=-000001] Scanning: /home/michael/sprDev/spring-engine-linux-masterbuild/packages
+[f=-000001] [~ScopedOnceTimer][CArchiveScanner::ScanAllDirs] 0ms
+[f=-000001] [SpringApp::Reload][7]
+[f=-000001] [SpringApp::Reload][8]
+[f=-000001] [Sound] [Sound::UpdateThread][1] cfgMaxSounds=32
+[f=-000001] [WatchDog::RegisterThread] registering controls for thread [audio]
+[f=-000001] [Sound] [ISound::Initialize] spawning sound-thread (0.1ms)
+[f=-000001] [Sound] [Sound::InitThread][1]
+[f=-000001] [Sound] [Sound::OpenOpenALDevice] opening default device "OpenAL Soft"
+[f=-000001] [Sound] [Sound::OpenOpenALDevice] device=0x7f5c240335b0 context=0x7f5c24031790
+[f=-000001] [Sound] [Sound::InitThread][4][OpenAL API Info]
+[f=-000001] [Sound]   Vendor:         OpenAL Community
+[f=-000001] [Sound]   Version:        1.1 ALSOFT 1.18.2
+[f=-000001] [Sound]   Renderer:       OpenAL Soft
+[f=-000001] [Sound]   AL Extensions:  AL_EXT_ALAW AL_EXT_BFORMAT AL_EXT_DOUBLE AL_EXT_EXPONENT_DISTANCE AL_EXT_FLOAT32 AL_EXT_IMA4 AL_EXT_LINEAR_DISTANCE AL_EXT_MCFORMATS AL_EXT_MULAW AL_EXT_MULAW_BFORMAT AL_EXT_MULAW_MCFORMATS AL_EXT_OFFSET AL_EXT_source_distance_model AL_EXT_SOURCE_RADIUS AL_EXT_STEREO_ANGLES AL_LOKI_quadriphonic AL_SOFT_block_alignment AL_SOFT_deferred_updates AL_SOFT_direct_channels AL_SOFT_gain_clamp_ex AL_SOFT_loop_points AL_SOFT_MSADPCM AL_SOFT_source_latency AL_SOFT_source_length AL_SOFT_source_resampler AL_SOFT_source_spatialize
+[f=-000001] [Sound]   ALC Extensions: ALC_ENUMERATE_ALL_EXT ALC_ENUMERATION_EXT ALC_EXT_CAPTURE ALC_EXT_DEDICATED ALC_EXT_disconnect ALC_EXT_EFX ALC_EXT_thread_local_context ALC_SOFTX_device_clock ALC_SOFT_HRTF ALC_SOFT_loopback ALC_SOFT_output_limiter ALC_SOFT_pause_device
+[f=-000001] [Sound]   Devices:
+[f=-000001] [Sound]     [Built-in Audio Analogue Stereo]
+[f=-000001] [Sound] [Sound::GetMaxMonoSources] #attribs=19
+[f=-000001] [Sound] [Sound::GetMaxMonoSources] {cfg,alc}MaxSounds={32,255}
+[f=-000001] [Sound]   EFX Enabled: yes
+[f=-000001] [Sound] [Sound::UpdateThread][2]
+[f=-000001] [~ScopedOnceTimer][ISound::Init::Dev] 100ms
+[f=-000001] [SpringApp::Reload][10]
+[f=-000001] [SpringApp::Reload][11]
+[f=-000001] [LuaMenuController::Reset] using menu archive "Chobby $VERSION"
+[f=-000001] [VFS] [LuaMenuVFS::AddArchive<this=0x7f5c300227e0>(arName="Chobby $VERSION", overwrite=false)] section=3 cached=1
+[f=-000001] [VFS] [LuaMenuVFS::AddArchive<this=0x7f5c300227e0>(arName="Spring content v1", overwrite=false)] section=2 cached=0
+[f=-000001] [VFS] [LuaMenuVFS::AddArchive<this=0x7f5c300227e0>(arName="Spring Bitmaps", overwrite=false)] section=2 cached=0
+[f=-000001] [VFS] [LuaMenuVFS::AddArchive<this=0x7f5c300227e0>(arName="Spring Cursors", overwrite=false)] section=2 cached=0
+[f=-000001] [GR::ConfigNotify][1] key=Fullscreen val=0 (cfgFullScreen=0 sdlFullScreen=1) newRes=<1920,1080>
+[f=-000001] [GR::ConfigNotify][1] key=WindowBorderless val=1 (cfgFullScreen=0 sdlFullScreen=0) newRes=<1920,1080>
+[f=-000001] [SpringApp::Reload][12] #script=113
+[f=-000001] [CPreGame] using client IP 23.83.237.166 and port 8452
+[f=-000001] [NetProto::InitClient] connecting to IP 23.83.237.166 on port 8452 using name Archangel
+[f=-000001] [SpringApp::Reload][13] reloadCount=1
+
+
+
+[f=-000001] 
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SHOWN][1] fullScreen=0
+[f=-000001] [~ScopedOnceTimer][Sound::Iconified] 0ms
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SHOWN][2]
+
+[f=-000001] 
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SIZE_CHANGED][1] fullScreen=0
+[f=-000001] [GR::UpdateGLConfigs]
+[f=-000001] [GR::UpdateGLGeometry][1] winSize=<1885,1025>
+[f=-000001] [GR::UpdateGLGeometry][2] winSize=<1885,1025>
+[f=-000001] [GR::InitGLState]
+[f=-000001] [GR::LogDisplayMode] display-mode set to 1885x1025x24bpp@120Hz (windowed::borderless)
+[f=-000001] [~ScopedOnceTimer][GlobalRendering::UpdateGL] 1ms
+[f=-000001] [~ScopedOnceTimer][ActiveController::ResizeEvent] 0ms
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SIZE_CHANGED][2]
+
+[f=-000001] 
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_HIDDEN][1] fullScreen=0
+[f=-000001] [~ScopedOnceTimer][Sound::Iconified] 0ms
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_HIDDEN][2]
+
+[f=-000001] 
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_HIDDEN][1] fullScreen=0
+[f=-000001] [~ScopedOnceTimer][Sound::Iconified] 0ms
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_HIDDEN][2]
+
+[f=-000001] 
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SHOWN][1] fullScreen=0
+[f=-000001] [~ScopedOnceTimer][Sound::Iconified] 0ms
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SHOWN][2]
+
+[f=-000001] 
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SHOWN][1] fullScreen=0
+[f=-000001] [~ScopedOnceTimer][Sound::Iconified] 0ms
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SHOWN][2]
+
+[f=-000001] 
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SHOWN][1] fullScreen=0
+[f=-000001] [~ScopedOnceTimer][Sound::Iconified] 0ms
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SHOWN][2]
+
+[f=-000001] 
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SIZE_CHANGED][1] fullScreen=0
+[f=-000001] [GR::UpdateGLConfigs]
+[f=-000001] [GR::UpdateGLGeometry][1] winSize=<1885,1053>
+[f=-000001] [GR::UpdateGLGeometry][2] winSize=<1885,1053>
+[f=-000001] [GR::InitGLState]
+[f=-000001] [GR::LogDisplayMode] display-mode set to 1885x1053x24bpp@120Hz (windowed::borderless)
+[f=-000001] [~ScopedOnceTimer][GlobalRendering::UpdateGL] 0ms
+[f=-000001] [~ScopedOnceTimer][ActiveController::ResizeEvent] 0ms
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SIZE_CHANGED][2]
+
+[f=-000001] [PreGame::AddMapArchivesToVFS][server=(nil)] using map "Comet Catcher Redux" (loaded=0 cached=0)
+[f=-000001] [VFS] [SpringVFS::AddArchive<this=0x7f5c300227e0>(arName="Comet Catcher Redux", overwrite=false)] section=1 cached=0
+[f=-000001] [VFS] [SpringVFS::AddArchive<this=0x7f5c300227e0>(arName="Map Helper v1", overwrite=false)] section=2 cached=0
+[f=-000001] [PreGame::AddModArchivesToVFS][server=(nil)] using game "Zero-K v1.8.3.5" (loaded=0 cached=1)
+[f=-000001] [VFS] [SpringVFS::AddArchive<this=0x7f5c300227e0>(arName="Zero-K v1.8.3.5", overwrite=false)] section=0 cached=1
+[f=-000001] [VFS] [SpringVFS::AddArchive<this=0x7f5c300227e0>(arName="Spring content v1", overwrite=false)] section=2 cached=0
+[f=-000001] [VFS] [SpringVFS::AddArchive<this=0x7f5c300227e0>(arName="Spring Bitmaps", overwrite=false)] section=2 cached=0
+[f=-000001] [~CBufferedArchive][name=/home/michael/sprDev/spring-engine-linux-masterbuild/base/maphelper.sdz] 34584 bytes cached in 9 files
+[f=-000001] [~CPoolArchive] archiveFile="/home/michael/sprDev/spring-engine-linux-masterbuild/packages/3d98c8b413b6215a1869e2214e4c86c6.sdp" numZipFiles=7655 sumInflSize=694292kb sumReadTime=4347ms
+[f=-000001] 	file="sounds/music/war/morning adventure.ogg" indx=5897 inflSize=6536kb readTime=63ms
+[f=-000001] 	file="sounds/music/peace/far beyond the stars.ogg" indx=5886 inflSize=6427kb readTime=61ms
+[f=-000001] 	file="sounds/music/defeat/serpent's grave - main titles.ogg" indx=5879 inflSize=6029kb readTime=56ms
+[f=-000001] 	file="sounds/music/war/hybrid statement.ogg" indx=5896 inflSize=5829kb readTime=54ms
+[f=-000001] 	file="unittextures/strikecomtiger.dds" indx=7271 inflSize=5897kb readTime=49ms
+[f=-000001] 	file="unittextures/bantha_normals.dds" indx=6842 inflSize=4096kb readTime=44ms
+[f=-000001] 	file="unittextures/gritty1.dds" indx=7045 inflSize=5461kb readTime=43ms
+[f=-000001] 	file="unittextures/benzcom_1.dds" indx=6856 inflSize=5461kb readTime=41ms
+[f=-000001] 	file="unittextures/detriment_1.dds" indx=6988 inflSize=5461kb readTime=41ms
+[f=-000001] 	file="unittextures/detriment_normals.dds" indx=6990 inflSize=4096kb readTime=41ms
+[f=-000001] [~CBufferedArchive][name=/home/michael/sprDev/spring-engine-linux-masterbuild/base/springcontent.sdz] 528987 bytes cached in 181 files
+[f=-000001] [~CBufferedArchive][name=/home/michael/sprDev/spring-engine-linux-masterbuild/base/spring/bitmaps.sdz] 5947433 bytes cached in 131 files
+[f=-000001] [PreGame::GameDataReceived] recording demo to "/home/michael/sprDev/spring-engine-linux-masterbuild/demos/20200320_050557_Comet Catcher Redux_104.0.1-1435-g79d77ca maintenance.sdfz"
+[f=-000001] [~ScopedOnceTimer][PreGame::GameDataReceived] 2116ms
+[f=-000001] [PreGame::UpdateClientNet] received local player number 0 (team 0, allyteam 0), creating LoadScreen
+[f=-000001] [LuaIntro] Searching for new Widgets
+[f=-000001] [LuaIntro] Scanning: LuaIntro/Addons/
+[f=-000001] [LuaIntro] Scanning: LuaIntro/Widgets/
+[f=-000001] [LuaIntro] Scanning: LuaIntro/SystemAddons/
+[f=-000001] [LuaIntro] Scanning: LuaIntro/SystemWidgets/
+[f=-000001] [LuaIntro] Scanning: LuaIntro/chili/
+[f=-000001] [LuaIntro] Found new widget "SpringLogo"
+[f=-000001] [LuaIntro] Found new widget "LoadTexture"
+[f=-000001] [LuaIntro] Found new widget "LoadProgress"
+[f=-000001] [LuaIntro] Found new widget "Main"
+[f=-000001] [LuaIntro] Found new widget "Music"
+[f=-000001] [LuaIntro] Found new widget "WM Stuff"
+[f=-000001] [LuaIntro] Loading widgets   <>=vfs  **=raw  ()=unknown
+[f=-000001] [LuaIntro] Loading widget:      WM Stuff               <wm.lua>
+[f=-000001] [LuaIntro] Loading widget:      LoadProgress           <loadprogress.lua>
+[f=-000001] [LuaIntro] Loading widget:      Main                   <main.lua>
+[f=-000001] [LuaIntro] Loading widget:      LoadTexture            <bg_texture.lua>
+[f=-000001] [LuaIntro] LuaIntro v1.0 (Lua 5.1)
+[f=-000001] [LoadScreen::Init] single-threaded
+[f=-000001] [WatchDog::RegisterThread] registering controls for thread [load]
+[f=-000001] [Game::Load][1] globalQuit=0 threaded=0
+[f=-000001] [LoadScreen::SetLoadMessage] text="Parsing Map Information"
+[f=-000001] SetLobbyFullscreenMode, 1
+[f=-000001] [LoadScreen::SetLoadMessage] text="Loading SMF"
+[f=-000001] [LoadScreen::SetLoadMessage] text="Loading Map (77 MB)"
+[f=-000001] [LoadScreen::SetLoadMessage] text="Loading GameData Definitions"
+[f=-000001] Loading UnitDefs_posts
+[f=-000001] Loading FeatureDefs_posts
+[f=-000001] Loading WeaponDefs_posts
+[f=-000001] Loading ArmorDefs_posts
+[f=-000001] [~ScopedOnceTimer][[defs.lua] loading all *Defs tables:] 136ms
+[f=-000001] [~ScopedOnceTimer][Game::LoadDefs (GameData)] 168ms
+[f=-000001] [LoadScreen::SetLoadMessage] text="Loading Radar Icons"
+[f=-000001] [LoadScreen::SetLoadMessage] text="Loading Sound Definitions"
+[f=-000001] [Sound] Warning: [LoadSoundDefsImpl] sound incomingchat is missing file tag (ignoring)
+[f=-000001] [Sound] [LoadSoundDefsImpl] parsed 343 sounds from gamedata/sounds.lua
+[f=-000001] [~ScopedOnceTimer][Game::LoadDefs (Sound)] 6ms
+[f=-000001] [Game::Load][2] globalQuit=0 forcedQuit=0
+[f=-000001] [LoadScreen::SetLoadMessage] text="Creating Smooth Height Mesh"
+[f=-000001] [~ScopedOnceTimer][SmoothHeightMesh::MakeSmoothMesh] 16ms
+[f=-000001] [LoadScreen::SetLoadMessage] text="Creating QuadField & CEGs"
+[f=-000001] [Init] number of ArmorDefs: 6
+[f=-000001] Warning: [Init] UnitDef "chicken" in ArmorDef "else" already belongs to ArmorDef category 1!
+[f=-000001] [RegisterModelFormats] supported (Assimp) model formats: *.3ds;*.blend;*.dae;*.lwo;*.obj;
+[f=-000001] [LoadScreen::SetLoadMessage] text="Creating Unit Textures"
+[f=-000001] [LoadScreen::SetLoadMessage] text="Creating Sky"
+[f=-000001] [Game::Load][3] globalQuit=0 forcedQuit=0
+[f=-000001] [LoadScreen::SetLoadMessage] text="Loading Weapon Definitions"
+[f=-000001] [~ScopedOnceTimer][Game::PostLoadSim (WeaponDefs)] 308ms
+[f=-000001] [LoadScreen::SetLoadMessage] text="Loading Unit Definitions"
+[f=-000001] [~ScopedOnceTimer][Game::PostLoadSim (UnitDefs)] 45ms
+[f=-000001] [LoadScreen::SetLoadMessage] text="Loading Feature Definitions"
+[f=-000001] [~ScopedOnceTimer][Game::PostLoadSim (FeatureDefs)] 10ms
+[f=-000001] [IPathManager::GetInstance] using HAPFS
+[f=-000001] [LoadScreen::SetLoadMessage] text="Initializing Map Features"
+[f=-000001] [LoadScreen::SetLoadMessage] text="Creating ShadowHandler"
+[f=-000001] [LoadScreen::SetLoadMessage] text="Creating InfoTextureHandler"
+[f=-000001] InfoTexture: shaders
+[f=-000001] [LoadScreen::SetLoadMessage] text="Creating GroundDrawer"
+[f=-000001] [LoadScreen::SetLoadMessage] text="Loading Map Tiles"
+[f=-000001] [LoadScreen::SetLoadMessage] text="Loading Square Textures"
+[f=-000001] [~ScopedOnceTimer][CSMFGroundTextures::ConvolveHeightMap] 1ms
+[f=-000001] Switching to ROAM Mesh Rendering
+[f=-000001] [LoadScreen::SetLoadMessage] text="Creating TreeDrawer"
+[f=-000001] Loaded DecalsDrawer: Legacy
+[f=-000001] [LoadScreen::SetLoadMessage] text="Creating ProjectileDrawer & UnitDrawer"
+[f=-000001] [LoadScreen::SetLoadMessage] text="Creating Projectile Textures"
+[f=-000001] [LoadScreen::SetLoadMessage] text="Creating Water"
+[f=-000001] [Game::Load][4] globalQuit=0 forcedQuit=0
+[f=-000001] [~ScopedOnceTimer][Game::LoadInterface (Console)] 0ms
+[f=-000001] [Game::LoadLua] Lua developer mode disabled
+[f=-000001] [LoadScreen::SetLoadMessage] text="Loading LuaRules"
+[f=-000001] [~ScopedOnceTimer][creg::AutoRegisterCFunctions(LuaRules)] 23ms
+[f=-000001] Synced LuaRules: starting loading
+[f=-000001] [Modular Comm Info] Warning: Modular Comms API warning: Comm data entry in modoption is empty or in invalid format
+[f=-000001] [Modular Comm Info] Warning: Modular Comms API warning: Comm data entry for player Archangel is empty or in invalid format
+[f=-000001] Synced LuaRules: finished loading
+[f=-000001] Unsynced LuaRules: starting loading
+[f=-000001] [Modular Comm Info] Warning: Modular Comms API warning: Comm data entry in modoption is empty or in invalid format
+[f=-000001] [Modular Comm Info] Warning: Modular Comms API warning: Comm data entry for player Archangel is empty or in invalid format
+[f=-000001] Unsynced LuaRules: finished loading
+[f=-000001] [LoadScreen::SetLoadMessage] text="Loading LuaGaia"
+[f=-000001] [LoadScreen::SetLoadMessage] text="Loading LuaUI"
+[f=-000001] LuaUI Entry Point: "luaui.lua"
+[f=-000001] LuaSocket Support: enabled
+[f=-000001] Reloading GUI config from file: LuaUI/ctrlpanel.txt
+[f=-000001] function_override include
+[f=-000001] function_override DONE
+[f=-000001] [LuaUI/] Warning: Headers files aren't supported anymore use "require" instead!
+[f=-000001] [CheckLUAFileAndBackup] Warning: cannot open LuaUI/Config/ZK_order.lua: No such file or directory (Now will find backup file)
+[f=-000001] [CheckLUAFileAndBackup] Warning: cannot open LuaUI/Config/ZK_order.lua.bak: No such file or directory (Backup file not available)
+[f=-000001] nil, LuaUI/Config/ZK_order.lua: No such file or directory, 2
+[f=-000001] nil, LuaUI/Config/ZK_order.lua.bak: No such file or directory, 2
+[f=-000001] [CheckLUAFileAndBackup] Warning: cannot open LuaUI/Config/ZK_data.lua: No such file or directory (Now will find backup file)
+[f=-000001] [CheckLUAFileAndBackup] Warning: cannot open LuaUI/Config/ZK_data.lua.bak: No such file or directory (Backup file not available)
+[f=-000001] nil, LuaUI/Config/ZK_data.lua: No such file or directory, 2
+[f=-000001] nil, LuaUI/Config/ZK_data.lua.bak: No such file or directory, 2
+[f=-000001] localWidgets, false, false, false
+[f=-000001] LuaUI: bound F11 to the widget selector
+[f=-000001] LuaUI: bound CTRL+F11 to tweak mode
+[f=-000001] Spring.GetMyPlayerID(), 0
+[f=-000001] Spring.GetMyPlayerID() done, <table>
+[f=-000001] USE_OLD_CHILI
+[f=-000001] [CheckLUAFileAndBackup] Warning: cannot open LuaUI/Configs/zk_keys.lua: No such file or directory (Now will find backup file)
+[f=-000001] [CheckLUAFileAndBackup] Warning: cannot open LuaUI/Configs/zk_keys.lua.bak: No such file or directory (Backup file not available)
+[f=-000001] nil, LuaUI/Configs/zk_keys.lua: No such file or directory, 2
+[f=-000001] nil, LuaUI/Configs/zk_keys.lua.bak: No such file or directory, 2
+[f=-000001] [i18n] Warning: "hoverheavyraid.name" is not translated in en
+[f=-000001] [i18n] Error: No translation found for "hoverheavyraid.name"
+[f=-000001] Loaded API widget:  Cluster Detection   <api_cluster_detection.lua>
+[f=-000001] Loaded API widget:  Hacky version fix   <hacky_version_fix.lua>
+[f=-000001] Loaded API widget:  Shared Functions    <api_shared_functions.lua>
+[f=-000001] Loaded API widget:  i18n                <api_i18n.lua>
+[f=-000001] Resetting win data
+[f=-000001] Loaded API widget:  Win Counter         <api_win_counter.lua>
+[f=-000001] Loaded API widget:  Draw Mouse Build    <api_draw_mouse_build.lua>
+[f=-000001] Loaded API widget:  Lobby Battle Status  <api_lobby_battle_status.lua>
+[f=-000001] [Modular Comm Info] Warning: Modular Comms API warning: Comm data entry in modoption is empty or in invalid format
+[f=-000001] [Modular Comm Info] Warning: Modular Comms API warning: Comm data entry for player Archangel is empty or in invalid format
+[f=-000001] Loaded API widget:  Modular Comm Info   <api_modularcomms.lua>
+[f=-000001] Loaded API widget:  CommandInsert       <cmd_commandinsert.lua>
+[f=-000001] Loaded API widget:  Chili Framework     <api_chili.lua>
+[f=-000001] Loaded API widget:  Lag (AFK) monitor   <api_lag_monitor.lua>
+[f=-000001] Loaded API widget:  Lups                <lups_wrapper.lua>
+[f=-000001] Loaded API widget:  Pre-Selection Handler  <api_preselection.lua>
+[f=-000001] Loaded widget:  Chili Highlight     <gui_chili_highlight.lua>
+[f=-000001] Loaded widget:  Save/Load API       <api_saveload.lua>
+[f=-000001] Loaded widget:  Selection Hierarchy  <gui_selection_hierarchy.lua>
+[f=-000001] Loaded widget:  Draw After Chili    <gui_api_draw_after_chili.lua>
+[f=-000001] Hardware mouse-cursor is enabled!
+[f=-000001] Set "shadows" config-parameter to 1
+[f=-000001] Ground-decal rendering is enabled!
+[f=-000001] Set maximum particles to: 25000
+[f=-000001] Set UnitLodDist to 500
+[f=-000001] Set UnitIconDist to 200
+[f=-000001] model shaders is enabled!
+[f=-000001] SetLobbyButtonEnabled, false
+[f=-000001] Loaded widget:  EPIC Menu           <gui_epicmenu.lua>
+[f=-000001] Loaded widget:  Chili Minimap       <gui_chili_minimap.lua>
+[f=-000001] Loaded widget:  Chili Widget Selector  <api_chili_widgetselector.lua>
+[f=-000001] Loaded widget:  Depth of Field Shader  <gfx_dof.lua>
+[f=-000001] Loaded widget:  Hide Interface and Mouse Cursor  <gui_hide_interface_action.lua>
+[f=-000001] Loaded widget:  Deferred rendering  <gfx_deferred_rendering.lua>
+[f=-000001] Mexspot Fetcher fetching
+[f=-000001] Loaded widget:  Mexspot Fetcher     <api_mexspot_fetcher.lua>
+[f=-000001] Team highlighting: Disabled
+[f=-000001] Loaded widget:  Teamhighlight option  <gui_teamhighlight.lua>
+[f=-000001] Loaded widget:  Local Team Colors   <gui_local_colors.lua>
+[f=-000001] Loaded widget:  Display Keys 2      <gui_chili_display_keys.lua>
+[f=-000001] Loaded widget:  Save Game Menu      <gui_savegame.lua>
+[f=-000001] Loaded widget:  Specific Unit Reclaimer  <unit_unit_reclaimer.lua>
+[f=-000001] Loaded widget:  Area-reclaim trees  <unit_tree_reclaim.lua>
+[f=-000001] Loaded widget:  One click weapon handler  <unit_oneclick_weapon.lua>
+[f=-000001] Loaded widget:  Attack Command Helper  <cmd_attack_command_helper.lua>
+[f=-000001] Loaded widget:  Unit Target Command Helper  <gui_unit_target_command_helper.lua>
+[f=-000001] Loaded widget:  Selection Modkeys   <gui_selection_modkeys.lua>
+[f=-000001] Loaded widget:  Chili Commander Upgrade  <gui_chili_commander_upgrade.lua>
+[f=-000001] Loaded widget:  HealthBars          <unit_healthbars.lua>
+[f=-000001] Loaded widget:  Noises              <snd_noises.lua>
+[f=-000001] Loaded widget:  Terraform Icon Draw  <unit_terraform_draw.lua>
+[f=-000001] Loaded widget:  Unit Icons          <unit_icons.lua>
+[f=-000001] Loaded widget:  Chili Vote Display  <gui_chili_vote.lua>
+[f=-000001] Loaded widget:  Auto Patrol Nanos   <unit_auto_patrol_nanos.lua>
+[f=-000001] Loaded widget:  BuildETA            <gui_build_eta.lua>
+[f=-000001] Loaded widget:  Cloak Fire State 2  <unit_cloakfirestate2.lua>
+[f=-000001] Loaded widget:  Double-Click attack-move  <cmd_doubleclick_attackmove.lua>
+[f=-000001] Loaded widget:  EndGame Stats       <gui_chili_endgraph.lua>
+[f=-000001] Loaded widget:  Initial Queue ZK    <unit_initial_queue.lua>
+[f=-000001] Loaded widget:  Objectives          <mission_objectives.lua>
+[f=-000001] Loaded widget:  Unit Marker Zero-K  <unit_marker.lua>
+[f=-000001] Loaded widget:  Antinuke Coverage   <gui_antinuke_coverage.lua>
+[f=-000001] Loaded widget:  Area Attack Tweak   <cmd_area_attack_tweak.lua>
+[f=-000001] Loaded widget:  Attack Warning      <unit_attack_warning.lua>
+[f=-000001] Loaded widget:  Auto First Build Facing  <init_autofirstbuildfacing.lua>
+[f=-000001] Epicmenu: ` (removefromgroup, Auto Group)
+[f=-000001] Loaded widget:  Auto Group          <unit_auto_group.lua>
+[f=-000001] Loaded widget:  Autoquit            <autoquit.lua>
+[f=-000001] Loaded widget:  Blast Radius        <gui_blastradius.lua>
+[f=-000001] Loaded widget:  CameraShake         <camera_shake.lua>
+[f=-000001] Loaded widget:  Cheat Sheet         <gui_chili_cheats.lua>
+[f=-000001] Loaded widget:  Chili AI Set Start  <gui_chili_ai_start_pos.lua>
+[f=-000001] Loaded widget:  Chili Economy Panel Default  <gui_chili_economy_panel2.lua>
+[f=-000001] Loaded widget:  Chili EndGame Window  <gui_chili_endgamewindow.lua>
+[f=-000001] Loaded widget:  Chili Inactivity Win  <gui_chili_inactivity_win.lua>
+[f=-000001] Loaded widget:  Chili Nuke Warning  <gui_chili_nuke_warning.lua>
+[f=-000001] Loaded widget:  Chili Rejoining Progress Bar  <gui_chili_rejoin_progress.lua>
+[f=-000001] Loaded widget:  Chili Selections & CursorTip v2  <gui_chili_selections_and_cursortip.lua>
+[f=-000001] Loaded widget:  Chili Spectator Panels  <gui_chili_spectator_panels.lua>
+[f=-000001] Loaded widget:  Comm-n-Elo Startpos. Info  <init_startpointelocom_info.lua>
+[f=-000001] Loaded widget:  Context Menu        <gui_contextmenu.lua>
+[f=-000001] Loaded widget:  Darkening           <gui_darkening.lua>
+[f=-000001] Loaded widget:  Decloak Range       <unit_decloak_range.lua>
+[f=-000001] Loaded widget:  Decoration Handler  <unit_decoration_handler.lua>
+[f=-000001] Loaded widget:  Defense Range Zero-K  <gui_defenserange.lua>
+[f=-000001] Loaded widget:  Easy Facing         <gui_easyfacing.lua>
+[f=-000001] Loaded widget:  Economic Victory Announcer  <gui_economic_victory_announcer.lua>
+[f=-000001] Loaded widget:  Ferry Points        <cmd_ferry_points.lua>
+[f=-000001] Loaded widget:  Galaxy Battle Handler  <mission_galaxy_battle_handler.lua>
+[f=-000001] DesignEvent, events_2018_04_25:game_v2:begin_load, nil
+[f=-000001] Loaded widget:  Game Analytics Handler  <api_game_analytics.lua>
+[f=-000001] Loaded widget:  Ghost Site          <unit_ghostsite.lua>
+[f=-000001] Loaded widget:  Grab Input          <api_grabinput.lua>
+[f=-000001] Loaded widget:  Guard Remove        <cmd_guard_remove.lua>
+[f=-000001] Loaded widget:  Haven Handler       <gui_havens.lua>
+[f=-000001] Loaded widget:  Highlight Geos      <gui_highlight_geos.lua>
+[f=-000001] Loaded widget:  In-game Guide       <gui_ingame_guide.lua>
+[f=-000001] Loaded widget:  In-game Ignore      <ignore.lua>
+[f=-000001] Loaded widget:  Keep Target         <cmd_keep_target.lua>
+[f=-000001] Loaded widget:  Local Widgets Config  <localwidgets.lua>
+[f=-000001] Loaded widget:  MetalFeatures (new)  <gui_metal_features_new.lua>
+[f=-000001] Mex Placement Initialised with 80 spots.
+[f=-000001] Loaded widget:  Mex Placement Handler  <cmd_mex_placement.lua>
+[f=-000001] Loaded widget:  MinimapEvents       <minimap_events.lua>
+[f=-000001] Loaded widget:  Misc default command replacements  <unit_default_commands.lua>
+[f=-000001] Loaded widget:  Missile Silo Commands  <cmd_missile_silo.lua>
+[f=-000001] Loaded widget:  Missile Silo Range  <missilesilo_range.lua>
+[f=-000001] Loaded widget:  Mission Results Handler  <mission_results.lua>
+[f=-000001] Loaded widget:  Morph Finished notification  <unit_morph_finished.lua>
+[f=-000001] Loaded widget:  Music Player        <snd_music.lua>
+[f=-000001] Loaded widget:  NoDuplicateOrders   <cmd_no_duplicate_orders.lua>
+[f=-000001] Loaded widget:  Orbit Command       <cmd_orbit.lua>
+[f=-000001] Loaded widget:  Point Tracker       <gui_point_tracker.lua>
+[f=-000001] Loaded widget:  Projectile Lights   <gfx_projectile_lights.lua>
+[f=-000001] Loaded widget:  Raw Move Issue      <cmd_raw_move_issue.lua>
+[f=-000001] Loaded widget:  ReclaimInfo         <gui_reclaiminfo.lua>
+[f=-000001] Loaded widget:  Set Springsettings and Config  <api_set_springsettings.lua>
+[f=-000001] Loaded widget:  Show All Commands v2  <unit_showallcommands_2.lua>
+[f=-000001] Loaded widget:  Show selected unit range  <unit_show_selected_range.lua>
+[f=-000001] Loaded widget:  Showeco and Grid Drawer  <gui_showeco_action.lua>
+[f=-000001] Loaded widget:  Simple Settings     <gui_simple_settings.lua>
+[f=-000001] Loaded widget:  Smart Bombers       <unit_smart_bombers.lua>
+[f=-000001] Loaded widget:  SmoothCam           <camera_smoothcam.lua>
+[f=-000001] Loaded widget:  Spectate Selected Team  <gui_spectate_selected_team.lua>
+[f=-000001] Loaded widget:  Start Point Remover & Comm Selector  <init_start_point_remover.lua>
+[f=-000001] Loaded widget:  Startup Info and Selector  <init_startup_info_selector.lua>
+[f=-000001] Loaded widget:  State Reverse Toggle  <cmd_state_reverse_toggle.lua>
+[f=-000001] Loaded widget:  Stereo3D            <gfx_stereo3d.lua>
+[f=-000001] Loaded widget:  Stockpiler          <unit_stockpile.lua>
+[f=-000001] Loaded widget:  Stop Self-D         <cmd_stop_selfd.lua>
+[f=-000001] Loaded widget:  Transport AI        <unit_transport_ai.lua>
+[f=-000001] Loaded widget:  Transport Load Double Tap  <cmd_select_load.lua>
+[f=-000001] Loaded widget:  Voice Assistant     <unit_voice.lua>
+[f=-000001] Loaded widget:  Attack AoE          <gui_attack_aoe.lua>
+[f=-000001] Loaded widget:  Chili Custom Modoptions Info  <gui_custommodoptions_info.lua>
+[f=-000001] Loaded widget:  Icon Sets           <gui_icon_sets.lua>
+[f=-000001] Loaded widget:  Persistent Build Spacing  <gui_persistent_build_spacing.lua>
+[f=-000001] Loaded widget:  PlanetWars Info     <gui_planetwars_info.lua>
+[f=-000001] <Replay control buttons> Live mode. Widget removed.
+[f=-000001] Loaded widget:  Replay control buttons  <gui_replay_controls.lua>
+[f=-000001] Loaded widget:  Smooth Scroll       <camera_smooth_move.lua>
+[f=-000001] Loaded widget:  Unit Start State    <unit_start_state.lua>
+[f=-000001] Loaded widget:  UnitNoStuckInFactory  <unit_nostuck_infactory.lua>
+[f=-000001] Loaded widget:  Commands FX         <gfx_commands_fx.lua>
+[f=-000001] Loaded widget:  MessageBoxes ZK     <mission_messagebox_zk.lua>
+[f=-000001] Loaded widget:  UnitShapes          <unit_shapes.lua>
+[f=-000001] Loaded widget:  Map Edge Extension  <map_edge_extension.lua>
+[f=-000001] Loaded widget:  AllyCursors         <gui_ally_cursors.lua>
+[f=-000001] Epicmenu: Q (hotkey, Building Starter)
+[f=-000001] Loaded widget:  Building Starter    <unit_building_starter.lua>
+[f=-000001] Loaded widget:  Cloaker Guard       <unit_cloaker_guard.lua>
+[f=-000001] Loaded widget:  Disable Bad Widgets  <api_widget_disabler.lua>
+[f=-000001] Loaded widget:  Gadget Icons        <api_gadget_icons.lua>
+[f=-000001] Loaded widget:  Lua Metal Decals    <gfx_dynamic_metal.lua>
+[f=-000001] Loaded widget:  Rank Icons 2        <unit_rank_icons.lua>
+[f=-000001] Loaded widget:  Selection Send      <api_selectionsend.lua>
+[f=-000001] Loaded widget:  Shield Guard        <unit_shield_guard.lua>
+[f=-000001] Loaded widget:  State Icons         <unit_state_icons.lua>
+[f=-000001] Loaded widget:  LupsManager         <gfx_lups_manager.lua>
+[f=-000001] Loaded widget:  Smoke Signals       <gfx_lups_smokesignal.lua>
+[f=-000001] Loaded widget:  Units on Fire       <gfx_lups_units_on_fire.lua>
+[f=-000001] Loaded widget:  Newton Firezone     <cmd_newton_firezone.lua>
+[f=-000001] Loaded widget:  Receive Units Indicator  <gui_recv_indicator.lua>
+[f=-000001] Loaded widget:  Vertical Line on Radar Dots v2  <gui_vertlineaid.lua>
+[f=-000001] Loaded widget:  Auto-toggle false color vision  <gui_auto_engine_falsecolor.lua>
+[f=-000001] Loaded widget:  Chili Crude Player List  <gui_chili_crudeplayerlist.lua>
+[f=-000001] Loaded widget:  Chili Docking       <api_chili_docking.lua>
+[f=-000001] Loaded widget:  Chili Pro Console   <gui_chili_proconsole_test.lua>
+[f=-000001] Loaded widget:  HUD Presets         <gui_hud_presets.lua>
+[f=-000001] [EPIC Menu] Error: <EPIC Menu> Error in loading custom widget settings in Lasso Terraform GUI, order table incorrect.
+[f=-000001] [EPIC Menu] Error: <EPIC Menu> Error in loading custom widget settings in Lasso Terraform GUI, order table incorrect.
+[f=-000001] Loaded widget:  Lasso Terraform GUI  <gui_lasso_terraform.lua>
+[f=-000001] Loaded widget:  Image Preloader     <dbg_img_preload.lua>
+[f=-000001] Epicmenu: alt+Q (select_factory_1, Chili Core Selector)
+[f=-000001] Epicmenu: alt+W (select_factory_2, Chili Core Selector)
+[f=-000001] Epicmenu: alt+E (select_factory_3, Chili Core Selector)
+[f=-000001] Epicmenu: alt+R (select_factory_4, Chili Core Selector)
+[f=-000001] Epicmenu: alt+T (select_factory_5, Chili Core Selector)
+[f=-000001] Loaded widget:  Chili Core Selector  <gui_chili_core_selector.lua>
+[f=-000001] Loaded widget:  Custom Markers      <gui_custom_markers.lua>
+[f=-000001] Loaded widget:  Default Group Recall Fix  <gui_group_recall_fix.lua>
+[f=-000001] Loaded widget:  Select Keys         <gui_selectkeys.lua>
+[f=-000001] Loaded widget:  Start Boxes         <minimap_startbox_new.lua>
+[f=-000001] Epicmenu: tab (sharemenu, Chili Share menu v1.24)
+[f=-000001] Loaded widget:  Chili Share menu v1.24  <gui_chili_share.lua>
+[f=-000001] Loaded widget:  Pause Screen        <gui_pausescreen.lua>
+[f=-000001] Loaded widget:  Restricted Zones    <gui_restrictedzones.lua>
+[f=-000001] Loaded widget:  Jumpjet GUI         <gui_jumpjets.lua>
+[f=-000001] Loaded widget:  CustomFormations2   <cmd_customformations2.lua>
+[f=-000001] SetSunLighting
+[f=-000001] Loaded widget:  Sun and Atmosphere Handler.  <gfx_sun_and_atmosphere.lua>
+[f=-000001] Loaded widget:  Chili Integral Menu  <gui_chili_integral_menu.lua>
+[f=-000001] Loaded widget:  Color Blindness Correction  <gfx_color_blindness_correction.lua>
+[f=-000001] Lua garbage collection rate: 30/s
+[f=-000001] Loaded widget:  GC Control          <api_gc_control.lua>
+[f=-000001] Removed 'GC at >100MB': disabled.
+[f=-000001] Loaded widget:  GC at >300MB        <dbg_forcegc_spring97.lua>
+[f=-000001] Loaded widget:  Key Unbinder 1      <dbg_key_unbinder.lua>
+[f=-000001] Loaded widget:  Layout Handler      <cmd_layout_handler.lua>
+[f=-000001] Loaded widget:  Outline Shader      <gfx_outline_shader.lua>
+[f=-000001] Epicmenu: B (hotkey_toggle, Persistent Build Height)
+[f=-000001] Epicmenu: C (hotkey_raise, Persistent Build Height)
+[f=-000001] Epicmenu: V (hotkey_lower, Persistent Build Height)
+[f=-000001] Loaded widget:  Persistent Build Height  <gui_persistent_build_height.lua>
+[f=-000001] Loaded widget:  Text To Speech Control  <snd_text_to_speech.lua>
+[f=-000001] Writing last game win data
+[f=-000001] LuaUI v0.3
+[f=-000001] [Game::Load][5] globalQuit=0 forcedQuit=0
+[f=-000001] [LoadScreen::SetLoadMessage] text="[LoadFinalize] finalizing PFS"
+[f=-000001] [Path] [PathEstimator::CalcHash][Init] BLOCK_SIZE=16
+[f=-000001] [Path] [PathEstimator::CalcHash][Init] PATHESTIMATOR_VERSION=100
+[f=-000001] [Path] [PathEstimator::CalcHash][Init] heightMapChecksum=95d9f02f
+[f=-000001] [Path] [PathEstimator::CalcHash][Init] typeMapChecksum=37560093
+[f=-000001] [Path] [PathEstimator::CalcHash][Init] moveDefChecksum=c5de8888
+[f=-000001] [Path] [PathEstimator::CalcHash][Init] blockMapChecksum=29a
+[f=-000001] [Path] [PathEstimator::CalcHash][Init] estimatorHashCode=930e7c58
+[f=-000001] [Path] [PathEstimator::ReadFile] hash=930e7c58 file="cache/104dev-maintenance/paths/Comet Catcher Redux.pe-930e7c58.zip" (exists=0)
+[f=-000001] [LoadScreen::SetLoadMessage] text="[InitEstimator] creating PE16 cache with 16 PF threads (132 MB)"
+[f=-000001] [LoadScreen::SetLoadMessage] text="[EstimatePathCosts] precached 7 of 3072 blocks"
+[f=-000001] [LoadScreen::SetLoadMessage] text="[EstimatePathCosts] precached 392 of 3072 blocks"
+[f=-000001] [LoadScreen::SetLoadMessage] text="[EstimatePathCosts] precached 586 of 3072 blocks"
+[f=-000001] [LoadScreen::SetLoadMessage] text="[EstimatePathCosts] precached 795 of 3072 blocks"
+[f=-000001] [LoadScreen::SetLoadMessage] text="[EstimatePathCosts] precached 993 of 3072 blocks"
+[f=-000001] [LoadScreen::SetLoadMessage] text="[EstimatePathCosts] precached 1189 of 3072 blocks"
+[f=-000001] [LoadScreen::SetLoadMessage] text="[EstimatePathCosts] precached 1395 of 3072 blocks"
+[f=-000001] [LoadScreen::SetLoadMessage] text="[EstimatePathCosts] precached 1594 of 3072 blocks"
+[f=-000001] [LoadScreen::SetLoadMessage] text="[EstimatePathCosts] precached 1807 of 3072 blocks"
+[f=-000001] [LoadScreen::SetLoadMessage] text="[EstimatePathCosts] precached 2013 of 3072 blocks"
+[f=-000001] [LoadScreen::SetLoadMessage] text="[EstimatePathCosts] precached 2213 of 3072 blocks"
+[f=-000001] [LoadScreen::SetLoadMessage] text="[EstimatePathCosts] precached 2413 of 3072 blocks"
+[f=-000001] [LoadScreen::SetLoadMessage] text="[EstimatePathCosts] precached 2605 of 3072 blocks"
+[f=-000001] [LoadScreen::SetLoadMessage] text="[EstimatePathCosts] precached 2799 of 3072 blocks"
+[f=-000001] [LoadScreen::SetLoadMessage] text="[EstimatePathCosts] precached 2994 of 3072 blocks"
+[f=-000001] [LoadScreen::SetLoadMessage] text="[InitEstimator] writing PE16 cache-file pe-930e7c58"
+[f=-000001] [Path] [PathEstimator::WriteFile] hash=930e7c58 file="cache/104dev-maintenance/paths/Comet Catcher Redux.pe-930e7c58.zip" (exists=0)
+[f=-000001] [LoadScreen::SetLoadMessage] text="[InitEstimator] written PE16 cache-file pe-930e7c58"
+[f=-000001] [Path] [PathEstimator::CalcHash][Init] BLOCK_SIZE=32
+[f=-000001] [Path] [PathEstimator::CalcHash][Init] PATHESTIMATOR_VERSION=100
+[f=-000001] [Path] [PathEstimator::CalcHash][Init] heightMapChecksum=95d9f02f
+[f=-000001] [Path] [PathEstimator::CalcHash][Init] typeMapChecksum=37560093
+[f=-000001] [Path] [PathEstimator::CalcHash][Init] moveDefChecksum=c5de8888
+[f=-000001] [Path] [PathEstimator::CalcHash][Init] blockMapChecksum=29a
+[f=-000001] [Path] [PathEstimator::CalcHash][Init] estimatorHashCode=930e7c68
+[f=-000001] [Path] [PathEstimator::ReadFile] hash=930e7c68 file="cache/104dev-maintenance/paths/Comet Catcher Redux.pe2-930e7c68.zip" (exists=0)
+[f=-000001] [LoadScreen::SetLoadMessage] text="[InitEstimator] creating PE32 cache with 16 PF threads (28 MB)"
+[f=-000001] [LoadScreen::SetLoadMessage] text="[EstimatePathCosts] precached 3 of 768 blocks"
+[f=-000001] [LoadScreen::SetLoadMessage] text="[EstimatePathCosts] precached 59 of 768 blocks"
+[f=-000001] [LoadScreen::SetLoadMessage] text="[EstimatePathCosts] precached 129 of 768 blocks"
+[f=-000001] [LoadScreen::SetLoadMessage] text="[EstimatePathCosts] precached 183 of 768 blocks"
+[f=-000001] [LoadScreen::SetLoadMessage] text="[EstimatePathCosts] precached 231 of 768 blocks"
+[f=-000001] [LoadScreen::SetLoadMessage] text="[EstimatePathCosts] precached 282 of 768 blocks"
+[f=-000001] [LoadScreen::SetLoadMessage] text="[EstimatePathCosts] precached 332 of 768 blocks"
+[f=-000001] [LoadScreen::SetLoadMessage] text="[EstimatePathCosts] precached 395 of 768 blocks"
+[f=-000001] [LoadScreen::SetLoadMessage] text="[EstimatePathCosts] precached 499 of 768 blocks"
+[f=-000001] [LoadScreen::SetLoadMessage] text="[EstimatePathCosts] precached 553 of 768 blocks"
+[f=-000001] [LoadScreen::SetLoadMessage] text="[EstimatePathCosts] precached 609 of 768 blocks"
+[f=-000001] [LoadScreen::SetLoadMessage] text="[EstimatePathCosts] precached 663 of 768 blocks"
+[f=-000001] [LoadScreen::SetLoadMessage] text="[EstimatePathCosts] precached 724 of 768 blocks"
+[f=-000001] [LoadScreen::SetLoadMessage] text="[InitEstimator] writing PE32 cache-file pe2-930e7c68"
+[f=-000001] [Path] [PathEstimator::WriteFile] hash=930e7c68 file="cache/104dev-maintenance/paths/Comet Catcher Redux.pe2-930e7c68.zip" (exists=0)
+[f=-000001] [LoadScreen::SetLoadMessage] text="[InitEstimator] written PE32 cache-file pe2-930e7c68"
+[f=-000001] [LoadScreen::SetLoadMessage] text="[LoadFinalize] finalized PFS (760ms, checksum ab70ffcd)"
+[f=-000001] [LoadScreen::SetLoadMessage] text="Loading Skirmish AIs"
+[f=-000001] [EOH::CreateSkirmishAI(id=0)]
+[f=-000001] [AIWrapper::PreInit][AI=0 team=1] creating callbacks
+[f=-000001] Skirmish AI <Circuit-stable>: 1.0.7
+[f=-000001] Skirmish AI <Circuit-stable>: Loading the Terrain-Map ...
+[f=-000001] Skirmish AI <Circuit-stable>:   Water Damage: 0.000000
+[f=-000001] Skirmish AI <Circuit-stable>:   Sector-Map Block Size: 64
+[f=-000001] Skirmish AI <Circuit-stable>:   Sector-Map Size: 12288 (x96, z128)
+[f=-000001] Skirmish AI <Circuit-stable>:   Determining Usable Terrain for all units ...
+[f=-000001] Skirmish AI <Circuit-stable>:   Map Land Percent: 100.00%
+[f=-000001] Skirmish AI <Circuit-stable>:   Minimum Elevation: 0.00
+[f=-000001] Skirmish AI <Circuit-stable>:   Immobile-Type: Min/Max Elevation=(-0.000000 / any)  	Is buildable across 100.000000% of the map. (used by 27 unit-defs)
+[f=-000001] Skirmish AI <Circuit-stable>:   Immobile-Type: Min/Max Elevation=(-20.000000 / any)  	Is buildable across 100.000000% of the map. (used by 1 unit-defs)
+[f=-000001] Skirmish AI <Circuit-stable>:   Immobile-Type: Min/Max Elevation=(any / any)  	Is buildable across 100.000000% of the map. (used by 30 unit-defs)
+[f=-000001] Skirmish AI <Circuit-stable>:   Immobile-Type: Min/Max Elevation=(any / any)  	Is buildable across 100.000000% of the map. (used by 36 unit-defs)
+[f=-000001] Skirmish AI <Circuit-stable>:   Immobile-Type: Min/Max Elevation=(any / -15.000000)  	Is buildable across 0.000000% of the map. (used by 1 unit-defs)
+[f=-000001] Skirmish AI <Circuit-stable>:   Immobile-Type: Min/Max Elevation=(any / -10.000000)  	Is buildable across 0.000000% of the map. (used by 1 unit-defs)
+[f=-000001] Skirmish AI <Circuit-stable>:   Mobile-Type: Min/Max Elevation=(-5000.00 / any)  	Max Slope=(0.41))  	Move-Data used:'akbot6'  	Has 1 Map-Area(s) occupying 96.40% of the map. (used by 351 unit-defs)
+[f=-000001] Skirmish AI <Circuit-stable>:   Mobile-Type: Min/Max Elevation=(any / -15.00)  	Max Slope=(1.00))  	Move-Data used:'boat5'  	Has 0 Map-Area(s) occupying 0.00% of the map. (used by 6 unit-defs)
+[f=-000001] Skirmish AI <Circuit-stable>:   Mobile-Type: Min/Max Elevation=(-22.00 / any)  	Max Slope=(0.41))  	Move-Data used:'kbot4'  	Has 1 Map-Area(s) occupying 96.40% of the map. (used by 32 unit-defs)
+[f=-000001] Skirmish AI <Circuit-stable>:   Mobile-Type: Min/Max Elevation=(-16.00 / any)  	Max Slope=(1.00))  	Move-Data used:'tkbot2'  	Has 1 Map-Area(s) occupying 100.00% of the map. (used by 5 unit-defs)
+[f=-000001] Skirmish AI <Circuit-stable>:   Mobile-Type: Min/Max Elevation=(any / any)  	Max Slope=(0.41))  	Move-Data used:'bhover5'  	Has 1 Map-Area(s) occupying 96.40% of the map. (used by 4 unit-defs)
+[f=-000001] Skirmish AI <Circuit-stable>:   Mobile-Type: Min/Max Elevation=(-5000.00 / any)  	Max Slope=(1.00))  	Move-Data used:'atkbot3'  	Has 1 Map-Area(s) occupying 100.00% of the map. (used by 4 unit-defs)
+[f=-000001] Skirmish AI <Circuit-stable>:   Mobile-Type: Min/Max Elevation=(-22.00 / any)  	Max Slope=(1.00))  	Move-Data used:'tkbot4'  	Has 1 Map-Area(s) occupying 100.00% of the map. (used by 11 unit-defs)
+[f=-000001] Skirmish AI <Circuit-stable>:   Mobile-Type: Min/Max Elevation=(any / any)  	Max Slope=(0.11))  	Move-Data used:'hover3'  	Has 1 Map-Area(s) occupying 88.28% of the map. (used by 13 unit-defs)
+[f=-000001] Skirmish AI <Circuit-stable>:   Mobile-Type: Min/Max Elevation=(-16.00 / any)  	Max Slope=(0.41))  	Move-Data used:'skbot2'  	Has 1 Map-Area(s) occupying 96.40% of the map. (used by 3 unit-defs)
+[f=-000001] Skirmish AI <Circuit-stable>:   Mobile-Type: Min/Max Elevation=(any / -5.00)  	Max Slope=(1.00))  	Move-Data used:'boat4'  	Has 0 Map-Area(s) occupying 0.00% of the map. (used by 9 unit-defs)
+[f=-000001] Skirmish AI <Circuit-stable>:   Mobile-Type: Min/Max Elevation=(-22.00 / any)  	Max Slope=(0.11))  	Move-Data used:'tank4'  	Has 1 Map-Area(s) occupying 88.28% of the map. (used by 20 unit-defs)
+[f=-000001] Skirmish AI <Circuit-stable>: No config file! (LuaRules/Configs/CircuitAI/stable/Comet_Catcher_Redux.json)
+[f=-000001] Skirmish AI <Circuit-stable>: Circuit 1.0.7 (0) Initialized!
+[f=-000001] [AIWrapper::SendUnitEvents][AI=0 team=1] numUnits=0
+[f=-000001] [~ScopedOnceTimer][Game::LoadSkirmishAIs::CreateAI(id=0)] 318ms
+[f=-000001] [~ScopedOnceTimer][Game::LoadSkirmishAIs] 321ms
+[f=-000001] [Game::Load][6] globalQuit=0 forcedQuit=0
+[f=-000001] [LuaMemPool::LogStats][handle=LuaIntro (unsynced)] index=2 {numAllocs[*],allocSums[*]}={0,0} {int,ext,rec}Allocs={11100,0,0} {chunk,block}Bytes={0,0}
+[f=-000001] [LuaMenu] Error: In RecvLuaMsg(): [string "LuaMenu/Widgets/api_discord_handler.lua"]:113: attempt to index field 'WrapperLoopback' (a nil value)
+[f=-000001] [LuaMenu] Error: Removed widget: <Ingame Interface>
+[f=-000001] DesignEvent, events_2018_04_25:game_v2:loaded_player, nil
+[f=-000001] Mex Placement Initialised with 80 spots.
+[f=-000001] UpdateInterfacePreset, minimapRight
+[f=-000001] Loading:  LuaUI/Widgets/gui_chili_global_commands.lua
+[f=-000001] [Key Unbinder 1] Unbinding keys for action screenshot
+[f=-000001] Removed:  LuaUI/Widgets/dbg_key_unbinder.lua
+[f=-000001] TotalHideLobbyInterface, true
+[f=-000001] [GR::ConfigNotify][1] key=Fullscreen val=0 (cfgFullScreen=0 sdlFullScreen=0) newRes=<1920,1080>
+[f=-000001] GameID: 7387745e5fb49d68d4814d134ef70f68
+[f=-000001] Connection attempt from Archangel
+[f=-000001]  -> Version: 104.0.1-1435-g79d77ca maintenance [Linux 64-bit (native)]
+[f=-000001]  -> Connection established (given id 0)
+[f=-000001] [Game::ClientReadNet][LOGMSG] sender="Archangel" string="[PreGame::GameDataReceived][map-checksums]
+	server=ef2b098cee0feec3294121447d55c77e5a27d168e4b745dafbf2c6b53b5a713bab16966372705639b9432a30f2288c1423ade51c69b003f7fa058d801599a67b
+	client=ef2b098cee0feec3294121447d55c77e5a27d168e4b745dafbf2c6b53b5a713bab16966372705639b9432a30f2288c1423ade51c69b003f7fa058d801599a67b"
+[f=-000001] [Game::ClientReadNet][LOGMSG] sender="Archangel" string="[PreGame::GameDataReceived][mod-checksums]
+	server=f7404aa961d500a755dcc7800a1b7521c692a561150e526a6287cd6d0b653299f7876b4f2b1ac3c7226a872326565e2e301f547b568f5a333f37a63407309fac
+	client=f7404aa961d500a755dcc7800a1b7521c692a561150e526a6287cd6d0b653299f7876b4f2b1ac3c7226a872326565e2e301f547b568f5a333f37a63407309fac"
+[f=-000001] [Game::ClientReadNet][LOGMSG] sender="Archangel" string="[PE::CalcChecksum][BLK_SIZE=16][SHA_DATA=775904b7885d6e685a9daa677c1ddf64bef449d8b40269aaacb0f3284af16871f5154d9c4197e2e14d92c23b10c567b6a7222e27c9ad305c4caa41e1d4cf6a34]"
+[f=-000001] [Game::ClientReadNet][LOGMSG] sender="Archangel" string="[PE::CalcChecksum][BLK_SIZE=32][SHA_DATA=3417fb160bce1b6a9d08be61f455783131b427b4174e2db6a7895c93ef50d17421af565ffa0ead71e0581660c664556453c21e8587c905fcf929c1c03e074b97]"
+[f=-000001] Epicmenu: Switching to Default camera mode
+[f=-000001] 
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SIZE_CHANGED][1] fullScreen=0
+[f=-000001] [GR::UpdateGLConfigs]
+[f=-000001] [GR::UpdateGLGeometry][1] winSize=<1920,1080>
+[f=-000001] [GR::UpdateGLGeometry][2] winSize=<1920,1080>
+[f=-000001] [GR::InitGLState]
+[f=-000001] [GR::LogDisplayMode] display-mode set to 1920x1080x24bpp@120Hz (windowed::borderless)
+[f=-000001] [~ScopedOnceTimer][GlobalRendering::UpdateGL] 0ms
+[f=-000001] [Game::ResizeEvent][1]
+[f=-000001] [~CRectangleOverlapHandler] 0% overlap reduction
+[f=-000001] [~ScopedOnceTimer][Game::ViewResize] 50ms
+[f=-000001] [Game::ResizeEvent][2]
+[f=-000001] UpdateInterfacePreset, minimapRight
+[f=-000001] [~ScopedOnceTimer][EventHandler::ViewResize] 28ms
+[f=-000001] [~ScopedOnceTimer][ActiveController::ResizeEvent] 79ms
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SIZE_CHANGED][2]
+
+[f=-000001] [Game::ClientReadNet] local skirmish AI "CircuitAIstable(1)" (ID: 0, Short-Name: "CircuitAI", Version: "") took over control of team 1
+[f=-000001] [Game::ClientReadNet][LOGMSG] sender="Archangel" string="[Game::Load][lua{Rules,Gaia}={0x474f08d0,(nil)}]"
+[f=-000001] 
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SIZE_CHANGED][1] fullScreen=0
+[f=-000001] [GR::UpdateGLConfigs]
+[f=-000001] [GR::UpdateGLGeometry][1] winSize=<1685,941>
+[f=-000001] [GR::UpdateGLGeometry][2] winSize=<1685,941>
+[f=-000001] [GR::InitGLState]
+[f=-000001] [GR::LogDisplayMode] display-mode set to 1685x941x24bpp@120Hz (windowed::borderless)
+[f=-000001] [~ScopedOnceTimer][GlobalRendering::UpdateGL] 198ms
+[f=-000001] [Game::ResizeEvent][1]
+[f=-000001] [~CRectangleOverlapHandler] 0% overlap reduction
+[f=-000001] [~ScopedOnceTimer][Game::ViewResize] 87ms
+[f=-000001] [Game::ResizeEvent][2]
+[f=-000001] UpdateInterfacePreset, minimapRight
+[f=-000001] [~ScopedOnceTimer][EventHandler::ViewResize] 29ms
+[f=-000001] [~ScopedOnceTimer][ActiveController::ResizeEvent] 117ms
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SIZE_CHANGED][2]
+
+[f=-000001] 
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SHOWN][1] fullScreen=0
+[f=-000001] [~ScopedOnceTimer][Sound::Iconified] 0ms
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SHOWN][2]
+
+[f=-000001] 
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SIZE_CHANGED][1] fullScreen=0
+[f=-000001] [GR::UpdateGLConfigs]
+[f=-000001] [GR::UpdateGLGeometry][1] winSize=<1885,1053>
+[f=-000001] [GR::UpdateGLGeometry][2] winSize=<1885,1053>
+[f=-000001] [GR::InitGLState]
+[f=-000001] [GR::LogDisplayMode] display-mode set to 1885x1053x24bpp@120Hz (windowed::borderless)
+[f=-000001] [~ScopedOnceTimer][GlobalRendering::UpdateGL] 75ms
+[f=-000001] [Game::ResizeEvent][1]
+[f=-000001] [~CRectangleOverlapHandler] 0% overlap reduction
+[f=-000001] [~ScopedOnceTimer][Game::ViewResize] 78ms
+[f=-000001] [Game::ResizeEvent][2]
+[f=-000001] UpdateInterfacePreset, minimapRight
+[f=-000001] [~ScopedOnceTimer][EventHandler::ViewResize] 40ms
+[f=-000001] [~ScopedOnceTimer][ActiveController::ResizeEvent] 118ms
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SIZE_CHANGED][2]
+
+[f=-000001] 
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SHOWN][1] fullScreen=0
+[f=-000001] [~ScopedOnceTimer][Sound::Iconified] 0ms
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SHOWN][2]
+
+[f=-000001] Input grabbing is enabled!
+[f=-000001] Input grabbing is enabled!
+[f=-000001] SendLuaMenuMsg showLobby
+[f=-000001] SendLuaMenuMsg showLobby
+[f=-000001] SendLuaMenuMsg showLobby
+[f=-000001] SendLuaMenuMsg showLobby
+[f=-000001] SendLuaMenuMsg showLobby
+[f=-000001] [ReloadOrRestart] Spring "/home/michael/sprDev/spring-engine-linux-masterbuild/spring" should be reloading
+[f=-000001] [SpringApp::Reload][1]
+[f=-000001] [ThreadPool::SetThreadCount][1] wanted=0 current=4 maximum=8 (init=0)
+[f=-000001] 	[async=0] threads=4 tasks=339 {sum,avg}{exec,wait}time={{6545.756, 19.309}, {9.521, 0.028}}ms
+[f=-000001] 		thread=1 tasks=113 {sum,min,max,avg}{exec,wait}time={{2099.010, 0.000, 1566.711, 18.575}, {0.859, 0.000, 0.080, 0.008}}ms
+[f=-000001] 		thread=2 tasks=113 {sum,min,max,avg}{exec,wait}time={{2147.671, 0.009, 1578.695, 19.006}, {4.209, 0.000, 0.076, 0.037}}ms
+[f=-000001] 		thread=3 tasks=113 {sum,min,max,avg}{exec,wait}time={{2299.074, 0.000, 1550.511, 20.346}, {4.453, 0.000, 0.081, 0.039}}ms
+[f=-000001] 	[async=1] threads=4 tasks=3 {sum,avg}{exec,wait}time={{0.035, 0.012}, {0.054, 0.018}}ms
+[f=-000001] 		thread=1 tasks=1 {sum,min,max,avg}{exec,wait}time={{0.013, 0.013, 0.013, 0.013}, {0.002, 0.002, 0.002, 0.002}}ms
+[f=-000001] 		thread=2 tasks=1 {sum,min,max,avg}{exec,wait}time={{0.011, 0.011, 0.011, 0.011}, {0.028, 0.028, 0.028, 0.028}}ms
+[f=-000001] 		thread=3 tasks=1 {sum,min,max,avg}{exec,wait}time={{0.012, 0.012, 0.012, 0.012}, {0.024, 0.024, 0.024, 0.024}}ms
+[f=-000001] [ThreadPool::SetThreadCount][2] workers=0
+[f=-000001] [ThreadPool::SetThreadCount][1] wanted=4 current=1 maximum=8 (init=1)
+[f=-000001] [ThreadPool::SetThreadCount][2] workers=3
+[f=-000001] [Threading] Main thread CPU affinity mask set: 8184 (config is 65528)
+[f=-000001] [SpringApp::Reload][2]
+[f=-000001] [DemoRecorder::WriteDemoFile] writing client-demo "/home/michael/sprDev/spring-engine-linux-masterbuild/demos/20200320_050557_Comet Catcher Redux_104.0.1-1435-g79d77ca maintenance.sdfz" (5832 bytes)
+[f=-000001] [Game::KillLua][0] dtor=0 loadscreen=(nil)
+[f=-000001] [Game::KillLua][3] dtor=0 luaUI=0xbd6dbcd0
+[f=-000001] Start widgetHandler:Shutdown
+[f=-000001] Shutdown - SaveOrderList Complete
+[f=-000001] Writing last game win data
+[f=-000001] Shutdown - SaveConfigData Complete
+[f=-000001] Shutdown Widget - Chili Highlight
+[f=-000001] Shutdown Widget - Save/Load API
+[f=-000001] Shutdown Widget - Draw After Chili
+[f=-000001] Shutdown Widget - EPIC Menu
+[f=-000001] Shutdown Widget - Chili Minimap
+[f=-000001] Shutdown Widget - Chili Widget Selector
+[f=-000001] Shutdown Widget - Depth of Field Shader
+[f=-000001] Shutdown Widget - Deferred rendering
+[f=-000001] Shutdown Widget - Local Team Colors
+[f=-000001] Shutdown Widget - Display Keys 2
+[f=-000001] Shutdown Widget - Save Game Menu
+[f=-000001] Shutdown Widget - HealthBars
+[f=-000001] Shutdown Widget - Noises
+[f=-000001] Shutdown Widget - Unit Icons
+[f=-000001] Shutdown Widget - Win Counter
+[f=-000001] Shutdown Widget - BuildETA
+[f=-000001] Shutdown Widget - Initial Queue ZK
+[f=-000001] Shutdown Widget - Modular Comm Info
+[f=-000001] Shutdown Widget - Attack Warning
+[f=-000001] Shutdown Widget - CameraShake
+[f=-000001] Shutdown Widget - Chili Economy Panel Default
+[f=-000001] Shutdown Widget - Chili EndGame Window
+[f=-000001] Shutdown Widget - Chili Nuke Warning
+[f=-000001] Shutdown Widget - Chili Selections & CursorTip v2
+[f=-000001] Shutdown Widget - Chili Spectator Panels
+[f=-000001] Shutdown Widget - Context Menu
+[f=-000001] Shutdown Widget - Darkening
+[f=-000001] Shutdown Widget - Grab Input
+[f=-000001] Input grabbing is disabled!
+[f=-000001] Shutdown Widget - Highlight Geos
+[f=-000001] Shutdown Widget - Local Widgets Config
+[f=-000001] Shutdown Widget - MetalFeatures (new)
+[f=-000001] Shutdown Widget - Mex Placement Handler
+[f=-000001] Shutdown Widget - MinimapEvents
+[f=-000001] Shutdown Widget - Missile Silo Range
+[f=-000001] Shutdown Widget - Music Player
+[f=-000001] Shutdown Widget - Point Tracker
+[f=-000001] Shutdown Widget - Showeco and Grid Drawer
+[f=-000001] Shutdown Widget - Startup Info and Selector
+[f=-000001] Shutdown Widget - Stereo3D
+[f=-000001] Shutdown Widget - Transport AI
+[f=-000001] Shutdown Widget - Attack AoE
+[f=-000001] Shutdown Widget - UnitShapes
+[f=-000001] Shutdown Widget - Map Edge Extension
+[f=-000001] Shutdown Widget - Selection Send
+[f=-000001] Shutdown Widget - LupsManager
+[f=-000001] Shutdown Widget - Newton Firezone
+[f=-000001] Shutdown Widget - Receive Units Indicator
+[f=-000001] Shutdown Widget - Chili Pro Console
+[f=-000001] Shutdown Widget - Lasso Terraform GUI
+[f=-000001] Shutdown Widget - Chili Framework
+[f=-000001] Shutdown Widget - Lups
+[f=-000001] Shutdown Widget - Chili Core Selector
+[f=-000001] Shutdown Widget - Custom Markers
+[f=-000001] Shutdown Widget - Start Boxes
+[f=-000001] Shutdown Widget - Pause Screen
+[f=-000001] Shutdown Widget - Color Blindness Correction
+[f=-000001] Shutdown Widget - Layout Handler
+[f=-000001] Shutdown Widget - Outline Shader
+[f=-000001] Shutdown Widget - Persistent Build Height
+[f=-000001] Shutdown Widget - Text To Speech Control
+[f=-000001] End widgetHandler:Shutdown
+[f=-000001] [LuaMemPool::LogStats][handle=LuaUI (unsynced)] index=18446744073709551615 {numAllocs[*],allocSums[*]}={219428,42450280} {int,ext,rec}Allocs={17910115,0,0} {chunk,block}Bytes={42450280,0}
+[f=-000001] [Game::KillLua][1] dtor=0 luaGaia=(nil)
+[f=-000001] [Game::KillLua][2] dtor=0 luaRules=0x474f08d0
+[f=-000001] Start gadgetHandler:Shutdown
+[f=-000001] Shutdown - StartSetup
+[f=-000001] Shutdown - UnitMorph
+[f=-000001] Shutdown - LupsNanoSpray
+[f=-000001] Shutdown - Missile Silo Controller
+[f=-000001] Shutdown - Modular Comm Info
+[f=-000001] Shutdown - Terrain Texture Handler
+[f=-000001] Shutdown - UnitCloakShield
+[f=-000001] Shutdown - Starlight Handler
+[f=-000001] End gadgetHandler:Shutdown
+[f=-000001] Start gadgetHandler:Shutdown
+[f=-000001] Shutdown - Save/Load
+[f=-000001] Shutdown - UnitMorph
+[f=-000001] Shutdown - Modular Comm Info
+[f=-000001] Shutdown - Retreat Command
+[f=-000001] Shutdown - Shockwaves
+[f=-000001] Shutdown - Teleport Throw
+[f=-000001] Shutdown - CustomUnitShaders
+[f=-000001] Shutdown - UnitCloakShield
+[f=-000001] Shutdown - Lups Cloak FX
+[f=-000001] Shutdown - Lups
+[f=-000001] Shutdown - Lups Shield
+[f=-000001] End gadgetHandler:Shutdown
+[f=-000001] [LuaMemPool::LogStats][handle=LuaRules (unsynced)] index=18446744073709551615 {numAllocs[*],allocSums[*]}={0,0} {int,ext,rec}Allocs={17910186,0,0} {chunk,block}Bytes={0,0}
+[f=-000001] [LuaMemPool::LogStats][handle=LuaRules (synced)] index=18446744073709551615 {numAllocs[*],allocSums[*]}={0,0} {int,ext,rec}Allocs={17910186,0,0} {chunk,block}Bytes={0,0}
+[f=-000001] [Game::KillLua][4] dtor=0
+[f=-000001] [SpringApp::Reload][3]
+[f=-000001] [Sound] [Sound::Kill] soundThread.joinable()=1
+[f=-000001] [WatchDog::DeregisterThread] deregistering controls for thread [audio]
+[f=-000001] [Sound] [Sound::UpdateThread][3] #sources=32 #items=4
+[f=-000001] [Sound] [Sound::UpdateThread][4] ctx=0x7f5c24031790 dev=0x7f5c240335b0
+[f=-000001] [Sound] [Sound::UpdateThread][5] ctx=0x7f5c24031790 dev=0x7f5c240335b0
+[f=-000001] [Sound] [Sound::Cleanup][alcDestroyContext(0x7f5c24031790)]
+[f=-000001] [Sound] [Sound::Cleanup][alcCloseDevice(0x7f5c240335b0)]
+[f=-000001] [Sound] [Sound::UpdateThread][6]
+[f=-000001] [SpringApp::Reload][4]
+[f=-000001] [Game::~CGame][1]
+[f=-000001] [Game::KillLua][0] dtor=1 loadscreen=(nil)
+[f=-000001] [Game::KillLua][3] dtor=1 luaUI=(nil)
+[f=-000001] [Game::KillLua][1] dtor=1 luaGaia=(nil)
+[f=-000001] [Game::KillLua][2] dtor=1 luaRules=(nil)
+[f=-000001] [Game::KillLua][4] dtor=1
+[f=-000001] [Game::KillMisc][1]
+[f=-000001] [Game::KillMisc][2]
+[f=-000001] [EOH::DestroySkirmishAI(id=0)]
+[f=-000001] [Game::KillMisc][3]
+[f=-000001] [Game::KillRendering][1]
+[f=-000001] [~CRectangleOverlapHandler] 0% overlap reduction
+[f=-000001] [3DOParser::Kill] allocated 137 pieces
+[f=-000001] [S3OParser::Kill] allocated 2597 pieces
+[f=-000001] [AssParser::Kill] allocated 215 pieces
+[f=-000001] [Game::KillInterface][1]
+[f=-000001] [Game::KillInterface][2]
+[f=-000001] [Game::KillSimulation][1]
+[f=-000001] [Game::KillSimulation][2]
+[f=-000001] [CCollisionHandler] dis-/continuous tests: 0/0
+[f=-000001] [Game::KillSimulation][3]
+[f=-000001] [~CPathCache(24x32)] cacheHits=0 hitPercentage=0% numHashColls=0 maxCacheSize=201
+[f=-000001] [~CPathCache(24x32)] cacheHits=0 hitPercentage=0% numHashColls=0 maxCacheSize=0
+[f=-000001] [~CPathCache(48x64)] cacheHits=1156 hitPercentage=63% numHashColls=0 maxCacheSize=201
+[f=-000001] [~CPathCache(48x64)] cacheHits=0 hitPercentage=0% numHashColls=0 maxCacheSize=0
+[f=-000001] [~CRectangleOverlapHandler] 0% overlap reduction
+[f=-000001] [~CRectangleOverlapHandler] 0% overlap reduction
+[f=-000001] [LosHandler::Kill] raycast instance cache-{hits,misses}={1,1}; shared=0%; cached=50%
+[f=-000001] [Game::KillSimulation][4]
+[f=-000001] [CommonDefHandler::KillStatic] 3214 sound-set data items added
+[f=-000001] [Game::~CGame][2]
+[f=-000001] [Game::~CGame][3]
+[f=-000001] [NetProto::~CNetProtocol] [UDPConnection::Statistics]
+	3673 bytes sent   in 146 packets (25.158 bytes/packet)
+	5240 bytes recv'd in 152 packets (34.474 bytes/packet)
+	{0.134x, 0.174x} relative protocol overhead {up, down}
+	6 incoming chunks dropped, 0 outgoing chunks resent
+	40 incoming chunks processed
+
+[f=-000001] [SpringApp::Reload][5]
+[f=-000001] [SpringApp::Reload][6]
+[f=-000001] [VFS] [SpringVFS::UnMapArchives<this=0x7f5c300227e0>(reload=1)] (#mod=7655 #map=3 #menu=2682)
+[f=-000001] Scanning: /home/michael/sprDev/spring-engine-linux-masterbuild/base
+[f=-000001] Scanning: /home/michael/sprDev/spring-engine-linux-masterbuild/maps
+[f=-000001] Scanning: /home/michael/sprDev/spring-engine-linux-masterbuild/games
+[f=-000001] Scanning: /home/michael/sprDev/spring-engine-linux-masterbuild/packages
+[f=-000001] [~ScopedOnceTimer][CArchiveScanner::ScanAllDirs] 0ms
+[f=-000001] [SpringApp::Reload][7]
+[f=-000001] [SpringApp::Reload][8]
+[f=-000001] [Sound] [Sound::UpdateThread][1] cfgMaxSounds=32
+[f=-000001] [WatchDog::RegisterThread] registering controls for thread [audio]
+[f=-000001] [Sound] [ISound::Initialize] spawning sound-thread (0.2ms)
+[f=-000001] [Sound] [Sound::InitThread][1]
+[f=-000001] [Sound] [Sound::OpenOpenALDevice] opening default device "OpenAL Soft"
+[f=-000001] [Sound] [Sound::OpenOpenALDevice] device=0x7f5c24228d60 context=0x7f5c24031790
+[f=-000001] [Sound] [Sound::InitThread][4][OpenAL API Info]
+[f=-000001] [Sound]   Vendor:         OpenAL Community
+[f=-000001] [Sound]   Version:        1.1 ALSOFT 1.18.2
+[f=-000001] [Sound]   Renderer:       OpenAL Soft
+[f=-000001] [Sound]   AL Extensions:  AL_EXT_ALAW AL_EXT_BFORMAT AL_EXT_DOUBLE AL_EXT_EXPONENT_DISTANCE AL_EXT_FLOAT32 AL_EXT_IMA4 AL_EXT_LINEAR_DISTANCE AL_EXT_MCFORMATS AL_EXT_MULAW AL_EXT_MULAW_BFORMAT AL_EXT_MULAW_MCFORMATS AL_EXT_OFFSET AL_EXT_source_distance_model AL_EXT_SOURCE_RADIUS AL_EXT_STEREO_ANGLES AL_LOKI_quadriphonic AL_SOFT_block_alignment AL_SOFT_deferred_updates AL_SOFT_direct_channels AL_SOFT_gain_clamp_ex AL_SOFT_loop_points AL_SOFT_MSADPCM AL_SOFT_source_latency AL_SOFT_source_length AL_SOFT_source_resampler AL_SOFT_source_spatialize
+[f=-000001] [Sound]   ALC Extensions: ALC_ENUMERATE_ALL_EXT ALC_ENUMERATION_EXT ALC_EXT_CAPTURE ALC_EXT_DEDICATED ALC_EXT_disconnect ALC_EXT_EFX ALC_EXT_thread_local_context ALC_SOFTX_device_clock ALC_SOFT_HRTF ALC_SOFT_loopback ALC_SOFT_output_limiter ALC_SOFT_pause_device
+[f=-000001] [Sound]   Devices:
+[f=-000001] [Sound]     [Built-in Audio Analogue Stereo]
+[f=-000001] [Sound] [Sound::GetMaxMonoSources] #attribs=19
+[f=-000001] [Sound] [Sound::GetMaxMonoSources] {cfg,alc}MaxSounds={32,255}
+[f=-000001] [Sound]   EFX Enabled: yes
+[f=-000001] [Sound] [Sound::UpdateThread][2]
+[f=-000001] [~ScopedOnceTimer][ISound::Init::Dev] 100ms
+[f=-000001] [SpringApp::Reload][10]
+[f=-000001] [SpringApp::Reload][11]
+[f=-000001] [LuaMenuController::Reset] using menu archive "Chobby $VERSION"
+[f=-000001] [VFS] [LuaMenuVFS::AddArchive<this=0x7f5c300227e0>(arName="Chobby $VERSION", overwrite=false)] section=3 cached=1
+[f=-000001] [VFS] [LuaMenuVFS::AddArchive<this=0x7f5c300227e0>(arName="Spring content v1", overwrite=false)] section=2 cached=0
+[f=-000001] [VFS] [LuaMenuVFS::AddArchive<this=0x7f5c300227e0>(arName="Spring Bitmaps", overwrite=false)] section=2 cached=0
+[f=-000001] [VFS] [LuaMenuVFS::AddArchive<this=0x7f5c300227e0>(arName="Spring Cursors", overwrite=false)] section=2 cached=0
+[f=-000001] [SpringApp::Reload][12] #script=0
+[f=-000001] [LuaMenuController::Activate(msg="")] luaMenu=0x46e40bf0
+[f=-000001] [SpringApp::Reload][13] reloadCount=2
+
+
+
+[f=-000001] TotalHideLobbyInterface, false
+[f=-000001] Warning: Couldn't find texture "LuaMenu/Images/MinimapThumbnailsComet_Catcher_Redux.jpg"!
+[f=-000001] Warning: Couldn't find texture "LuaMenu/Images/Minimaps/Comet_Catcher_Redux.jpg"!
+[f=-000001] SetLobbyFullscreenMode, 2
+[f=-000001] [GR::ConfigNotify][1] key=WindowBorderless val=0 (cfgFullScreen=0 sdlFullScreen=0) newRes=<960,810>
+[f=-000001] 
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SIZE_CHANGED][1] fullScreen=0
+[f=-000001] [GR::UpdateGLConfigs]
+[f=-000001] [GR::UpdateGLGeometry][1] winSize=<960,810>
+[f=-000001] [GR::UpdateGLGeometry][2] winSize=<960,810>
+[f=-000001] [GR::InitGLState]
+[f=-000001] [GR::LogDisplayMode] display-mode set to 960x810x24bpp@60Hz (windowed::decorated)
+[f=-000001] [~ScopedOnceTimer][GlobalRendering::UpdateGL] 0ms
+[f=-000001] [~ScopedOnceTimer][ActiveController::ResizeEvent] 2ms
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SIZE_CHANGED][2]
+
+[f=-000001] 
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SIZE_CHANGED][1] fullScreen=0
+[f=-000001] [GR::UpdateGLConfigs]
+[f=-000001] [GR::UpdateGLGeometry][1] winSize=<960,810>
+[f=-000001] [GR::UpdateGLGeometry][2] winSize=<960,810>
+[f=-000001] [GR::InitGLState]
+[f=-000001] [GR::LogDisplayMode] display-mode set to 960x810x24bpp@60Hz (windowed::decorated)
+[f=-000001] [~ScopedOnceTimer][GlobalRendering::UpdateGL] 0ms
+[f=-000001] [~ScopedOnceTimer][ActiveController::ResizeEvent] 0ms
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SIZE_CHANGED][2]
+
+[f=-000001] 
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_HIDDEN][1] fullScreen=0
+[f=-000001] [~ScopedOnceTimer][Sound::Iconified] 0ms
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_HIDDEN][2]
+
+[f=-000001] 
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_HIDDEN][1] fullScreen=0
+[f=-000001] [~ScopedOnceTimer][Sound::Iconified] 0ms
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_HIDDEN][2]
+
+[f=-000001] 
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SHOWN][1] fullScreen=0
+[f=-000001] [~ScopedOnceTimer][Sound::Iconified] 0ms
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SHOWN][2]
+
+[f=-000001] 
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SHOWN][1] fullScreen=0
+[f=-000001] [~ScopedOnceTimer][Sound::Iconified] 0ms
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SHOWN][2]
+
+[f=-000001] 
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SIZE_CHANGED][1] fullScreen=0
+[f=-000001] [GR::UpdateGLConfigs]
+[f=-000001] [GR::UpdateGLGeometry][1] winSize=<960,782>
+[f=-000001] [GR::UpdateGLGeometry][2] winSize=<960,782>
+[f=-000001] [GR::InitGLState]
+[f=-000001] [GR::LogDisplayMode] display-mode set to 960x782x24bpp@60Hz (windowed::decorated)
+[f=-000001] [~ScopedOnceTimer][GlobalRendering::UpdateGL] 0ms
+[f=-000001] [~ScopedOnceTimer][ActiveController::ResizeEvent] 0ms
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SIZE_CHANGED][2]
+
+[f=-000001] 
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SHOWN][1] fullScreen=0
+[f=-000001] [~ScopedOnceTimer][Sound::Iconified] 0ms
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SHOWN][2]
+
+[f=-000001] 
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SIZE_CHANGED][1] fullScreen=0
+[f=-000001] [GR::UpdateGLConfigs]
+[f=-000001] [GR::UpdateGLGeometry][1] winSize=<1885,1025>
+[f=-000001] [GR::UpdateGLGeometry][2] winSize=<1885,1025>
+[f=-000001] [GR::InitGLState]
+[f=-000001] [GR::LogDisplayMode] display-mode set to 1885x1025x24bpp@120Hz (windowed::decorated)
+[f=-000001] [~ScopedOnceTimer][GlobalRendering::UpdateGL] 0ms
+[f=-000001] [~ScopedOnceTimer][ActiveController::ResizeEvent] 1ms
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SIZE_CHANGED][2]
+
+[f=-000001] DesignEvent, events_2018_04_25:settings:AllowDeferredMapRendering, 1
+[f=-000001] DesignEvent, events_2018_04_25:settings:AllowDeferredModelRendering, 1
+[f=-000001] DesignEvent, events_2018_04_25:settings:AdvMapShading, 1
+[f=-000001] DesignEvent, events_2018_04_25:settings:AdvUnitShading, 1
+[f=-000001] SetLobbyFullscreenMode, 3
+[f=-000001] SetSettings Int, XResolution, 1920
+[f=-000001] SetSettings Int, YResolution, 1080
+[f=-000001] SetSettings Int, WindowPosX, 0
+[f=-000001] SetSettings Int, WindowPosY, 0
+[f=-000001] SetSettings Value, Fullscreen, 1
+[f=-000001] SetSettings Int, MaxDynamicMapLights, 1
+[f=-000001] SetSettings Value, DynamicSky, 0
+[f=-000001] SetSettings Value, CamTimeFactor, 1
+[f=-000001] [Settings] Warning: No such key: ZKUseNewChiliRTT, but setting it as string anyway.
+[f=-000001] SetSettings Value, LODScale, 1
+[f=-000001] SetSettings Int, BumpWaterDepthBits, 32
+[f=-000001] SetSettings Value, HardwareCursor, 1
+[f=-000001] [Settings] Warning: No such key: VerboseLevel, but setting it as string anyway.
+[f=-000001] [Settings] Warning: No such key: BuildWarnings, but setting it as string anyway.
+[f=-000001] SetSettings Int, GroundDetail, 120
+[f=-000001] SetSettings Value, CamTimeExponent, 4
+[f=-000001] SetSettings Int, ShadowMapSize, 2048
+[f=-000001] SetSettings Int, MSAALevel, 8
+[f=-000001] SetSettings Int, RotOverheadScrollSpeed, 50
+[f=-000001] [Settings] Warning: No such key: SmoothPoints, but setting it as string anyway.
+[f=-000001] [Settings] Warning: No such key: LuaAutoModWidgets, but setting it as string anyway.
+[f=-000001] SetSettings Int, GrassDetail, 9
+[f=-000001] SetSettings Int, BumpWaterReflection, 2
+[f=-000001] SetSettings Value, LODScaleRefraction, 1
+[f=-000001] SetSettings Int, MaximumTransmissionUnit, 0
+[f=-000001] SetSettings Value, UseDistToGroundForIcons, 1.10000002
+[f=-000001] SetSettings Value, AdvSky, 0
+[f=-000001] SetSettings Int, CamMode, 1
+[f=-000001] SetSettings Int, MaxDynamicModelLights, 1
+[f=-000001] SetSettings Value, MiddleClickScrollSpeed, -0.0015
+[f=-000001] SetSettings Int, HangTimeout, 30
+[f=-000001] SetSettings Int, Water, 4
+[f=-000001] SetSettings Value, MouseDragScrollThreshold, 0
+[f=-000001] [Settings] Warning: No such key: LogFlush, but setting it as string anyway.
+[f=-000001] SetSettings Value, LuaGarbageCollectionMemLoadMult, 100
+[f=-000001] SetSettings Value, FeatureDrawDistance, 6000
+[f=-000001] SetSettings Value, UsePBO, 1
+[f=-000001] SetSettings Value, LuaShaders, 1
+[f=-000001] SetSettings Int, BumpWaterTexSizeReflection, 256
+[f=-000001] SetSettings Int, ForceDisableShaders, 0
+[f=-000001] SetSettings Int, GroundScarAlphaFade, 1
+[f=-000001] [Settings] Warning: No such key: Version, but setting it as string anyway.
+[f=-000001] SetSettings Int, OverheadScrollSpeed, 50
+[f=-000001] SetSettings Value, EdgeMoveWidth, 0.003
+[f=-000001] SetSettings Int, FontSize, 18
+[f=-000001] [Settings] Warning: No such key: snd_general, but setting it as string anyway.
+[f=-000001] SetSettings Value, BumpWaterBlurReflection, 1
+[f=-000001] SetSettings Value, LODScaleShadow, 1
+[f=-000001] SetSettings Int, UnitLodDist, 500
+[f=-000001] SetSettings Value, AdvMapShading, 1
+[f=-000001] [Settings] Warning: No such key: interfaceScale, but setting it as string anyway.
+[f=-000001] [Settings] Warning: No such key: MoveWarnings, but setting it as string anyway.
+[f=-000001] SetSettings Int, CubeTexSizeReflection, 128
+[f=-000001] SetSettings Value, AllowDeferredMapRendering, 1
+[f=-000001] SetSettings Int, VSync, 0
+[f=-000001] SetSettings Int, FPSScrollSpeed, 50
+[f=-000001] SetSettings Value, UseLuaMemPools, 0
+[f=-000001] SetSettings Value, AdvUnitShading, 1
+[f=-000001] SetSettings Int, ROAM, 1
+[f=-000001] SetSettings Value, 3DTrees, 1
+[f=-000001] SetSettings Value, WindowedEdgeMove, 1
+[f=-000001] SetSettings Value, FullscreenEdgeMove, 1
+[f=-000001] SetSettings Int, LoadingMT, 0
+[f=-000001] [Settings] Warning: No such key: WorkerThreadSpinTime, but setting it as string anyway.
+[f=-000001] SetSettings Value, EdgeMoveDynamic, 0
+[f=-000001] SetSettings Value, CamFreeScrollSpeed, 50
+[f=-000001] SetSettings Int, TreeRadius, 1500
+[f=-000001] SetSettings Value, ScrollWheelSpeed, -25
+[f=-000001] [Settings] Warning: No such key: SmoothLines, but setting it as string anyway.
+[f=-000001] SetSettings Value, ShowClock, 0
+[f=-000001] SetSettings Value, DualScreenMiniMapOnLeft, 1
+[f=-000001] [Settings] Warning: No such key: LinkBandwidth, but setting it as string anyway.
+[f=-000001] SetSettings Int, ReconnectTimeout, 0
+[f=-000001] [Settings] Warning: No such key: DisplayDebugPrefixConsole, but setting it as string anyway.
+[f=-000001] SetSettings Int, GroundDecals, 5
+[f=-000001] [Settings] Warning: No such key: ReflectiveWater, but setting it as string anyway.
+[f=-000001] SetSettings Int, BumpWaterRefraction, 1
+[f=-000001] SetSettings Int, MaxParticles, 25000
+[f=-000001] [Settings] Warning: Unexpected key type: std::string, but setting it as string anyway.
+[f=-000001] SetSettings Value, RotateLogFiles, 1
+[f=-000001] SetSettings Value, FeatureFadeDistance, 4500
+[f=-000001] SetSettings Int, Shadows, 1
+[f=-000001] SetSettings Value, BumpWaterShoreWaves, 1
+[f=-000001] [Settings] Warning: No such key: MinimapOnLeft, but setting it as string anyway.
+[f=-000001] SetSettings Int, MaxSounds, 32
+[f=-000001] SetSettings Value, MiniMapMarker, 0
+[f=-000001] [Settings] Warning: No such key: NormalMapping, but setting it as string anyway.
+[f=-000001] SetSettings Value, LODScaleReflection, 1
+[f=-000001] SetSettings Value, FPSFOV, 90
+[f=-000001] SetSettings Value, BumpWaterAnisotropy, 2
+[f=-000001] SetSettings Int, InitialNetworkTimeout, 0
+[f=-000001] SetSettings Value, OverheadMaxHeightFactor, 1.39999998
+[f=-000001] [Settings] Warning: No such key: FSAA, but setting it as string anyway.
+[f=-000001] SetSettings Int, CubeTexSizeSpecular, 128
+[f=-000001] SetSettings Value, VFSCacheArchiveFiles, 0
+[f=-000001] SetSettings Value, AllowDeferredModelRendering, 1
+[f=-000001] compatProfile, false
+[f=-000001] DesignEvent, events_2018_04_25:game_start:multiplayer:connecting_unknown, nil
+[f=-000001] Game starts!
+[f=-000001] [GAME]
+{
+	HostIP=23.83.237.166;
+	HostPort=8452;
+	SourcePort=0;
+	IsHost=0;
+	MyPlayerName=Archangel;
+	MyPasswd=0;
+}
+[f=-000001] [ReloadOrRestart] Spring "/home/michael/sprDev/spring-engine-linux-masterbuild/spring" should be reloading
+[f=-000001] [SpringApp::Reload][1]
+[f=-000001] [ThreadPool::SetThreadCount][1] wanted=0 current=4 maximum=8 (init=0)
+[f=-000001] 	[async=0] threads=4 tasks=0 {sum,avg}{exec,wait}time={{0.000, 0.000}, {0.000, 0.000}}ms
+[f=-000001] 	[async=1] threads=4 tasks=3 {sum,avg}{exec,wait}time={{0.100, 0.033}, {0.061, 0.020}}ms
+[f=-000001] 		thread=1 tasks=1 {sum,min,max,avg}{exec,wait}time={{0.036, 0.036, 0.036, 0.036}, {0.003, 0.003, 0.003, 0.003}}ms
+[f=-000001] 		thread=2 tasks=1 {sum,min,max,avg}{exec,wait}time={{0.036, 0.036, 0.036, 0.036}, {0.038, 0.038, 0.038, 0.038}}ms
+[f=-000001] 		thread=3 tasks=1 {sum,min,max,avg}{exec,wait}time={{0.028, 0.028, 0.028, 0.028}, {0.019, 0.019, 0.019, 0.019}}ms
+[f=-000001] [ThreadPool::SetThreadCount][2] workers=0
+[f=-000001] [ThreadPool::SetThreadCount][1] wanted=4 current=1 maximum=8 (init=1)
+[f=-000001] [ThreadPool::SetThreadCount][2] workers=3
+[f=-000001] [Threading] Main thread CPU affinity mask set: 8184 (config is 65528)
+[f=-000001] [SpringApp::Reload][2]
+[f=-000001] [SpringApp::Reload][3]
+[f=-000001] [Sound] [Sound::Kill] soundThread.joinable()=1
+[f=-000001] [WatchDog::DeregisterThread] deregistering controls for thread [audio]
+[f=-000001] [Sound] [Sound::UpdateThread][3] #sources=32 #items=1
+[f=-000001] [Sound] [Sound::UpdateThread][4] ctx=0x7f5c24031790 dev=0x7f5c24228d60
+[f=-000001] [Sound] [Sound::UpdateThread][5] ctx=0x7f5c24031790 dev=0x7f5c24228d60
+[f=-000001] [Sound] [Sound::Cleanup][alcDestroyContext(0x7f5c24031790)]
+[f=-000001] [Sound] [Sound::Cleanup][alcCloseDevice(0x7f5c24228d60)]
+[f=-000001] [Sound] [Sound::UpdateThread][6]
+[f=-000001] [SpringApp::Reload][4]
+[f=-000001] [SpringApp::Reload][5]
+[f=-000001] [SpringApp::Reload][6]
+[f=-000001] [VFS] [SpringVFS::UnMapArchives<this=0x7f5c300227e0>(reload=1)] (#mod=0 #map=0 #menu=2682)
+[f=-000001] Scanning: /home/michael/sprDev/spring-engine-linux-masterbuild/base
+[f=-000001] Scanning: /home/michael/sprDev/spring-engine-linux-masterbuild/maps
+[f=-000001] Scanning: /home/michael/sprDev/spring-engine-linux-masterbuild/games
+[f=-000001] Scanning: /home/michael/sprDev/spring-engine-linux-masterbuild/packages
+[f=-000001] [~ScopedOnceTimer][CArchiveScanner::ScanAllDirs] 0ms
+[f=-000001] [SpringApp::Reload][7]
+[f=-000001] [SpringApp::Reload][8]
+[f=-000001] [Sound] [Sound::UpdateThread][1] cfgMaxSounds=32
+[f=-000001] [Sound] [ISound::Initialize] spawning sound-thread (0.0ms)
+[f=-000001] [WatchDog::RegisterThread] registering controls for thread [audio]
+[f=-000001] [Sound] [Sound::InitThread][1]
+[f=-000001] [Sound] [Sound::OpenOpenALDevice] opening default device "OpenAL Soft"
+[f=-000001] [Sound] [Sound::OpenOpenALDevice] device=0x7f5c24228d60 context=0x7f5c24031790
+[f=-000001] [Sound] [Sound::InitThread][4][OpenAL API Info]
+[f=-000001] [Sound]   Vendor:         OpenAL Community
+[f=-000001] [Sound]   Version:        1.1 ALSOFT 1.18.2
+[f=-000001] [Sound]   Renderer:       OpenAL Soft
+[f=-000001] [Sound]   AL Extensions:  AL_EXT_ALAW AL_EXT_BFORMAT AL_EXT_DOUBLE AL_EXT_EXPONENT_DISTANCE AL_EXT_FLOAT32 AL_EXT_IMA4 AL_EXT_LINEAR_DISTANCE AL_EXT_MCFORMATS AL_EXT_MULAW AL_EXT_MULAW_BFORMAT AL_EXT_MULAW_MCFORMATS AL_EXT_OFFSET AL_EXT_source_distance_model AL_EXT_SOURCE_RADIUS AL_EXT_STEREO_ANGLES AL_LOKI_quadriphonic AL_SOFT_block_alignment AL_SOFT_deferred_updates AL_SOFT_direct_channels AL_SOFT_gain_clamp_ex AL_SOFT_loop_points AL_SOFT_MSADPCM AL_SOFT_source_latency AL_SOFT_source_length AL_SOFT_source_resampler AL_SOFT_source_spatialize
+[f=-000001] [Sound]   ALC Extensions: ALC_ENUMERATE_ALL_EXT ALC_ENUMERATION_EXT ALC_EXT_CAPTURE ALC_EXT_DEDICATED ALC_EXT_disconnect ALC_EXT_EFX ALC_EXT_thread_local_context ALC_SOFTX_device_clock ALC_SOFT_HRTF ALC_SOFT_loopback ALC_SOFT_output_limiter ALC_SOFT_pause_device
+[f=-000001] [Sound]   Devices:
+[f=-000001] [Sound]     [Built-in Audio Analogue Stereo]
+[f=-000001] [Sound] [Sound::GetMaxMonoSources] #attribs=19
+[f=-000001] [Sound] [Sound::GetMaxMonoSources] {cfg,alc}MaxSounds={32,255}
+[f=-000001] [Sound]   EFX Enabled: yes
+[f=-000001] [Sound] [Sound::UpdateThread][2]
+[f=-000001] [~ScopedOnceTimer][ISound::Init::Dev] 100ms
+[f=-000001] [SpringApp::Reload][10]
+[f=-000001] [SpringApp::Reload][11]
+[f=-000001] [LuaMenuController::Reset] using menu archive "Chobby $VERSION"
+[f=-000001] [VFS] [LuaMenuVFS::AddArchive<this=0x7f5c300227e0>(arName="Chobby $VERSION", overwrite=false)] section=3 cached=1
+[f=-000001] [VFS] [LuaMenuVFS::AddArchive<this=0x7f5c300227e0>(arName="Spring content v1", overwrite=false)] section=2 cached=0
+[f=-000001] [VFS] [LuaMenuVFS::AddArchive<this=0x7f5c300227e0>(arName="Spring Bitmaps", overwrite=false)] section=2 cached=0
+[f=-000001] [VFS] [LuaMenuVFS::AddArchive<this=0x7f5c300227e0>(arName="Spring Cursors", overwrite=false)] section=2 cached=0
+[f=-000001] [GR::ConfigNotify][1] key=Fullscreen val=1 (cfgFullScreen=1 sdlFullScreen=0) newRes=<1920,1080>
+[f=-000001] [SpringApp::Reload][12] #script=113
+[f=-000001] [CPreGame] using client IP 23.83.237.166 and port 8452
+[f=-000001] [LuaSocket] Error: Rule already exists: 23.83.237.166 8452
+[f=-000001] [NetProto::InitClient] connecting to IP 23.83.237.166 on port 8452 using name Archangel
+[f=-000001] [SpringApp::Reload][13] reloadCount=3
+
+
+
+[f=-000001] 
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SIZE_CHANGED][1] fullScreen=1
+[f=-000001] [GR::UpdateGLConfigs]
+[f=-000001] [GR::UpdateGLGeometry][1] winSize=<960,782>
+[f=-000001] [GR::UpdateGLGeometry][2] winSize=<960,782>
+[f=-000001] [GR::InitGLState]
+[f=-000001] [GR::LogDisplayMode] display-mode set to 960x782x24bpp@120Hz (fullscreen::decorated)
+[f=-000001] [~ScopedOnceTimer][GlobalRendering::UpdateGL] 21ms
+[f=-000001] [~ScopedOnceTimer][ActiveController::ResizeEvent] 0ms
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SIZE_CHANGED][2]
+
+[f=-000001] 
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SHOWN][1] fullScreen=1
+[f=-000001] [~ScopedOnceTimer][Sound::Iconified] 0ms
+[f=-000001] [~ScopedOnceTimer][FBO::GLContextReinit] 0ms
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SHOWN][2]
+
+[f=-000001] 
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SIZE_CHANGED][1] fullScreen=1
+[f=-000001] [GR::UpdateGLConfigs]
+[f=-000001] [GR::UpdateGLGeometry][1] winSize=<1885,1025>
+[f=-000001] [GR::UpdateGLGeometry][2] winSize=<1885,1025>
+[f=-000001] [GR::InitGLState]
+[f=-000001] [GR::LogDisplayMode] display-mode set to 1885x1025x24bpp@120Hz (fullscreen::decorated)
+[f=-000001] [~ScopedOnceTimer][GlobalRendering::UpdateGL] 0ms
+[f=-000001] [~ScopedOnceTimer][ActiveController::ResizeEvent] 0ms
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SIZE_CHANGED][2]
+
+[f=-000001] 
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SIZE_CHANGED][1] fullScreen=1
+[f=-000001] [GR::UpdateGLConfigs]
+[f=-000001] [GR::UpdateGLGeometry][1] winSize=<1920,1080>
+[f=-000001] [GR::UpdateGLGeometry][2] winSize=<1920,1080>
+[f=-000001] [GR::InitGLState]
+[f=-000001] [GR::LogDisplayMode] display-mode set to 1920x1080x24bpp@120Hz (fullscreen::decorated)
+[f=-000001] [~ScopedOnceTimer][GlobalRendering::UpdateGL] 0ms
+[f=-000001] [~ScopedOnceTimer][ActiveController::ResizeEvent] 0ms
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SIZE_CHANGED][2]
+
+[f=-000001] [PreGame::AddMapArchivesToVFS][server=(nil)] using map "Comet Catcher Redux" (loaded=0 cached=1)
+[f=-000001] [VFS] [SpringVFS::AddArchive<this=0x7f5c300227e0>(arName="Comet Catcher Redux", overwrite=false)] section=1 cached=1
+[f=-000001] [VFS] [SpringVFS::AddArchive<this=0x7f5c300227e0>(arName="Map Helper v1", overwrite=false)] section=2 cached=0
+[f=-000001] [PreGame::AddModArchivesToVFS][server=(nil)] using game "Zero-K v1.8.3.5" (loaded=0 cached=1)
+[f=-000001] [VFS] [SpringVFS::AddArchive<this=0x7f5c300227e0>(arName="Zero-K v1.8.3.5", overwrite=false)] section=0 cached=1
+[f=-000001] [VFS] [SpringVFS::AddArchive<this=0x7f5c300227e0>(arName="Spring content v1", overwrite=false)] section=2 cached=0
+[f=-000001] [VFS] [SpringVFS::AddArchive<this=0x7f5c300227e0>(arName="Spring Bitmaps", overwrite=false)] section=2 cached=0
+[f=-000001] [PreGame::GameDataReceived] recording demo to "/home/michael/sprDev/spring-engine-linux-masterbuild/demos/20200320_050648_Comet Catcher Redux_104.0.1-1435-g79d77ca maintenance.sdfz"
+[f=-000001] [~ScopedOnceTimer][PreGame::GameDataReceived] 69ms
+[f=-000001] [PreGame::UpdateClientNet] received local player number 0 (team 0, allyteam 0), creating LoadScreen
+[f=-000001] [LuaIntro] Searching for new Widgets
+[f=-000001] [LuaIntro] Scanning: LuaIntro/Addons/
+[f=-000001] [LuaIntro] Scanning: LuaIntro/Widgets/
+[f=-000001] [LuaIntro] Scanning: LuaIntro/SystemAddons/
+[f=-000001] [LuaIntro] Scanning: LuaIntro/SystemWidgets/
+[f=-000001] [LuaIntro] Scanning: LuaIntro/chili/
+[f=-000001] [LuaIntro] Found new widget "SpringLogo"
+[f=-000001] [LuaIntro] Found new widget "LoadTexture"
+[f=-000001] [LuaIntro] Found new widget "LoadProgress"
+[f=-000001] [LuaIntro] Found new widget "Main"
+[f=-000001] [LuaIntro] Found new widget "Music"
+[f=-000001] [LuaIntro] Found new widget "WM Stuff"
+[f=-000001] [LuaIntro] Loading widgets   <>=vfs  **=raw  ()=unknown
+[f=-000001] [LuaIntro] Loading widget:      WM Stuff               <wm.lua>
+[f=-000001] [LuaIntro] Loading widget:      LoadProgress           <loadprogress.lua>
+[f=-000001] [LuaIntro] Loading widget:      Main                   <main.lua>
+[f=-000001] [LuaIntro] Loading widget:      LoadTexture            <bg_texture.lua>
+[f=-000001] [LuaIntro] LuaIntro v1.0 (Lua 5.1)
+[f=-000001] [LoadScreen::Init] single-threaded
+[f=-000001] [WatchDog::RegisterThread] registering controls for thread [load]
+[f=-000001] [Game::Load][1] globalQuit=0 threaded=0
+[f=-000001] [LoadScreen::SetLoadMessage] text="Parsing Map Information"
+[f=-000001] [LoadScreen::SetLoadMessage] text="Loading SMF"
+[f=-000001] [LoadScreen::SetLoadMessage] text="Loading Map (77 MB)"
+[f=-000001] [LoadScreen::SetLoadMessage] text="Loading GameData Definitions"
+[f=-000001] Loading UnitDefs_posts
+[f=-000001] Loading FeatureDefs_posts
+[f=-000001] Loading WeaponDefs_posts
+[f=-000001] Loading ArmorDefs_posts
+[f=-000001] [~ScopedOnceTimer][[defs.lua] loading all *Defs tables:] 113ms
+[f=-000001] [~ScopedOnceTimer][Game::LoadDefs (GameData)] 142ms
+[f=-000001] [LoadScreen::SetLoadMessage] text="Loading Radar Icons"
+[f=-000001] [LoadScreen::SetLoadMessage] text="Loading Sound Definitions"
+[f=-000001] [Sound] Warning: [LoadSoundDefsImpl] sound incomingchat is missing file tag (ignoring)
+[f=-000001] [Sound] [LoadSoundDefsImpl] parsed 343 sounds from gamedata/sounds.lua
+[f=-000001] [~ScopedOnceTimer][Game::LoadDefs (Sound)] 3ms
+[f=-000001] [Game::Load][2] globalQuit=0 forcedQuit=0
+[f=-000001] [LoadScreen::SetLoadMessage] text="Creating Smooth Height Mesh"
+[f=-000001] [~ScopedOnceTimer][SmoothHeightMesh::MakeSmoothMesh] 15ms
+[f=-000001] [LoadScreen::SetLoadMessage] text="Creating QuadField & CEGs"
+[f=-000001] [Init] number of ArmorDefs: 6
+[f=-000001] Warning: [Init] UnitDef "chicken" in ArmorDef "else" already belongs to ArmorDef category 1!
+[f=-000001] [RegisterModelFormats] supported (Assimp) model formats: *.3ds;*.blend;*.dae;*.lwo;*.obj;
+[f=-000001] [LoadScreen::SetLoadMessage] text="Creating Unit Textures"
+[f=-000001] [LoadScreen::SetLoadMessage] text="Creating Sky"
+[f=-000001] [Game::Load][3] globalQuit=0 forcedQuit=0
+[f=-000001] [LoadScreen::SetLoadMessage] text="Loading Weapon Definitions"
+[f=-000001] [~ScopedOnceTimer][Game::PostLoadSim (WeaponDefs)] 300ms
+[f=-000001] [LoadScreen::SetLoadMessage] text="Loading Unit Definitions"
+[f=-000001] [~ScopedOnceTimer][Game::PostLoadSim (UnitDefs)] 46ms
+[f=-000001] [LoadScreen::SetLoadMessage] text="Loading Feature Definitions"
+[f=-000001] [~ScopedOnceTimer][Game::PostLoadSim (FeatureDefs)] 10ms
+[f=-000001] [IPathManager::GetInstance] using HAPFS
+[f=-000001] [LoadScreen::SetLoadMessage] text="Initializing Map Features"
+[f=-000001] [LoadScreen::SetLoadMessage] text="Creating ShadowHandler"
+[f=-000001] [LoadScreen::SetLoadMessage] text="Creating InfoTextureHandler"
+[f=-000001] InfoTexture: shaders
+[f=-000001] [LoadScreen::SetLoadMessage] text="Creating GroundDrawer"
+[f=-000001] [LoadScreen::SetLoadMessage] text="Loading Map Tiles"
+[f=-000001] [LoadScreen::SetLoadMessage] text="Loading Square Textures"
+[f=-000001] [~ScopedOnceTimer][CSMFGroundTextures::ConvolveHeightMap] 1ms
+[f=-000001] Switching to ROAM Mesh Rendering
+[f=-000001] [LoadScreen::SetLoadMessage] text="Creating TreeDrawer"
+[f=-000001] Loaded DecalsDrawer: Legacy
+[f=-000001] [LoadScreen::SetLoadMessage] text="Creating ProjectileDrawer & UnitDrawer"
+[f=-000001] [LoadScreen::SetLoadMessage] text="Creating Projectile Textures"
+[f=-000001] [LoadScreen::SetLoadMessage] text="Creating Water"
+[f=-000001] [Game::Load][4] globalQuit=0 forcedQuit=0
+[f=-000001] [~ScopedOnceTimer][Game::LoadInterface (Console)] 0ms
+[f=-000001] [Game::LoadLua] Lua developer mode disabled
+[f=-000001] [LoadScreen::SetLoadMessage] text="Loading LuaRules"
+[f=-000001] [~ScopedOnceTimer][creg::AutoRegisterCFunctions(LuaRules)] 19ms
+[f=-000001] Synced LuaRules: starting loading
+[f=-000001] [Modular Comm Info] Warning: Modular Comms API warning: Comm data entry in modoption is empty or in invalid format
+[f=-000001] [Modular Comm Info] Warning: Modular Comms API warning: Comm data entry for player Archangel is empty or in invalid format
+[f=-000001] Synced LuaRules: finished loading
+[f=-000001] Unsynced LuaRules: starting loading
+[f=-000001] [Modular Comm Info] Warning: Modular Comms API warning: Comm data entry in modoption is empty or in invalid format
+[f=-000001] [Modular Comm Info] Warning: Modular Comms API warning: Comm data entry for player Archangel is empty or in invalid format
+[f=-000001] Unsynced LuaRules: finished loading
+[f=-000001] [LoadScreen::SetLoadMessage] text="Loading LuaGaia"
+[f=-000001] [LoadScreen::SetLoadMessage] text="Loading LuaUI"
+[f=-000001] LuaUI Entry Point: "luaui.lua"
+[f=-000001] LuaSocket Support: enabled
+[f=-000001] Reloading GUI config from file: LuaUI/ctrlpanel.txt
+[f=-000001] function_override include
+[f=-000001] function_override DONE
+[f=-000001] [LuaUI/] Warning: Headers files aren't supported anymore use "require" instead!
+[f=-000001] localWidgets, false, false, false
+[f=-000001] LuaUI: bound F11 to the widget selector
+[f=-000001] LuaUI: bound CTRL+F11 to tweak mode
+[f=-000001] Spring.GetMyPlayerID(), 0
+[f=-000001] Spring.GetMyPlayerID() done, <table>
+[f=-000001] USE_OLD_CHILI
+[f=-000001] Loading last game win data
+[f=-000001] Resetting win data
+[f=-000001] Last game player count: 1, This game player count: 1
+[f=-000001] Last game allyTeam count: 3, This game allyTeam count: 3
+[f=-000001] Player and team counts match, continuing
+[f=-000001] Testing last game's team 0 mapped to this game's team 0
+[f=-000001] All players and teams match from last game, using last game's scores as base
+[f=-000001] [i18n] Warning: "hoverheavyraid.name" is not translated in en
+[f=-000001] [i18n] Error: No translation found for "hoverheavyraid.name"
+[f=-000001] Loaded API widget:  Cluster Detection   <api_cluster_detection.lua>
+[f=-000001] Loaded API widget:  Hacky version fix   <hacky_version_fix.lua>
+[f=-000001] Loaded API widget:  Shared Functions    <api_shared_functions.lua>
+[f=-000001] Loaded API widget:  i18n                <api_i18n.lua>
+[f=-000001] Loaded API widget:  Win Counter         <api_win_counter.lua>
+[f=-000001] Loaded API widget:  Draw Mouse Build    <api_draw_mouse_build.lua>
+[f=-000001] Loaded API widget:  Lobby Battle Status  <api_lobby_battle_status.lua>
+[f=-000001] [Modular Comm Info] Warning: Modular Comms API warning: Comm data entry in modoption is empty or in invalid format
+[f=-000001] [Modular Comm Info] Warning: Modular Comms API warning: Comm data entry for player Archangel is empty or in invalid format
+[f=-000001] Loaded API widget:  Modular Comm Info   <api_modularcomms.lua>
+[f=-000001] Loaded API widget:  CommandInsert       <cmd_commandinsert.lua>
+[f=-000001] Loaded API widget:  Chili Framework     <api_chili.lua>
+[f=-000001] Loaded API widget:  Lag (AFK) monitor   <api_lag_monitor.lua>
+[f=-000001] Loaded API widget:  Lups                <lups_wrapper.lua>
+[f=-000001] Loaded API widget:  Pre-Selection Handler  <api_preselection.lua>
+[f=-000001] Loaded widget:  Chili Highlight     <gui_chili_highlight.lua>
+[f=-000001] Loaded widget:  Save/Load API       <api_saveload.lua>
+[f=-000001] Loaded widget:  Selection Hierarchy  <gui_selection_hierarchy.lua>
+[f=-000001] Loaded widget:  Draw After Chili    <gui_api_draw_after_chili.lua>
+[f=-000001] Hardware mouse-cursor is enabled!
+[f=-000001] Set "shadows" config-parameter to 1
+[f=-000001] Ground-decal rendering is enabled!
+[f=-000001] Set maximum particles to: 25000
+[f=-000001] Set UnitLodDist to 500
+[f=-000001] Set UnitIconDist to 200
+[f=-000001] model shaders is enabled!
+[f=-000001] Loaded widget:  EPIC Menu           <gui_epicmenu.lua>
+[f=-000001] Loaded widget:  Chili Minimap       <gui_chili_minimap.lua>
+[f=-000001] Loaded widget:  Chili Widget Selector  <api_chili_widgetselector.lua>
+[f=-000001] Loaded widget:  Depth of Field Shader  <gfx_dof.lua>
+[f=-000001] Loaded widget:  Hide Interface and Mouse Cursor  <gui_hide_interface_action.lua>
+[f=-000001] Loaded widget:  Deferred rendering  <gfx_deferred_rendering.lua>
+[f=-000001] Mexspot Fetcher fetching
+[f=-000001] Loaded widget:  Mexspot Fetcher     <api_mexspot_fetcher.lua>
+[f=-000001] Team highlighting: Disabled
+[f=-000001] Loaded widget:  Teamhighlight option  <gui_teamhighlight.lua>
+[f=-000001] Loaded widget:  Local Team Colors   <gui_local_colors.lua>
+[f=-000001] Loaded widget:  Display Keys 2      <gui_chili_display_keys.lua>
+[f=-000001] Loaded widget:  Save Game Menu      <gui_savegame.lua>
+[f=-000001] Loaded widget:  Specific Unit Reclaimer  <unit_unit_reclaimer.lua>
+[f=-000001] Loaded widget:  Area-reclaim trees  <unit_tree_reclaim.lua>
+[f=-000001] Loaded widget:  One click weapon handler  <unit_oneclick_weapon.lua>
+[f=-000001] Loaded widget:  Attack Command Helper  <cmd_attack_command_helper.lua>
+[f=-000001] Loaded widget:  Unit Target Command Helper  <gui_unit_target_command_helper.lua>
+[f=-000001] Loaded widget:  Selection Modkeys   <gui_selection_modkeys.lua>
+[f=-000001] Loaded widget:  Chili Commander Upgrade  <gui_chili_commander_upgrade.lua>
+[f=-000001] Loaded widget:  HealthBars          <unit_healthbars.lua>
+[f=-000001] Loaded widget:  Noises              <snd_noises.lua>
+[f=-000001] Loaded widget:  Terraform Icon Draw  <unit_terraform_draw.lua>
+[f=-000001] Loaded widget:  Unit Icons          <unit_icons.lua>
+[f=-000001] Loaded widget:  Chili Vote Display  <gui_chili_vote.lua>
+[f=-000001] Loaded widget:  Auto Patrol Nanos   <unit_auto_patrol_nanos.lua>
+[f=-000001] Loaded widget:  BuildETA            <gui_build_eta.lua>
+[f=-000001] Loaded widget:  Cloak Fire State 2  <unit_cloakfirestate2.lua>
+[f=-000001] Loaded widget:  Double-Click attack-move  <cmd_doubleclick_attackmove.lua>
+[f=-000001] Loaded widget:  EndGame Stats       <gui_chili_endgraph.lua>
+[f=-000001] Loaded widget:  Initial Queue ZK    <unit_initial_queue.lua>
+[f=-000001] Loaded widget:  Objectives          <mission_objectives.lua>
+[f=-000001] Loaded widget:  Unit Marker Zero-K  <unit_marker.lua>
+[f=-000001] Loaded widget:  Antinuke Coverage   <gui_antinuke_coverage.lua>
+[f=-000001] Loaded widget:  Area Attack Tweak   <cmd_area_attack_tweak.lua>
+[f=-000001] Loaded widget:  Attack Warning      <unit_attack_warning.lua>
+[f=-000001] Loaded widget:  Auto First Build Facing  <init_autofirstbuildfacing.lua>
+[f=-000001] Loaded widget:  Auto Group          <unit_auto_group.lua>
+[f=-000001] Loaded widget:  Autoquit            <autoquit.lua>
+[f=-000001] Loaded widget:  Blast Radius        <gui_blastradius.lua>
+[f=-000001] Loaded widget:  CameraShake         <camera_shake.lua>
+[f=-000001] Loaded widget:  Cheat Sheet         <gui_chili_cheats.lua>
+[f=-000001] Loaded widget:  Chili AI Set Start  <gui_chili_ai_start_pos.lua>
+[f=-000001] Loaded widget:  Chili Economy Panel Default  <gui_chili_economy_panel2.lua>
+[f=-000001] Loaded widget:  Chili EndGame Window  <gui_chili_endgamewindow.lua>
+[f=-000001] Loaded widget:  Chili Inactivity Win  <gui_chili_inactivity_win.lua>
+[f=-000001] Loaded widget:  Chili Nuke Warning  <gui_chili_nuke_warning.lua>
+[f=-000001] Loaded widget:  Chili Rejoining Progress Bar  <gui_chili_rejoin_progress.lua>
+[f=-000001] Loaded widget:  Chili Selections & CursorTip v2  <gui_chili_selections_and_cursortip.lua>
+[f=-000001] Loaded widget:  Chili Spectator Panels  <gui_chili_spectator_panels.lua>
+[f=-000001] Loaded widget:  Comm-n-Elo Startpos. Info  <init_startpointelocom_info.lua>
+[f=-000001] Loaded widget:  Context Menu        <gui_contextmenu.lua>
+[f=-000001] Loaded widget:  Darkening           <gui_darkening.lua>
+[f=-000001] Loaded widget:  Decloak Range       <unit_decloak_range.lua>
+[f=-000001] Loaded widget:  Decoration Handler  <unit_decoration_handler.lua>
+[f=-000001] Loaded widget:  Defense Range Zero-K  <gui_defenserange.lua>
+[f=-000001] Loaded widget:  Easy Facing         <gui_easyfacing.lua>
+[f=-000001] Loaded widget:  Economic Victory Announcer  <gui_economic_victory_announcer.lua>
+[f=-000001] Loaded widget:  Ferry Points        <cmd_ferry_points.lua>
+[f=-000001] Loaded widget:  Galaxy Battle Handler  <mission_galaxy_battle_handler.lua>
+[f=-000001] Loaded widget:  Game Analytics Handler  <api_game_analytics.lua>
+[f=-000001] Loaded widget:  Ghost Site          <unit_ghostsite.lua>
+[f=-000001] Loaded widget:  Grab Input          <api_grabinput.lua>
+[f=-000001] Loaded widget:  Guard Remove        <cmd_guard_remove.lua>
+[f=-000001] Loaded widget:  Haven Handler       <gui_havens.lua>
+[f=-000001] Loaded widget:  Highlight Geos      <gui_highlight_geos.lua>
+[f=-000001] Loaded widget:  In-game Guide       <gui_ingame_guide.lua>
+[f=-000001] Loaded widget:  In-game Ignore      <ignore.lua>
+[f=-000001] Loaded widget:  Keep Target         <cmd_keep_target.lua>
+[f=-000001] Loaded widget:  Local Widgets Config  <localwidgets.lua>
+[f=-000001] Loaded widget:  MetalFeatures (new)  <gui_metal_features_new.lua>
+[f=-000001] Mex Placement Initialised with 80 spots.
+[f=-000001] Loaded widget:  Mex Placement Handler  <cmd_mex_placement.lua>
+[f=-000001] Loaded widget:  MinimapEvents       <minimap_events.lua>
+[f=-000001] Loaded widget:  Misc default command replacements  <unit_default_commands.lua>
+[f=-000001] Loaded widget:  Missile Silo Commands  <cmd_missile_silo.lua>
+[f=-000001] Loaded widget:  Missile Silo Range  <missilesilo_range.lua>
+[f=-000001] Loaded widget:  Mission Results Handler  <mission_results.lua>
+[f=-000001] Loaded widget:  Morph Finished notification  <unit_morph_finished.lua>
+[f=-000001] Loaded widget:  Music Player        <snd_music.lua>
+[f=-000001] Loaded widget:  NoDuplicateOrders   <cmd_no_duplicate_orders.lua>
+[f=-000001] Loaded widget:  Orbit Command       <cmd_orbit.lua>
+[f=-000001] Loaded widget:  Point Tracker       <gui_point_tracker.lua>
+[f=-000001] Loaded widget:  Projectile Lights   <gfx_projectile_lights.lua>
+[f=-000001] Loaded widget:  Raw Move Issue      <cmd_raw_move_issue.lua>
+[f=-000001] Loaded widget:  ReclaimInfo         <gui_reclaiminfo.lua>
+[f=-000001] Loaded widget:  Set Springsettings and Config  <api_set_springsettings.lua>
+[f=-000001] Loaded widget:  Show All Commands v2  <unit_showallcommands_2.lua>
+[f=-000001] Loaded widget:  Show selected unit range  <unit_show_selected_range.lua>
+[f=-000001] Loaded widget:  Showeco and Grid Drawer  <gui_showeco_action.lua>
+[f=-000001] Loaded widget:  Simple Settings     <gui_simple_settings.lua>
+[f=-000001] Loaded widget:  Smart Bombers       <unit_smart_bombers.lua>
+[f=-000001] Loaded widget:  SmoothCam           <camera_smoothcam.lua>
+[f=-000001] Loaded widget:  Spectate Selected Team  <gui_spectate_selected_team.lua>
+[f=-000001] Loaded widget:  Start Point Remover & Comm Selector  <init_start_point_remover.lua>
+[f=-000001] Loaded widget:  Startup Info and Selector  <init_startup_info_selector.lua>
+[f=-000001] Loaded widget:  State Reverse Toggle  <cmd_state_reverse_toggle.lua>
+[f=-000001] Loaded widget:  Stereo3D            <gfx_stereo3d.lua>
+[f=-000001] Loaded widget:  Stockpiler          <unit_stockpile.lua>
+[f=-000001] Loaded widget:  Stop Self-D         <cmd_stop_selfd.lua>
+[f=-000001] Loaded widget:  Transport AI        <unit_transport_ai.lua>
+[f=-000001] Loaded widget:  Transport Load Double Tap  <cmd_select_load.lua>
+[f=-000001] Loaded widget:  Voice Assistant     <unit_voice.lua>
+[f=-000001] Loaded widget:  Attack AoE          <gui_attack_aoe.lua>
+[f=-000001] Loaded widget:  Chili Custom Modoptions Info  <gui_custommodoptions_info.lua>
+[f=-000001] Loaded widget:  Icon Sets           <gui_icon_sets.lua>
+[f=-000001] Loaded widget:  Persistent Build Spacing  <gui_persistent_build_spacing.lua>
+[f=-000001] Loaded widget:  PlanetWars Info     <gui_planetwars_info.lua>
+[f=-000001] <Replay control buttons> Live mode. Widget removed.
+[f=-000001] Loaded widget:  Replay control buttons  <gui_replay_controls.lua>
+[f=-000001] Loaded widget:  Smooth Scroll       <camera_smooth_move.lua>
+[f=-000001] Loaded widget:  Unit Start State    <unit_start_state.lua>
+[f=-000001] Loaded widget:  UnitNoStuckInFactory  <unit_nostuck_infactory.lua>
+[f=-000001] Loaded widget:  Commands FX         <gfx_commands_fx.lua>
+[f=-000001] Loaded widget:  MessageBoxes ZK     <mission_messagebox_zk.lua>
+[f=-000001] Loaded widget:  UnitShapes          <unit_shapes.lua>
+[f=-000001] Loaded widget:  Map Edge Extension  <map_edge_extension.lua>
+[f=-000001] Loaded widget:  AllyCursors         <gui_ally_cursors.lua>
+[f=-000001] Loaded widget:  Building Starter    <unit_building_starter.lua>
+[f=-000001] Loaded widget:  Cloaker Guard       <unit_cloaker_guard.lua>
+[f=-000001] Loaded widget:  Disable Bad Widgets  <api_widget_disabler.lua>
+[f=-000001] Loaded widget:  Gadget Icons        <api_gadget_icons.lua>
+[f=-000001] Loaded widget:  Lua Metal Decals    <gfx_dynamic_metal.lua>
+[f=-000001] Loaded widget:  Rank Icons 2        <unit_rank_icons.lua>
+[f=-000001] Loaded widget:  Selection Send      <api_selectionsend.lua>
+[f=-000001] Loaded widget:  Shield Guard        <unit_shield_guard.lua>
+[f=-000001] Loaded widget:  State Icons         <unit_state_icons.lua>
+[f=-000001] Loaded widget:  LupsManager         <gfx_lups_manager.lua>
+[f=-000001] Loaded widget:  Smoke Signals       <gfx_lups_smokesignal.lua>
+[f=-000001] Loaded widget:  Units on Fire       <gfx_lups_units_on_fire.lua>
+[f=-000001] Loaded widget:  Newton Firezone     <cmd_newton_firezone.lua>
+[f=-000001] Loaded widget:  Receive Units Indicator  <gui_recv_indicator.lua>
+[f=-000001] Loaded widget:  Vertical Line on Radar Dots v2  <gui_vertlineaid.lua>
+[f=-000001] Loaded widget:  Auto-toggle false color vision  <gui_auto_engine_falsecolor.lua>
+[f=-000001] Loaded widget:  Chili Crude Player List  <gui_chili_crudeplayerlist.lua>
+[f=-000001] Loaded widget:  Chili Docking       <api_chili_docking.lua>
+[f=-000001] Loaded widget:  Chili Pro Console   <gui_chili_proconsole_test.lua>
+[f=-000001] Loaded widget:  HUD Presets         <gui_hud_presets.lua>
+[f=-000001] [EPIC Menu] Error: <EPIC Menu> Error in loading custom widget settings in Lasso Terraform GUI, order table incorrect.
+[f=-000001] [EPIC Menu] Error: <EPIC Menu> Error in loading custom widget settings in Lasso Terraform GUI, order table incorrect.
+[f=-000001] Loaded widget:  Lasso Terraform GUI  <gui_lasso_terraform.lua>
+[f=-000001] Loaded widget:  Image Preloader     <dbg_img_preload.lua>
+[f=-000001] Loaded widget:  Chili Core Selector  <gui_chili_core_selector.lua>
+[f=-000001] Loaded widget:  Custom Markers      <gui_custom_markers.lua>
+[f=-000001] Loaded widget:  Default Group Recall Fix  <gui_group_recall_fix.lua>
+[f=-000001] Loaded widget:  Select Keys         <gui_selectkeys.lua>
+[f=-000001] Loaded widget:  Start Boxes         <minimap_startbox_new.lua>
+[f=-000001] Loaded widget:  Chili Share menu v1.24  <gui_chili_share.lua>
+[f=-000001] Loaded widget:  Pause Screen        <gui_pausescreen.lua>
+[f=-000001] Loaded widget:  Restricted Zones    <gui_restrictedzones.lua>
+[f=-000001] Loaded widget:  Jumpjet GUI         <gui_jumpjets.lua>
+[f=-000001] Loaded widget:  CustomFormations2   <cmd_customformations2.lua>
+[f=-000001] SetSunLighting
+[f=-000001] Loaded widget:  Sun and Atmosphere Handler.  <gfx_sun_and_atmosphere.lua>
+[f=-000001] Loaded widget:  Chili Integral Menu  <gui_chili_integral_menu.lua>
+[f=-000001] Loaded widget:  Color Blindness Correction  <gfx_color_blindness_correction.lua>
+[f=-000001] Lua garbage collection rate: 30/s
+[f=-000001] Loaded widget:  GC Control          <api_gc_control.lua>
+[f=-000001] Removed 'GC at >100MB': disabled.
+[f=-000001] Loaded widget:  GC at >300MB        <dbg_forcegc_spring97.lua>
+[f=-000001] Loaded widget:  Key Unbinder 1      <dbg_key_unbinder.lua>
+[f=-000001] Loaded widget:  Layout Handler      <cmd_layout_handler.lua>
+[f=-000001] Loaded widget:  Outline Shader      <gfx_outline_shader.lua>
+[f=-000001] Loaded widget:  Persistent Build Height  <gui_persistent_build_height.lua>
+[f=-000001] Loaded widget:  Text To Speech Control  <snd_text_to_speech.lua>
+[f=-000001] Writing last game win data
+[f=-000001] LuaUI v0.3
+[f=-000001] [Game::Load][5] globalQuit=0 forcedQuit=0
+[f=-000001] [LoadScreen::SetLoadMessage] text="[LoadFinalize] finalizing PFS"
+[f=-000001] [Path] [PathEstimator::CalcHash][Init] BLOCK_SIZE=16
+[f=-000001] [Path] [PathEstimator::CalcHash][Init] PATHESTIMATOR_VERSION=100
+[f=-000001] [Path] [PathEstimator::CalcHash][Init] heightMapChecksum=95d9f02f
+[f=-000001] [Path] [PathEstimator::CalcHash][Init] typeMapChecksum=37560093
+[f=-000001] [Path] [PathEstimator::CalcHash][Init] moveDefChecksum=c5de8888
+[f=-000001] [Path] [PathEstimator::CalcHash][Init] blockMapChecksum=29a
+[f=-000001] [Path] [PathEstimator::CalcHash][Init] estimatorHashCode=930e7c58
+[f=-000001] [Path] [PathEstimator::ReadFile] hash=930e7c58 file="cache/104dev-maintenance/paths/Comet Catcher Redux.pe-930e7c58.zip" (exists=1)
+[f=-000001] [LoadScreen::SetLoadMessage] text="Reading Estimate PathCosts [16]"
+[f=-000001] [Path] [PathEstimator::CalcHash][Init] BLOCK_SIZE=32
+[f=-000001] [Path] [PathEstimator::CalcHash][Init] PATHESTIMATOR_VERSION=100
+[f=-000001] [Path] [PathEstimator::CalcHash][Init] heightMapChecksum=95d9f02f
+[f=-000001] [Path] [PathEstimator::CalcHash][Init] typeMapChecksum=37560093
+[f=-000001] [Path] [PathEstimator::CalcHash][Init] moveDefChecksum=c5de8888
+[f=-000001] [Path] [PathEstimator::CalcHash][Init] blockMapChecksum=29a
+[f=-000001] [Path] [PathEstimator::CalcHash][Init] estimatorHashCode=930e7c68
+[f=-000001] [Path] [PathEstimator::ReadFile] hash=930e7c68 file="cache/104dev-maintenance/paths/Comet Catcher Redux.pe2-930e7c68.zip" (exists=1)
+[f=-000001] [LoadScreen::SetLoadMessage] text="Reading Estimate PathCosts [32]"
+[f=-000001] [LoadScreen::SetLoadMessage] text="[LoadFinalize] finalized PFS (148ms, checksum ab70ffcd)"
+[f=-000001] [LoadScreen::SetLoadMessage] text="Loading Skirmish AIs"
+[f=-000001] [EOH::CreateSkirmishAI(id=0)]
+[f=-000001] [AIWrapper::PreInit][AI=0 team=1] creating callbacks
+[f=-000001] Skirmish AI <Circuit-stable>: 1.0.7
+[f=-000001] Skirmish AI <Circuit-stable>: Loading the Terrain-Map ...
+[f=-000001] Skirmish AI <Circuit-stable>:   Water Damage: 0.000000
+[f=-000001] Skirmish AI <Circuit-stable>:   Sector-Map Block Size: 64
+[f=-000001] Skirmish AI <Circuit-stable>:   Sector-Map Size: 12288 (x96, z128)
+[f=-000001] Skirmish AI <Circuit-stable>:   Determining Usable Terrain for all units ...
+[f=-000001] Skirmish AI <Circuit-stable>:   Map Land Percent: 100.00%
+[f=-000001] Skirmish AI <Circuit-stable>:   Minimum Elevation: 0.00
+[f=-000001] Skirmish AI <Circuit-stable>:   Immobile-Type: Min/Max Elevation=(-0.000000 / any)  	Is buildable across 100.000000% of the map. (used by 27 unit-defs)
+[f=-000001] Skirmish AI <Circuit-stable>:   Immobile-Type: Min/Max Elevation=(-20.000000 / any)  	Is buildable across 100.000000% of the map. (used by 1 unit-defs)
+[f=-000001] Skirmish AI <Circuit-stable>:   Immobile-Type: Min/Max Elevation=(any / any)  	Is buildable across 100.000000% of the map. (used by 30 unit-defs)
+[f=-000001] Skirmish AI <Circuit-stable>:   Immobile-Type: Min/Max Elevation=(any / any)  	Is buildable across 100.000000% of the map. (used by 36 unit-defs)
+[f=-000001] Skirmish AI <Circuit-stable>:   Immobile-Type: Min/Max Elevation=(any / -15.000000)  	Is buildable across 0.000000% of the map. (used by 1 unit-defs)
+[f=-000001] Skirmish AI <Circuit-stable>:   Immobile-Type: Min/Max Elevation=(any / -10.000000)  	Is buildable across 0.000000% of the map. (used by 1 unit-defs)
+[f=-000001] Skirmish AI <Circuit-stable>:   Mobile-Type: Min/Max Elevation=(-5000.00 / any)  	Max Slope=(0.41))  	Move-Data used:'akbot6'  	Has 1 Map-Area(s) occupying 96.40% of the map. (used by 351 unit-defs)
+[f=-000001] Skirmish AI <Circuit-stable>:   Mobile-Type: Min/Max Elevation=(any / -15.00)  	Max Slope=(1.00))  	Move-Data used:'boat5'  	Has 0 Map-Area(s) occupying 0.00% of the map. (used by 6 unit-defs)
+[f=-000001] Skirmish AI <Circuit-stable>:   Mobile-Type: Min/Max Elevation=(-22.00 / any)  	Max Slope=(0.41))  	Move-Data used:'kbot4'  	Has 1 Map-Area(s) occupying 96.40% of the map. (used by 32 unit-defs)
+[f=-000001] Skirmish AI <Circuit-stable>:   Mobile-Type: Min/Max Elevation=(-16.00 / any)  	Max Slope=(1.00))  	Move-Data used:'tkbot2'  	Has 1 Map-Area(s) occupying 100.00% of the map. (used by 5 unit-defs)
+[f=-000001] Skirmish AI <Circuit-stable>:   Mobile-Type: Min/Max Elevation=(any / any)  	Max Slope=(0.41))  	Move-Data used:'bhover5'  	Has 1 Map-Area(s) occupying 96.40% of the map. (used by 4 unit-defs)
+[f=-000001] Skirmish AI <Circuit-stable>:   Mobile-Type: Min/Max Elevation=(-5000.00 / any)  	Max Slope=(1.00))  	Move-Data used:'atkbot3'  	Has 1 Map-Area(s) occupying 100.00% of the map. (used by 4 unit-defs)
+[f=-000001] Skirmish AI <Circuit-stable>:   Mobile-Type: Min/Max Elevation=(-22.00 / any)  	Max Slope=(1.00))  	Move-Data used:'tkbot4'  	Has 1 Map-Area(s) occupying 100.00% of the map. (used by 11 unit-defs)
+[f=-000001] Skirmish AI <Circuit-stable>:   Mobile-Type: Min/Max Elevation=(any / any)  	Max Slope=(0.11))  	Move-Data used:'hover3'  	Has 1 Map-Area(s) occupying 88.28% of the map. (used by 13 unit-defs)
+[f=-000001] Skirmish AI <Circuit-stable>:   Mobile-Type: Min/Max Elevation=(-16.00 / any)  	Max Slope=(0.41))  	Move-Data used:'skbot2'  	Has 1 Map-Area(s) occupying 96.40% of the map. (used by 3 unit-defs)
+[f=-000001] Skirmish AI <Circuit-stable>:   Mobile-Type: Min/Max Elevation=(any / -5.00)  	Max Slope=(1.00))  	Move-Data used:'boat4'  	Has 0 Map-Area(s) occupying 0.00% of the map. (used by 9 unit-defs)
+[f=-000001] Skirmish AI <Circuit-stable>:   Mobile-Type: Min/Max Elevation=(-22.00 / any)  	Max Slope=(0.11))  	Move-Data used:'tank4'  	Has 1 Map-Area(s) occupying 88.28% of the map. (used by 20 unit-defs)
+[f=-000001] Skirmish AI <Circuit-stable>: No config file! (LuaRules/Configs/CircuitAI/stable/Comet_Catcher_Redux.json)
+[f=-000001] Skirmish AI <Circuit-stable>: Circuit 1.0.7 (0) Initialized!
+[f=-000001] [AIWrapper::SendUnitEvents][AI=0 team=1] numUnits=0
+[f=-000001] [~ScopedOnceTimer][Game::LoadSkirmishAIs::CreateAI(id=0)] 182ms
+[f=-000001] [~ScopedOnceTimer][Game::LoadSkirmishAIs] 185ms
+[f=-000001] [Game::Load][6] globalQuit=0 forcedQuit=0
+[f=-000001] [LuaMemPool::LogStats][handle=LuaIntro (unsynced)] index=6 {numAllocs[*],allocSums[*]}={0,0} {int,ext,rec}Allocs={10975,0,0} {chunk,block}Bytes={0,0}
+[f=-000001] Mex Placement Initialised with 80 spots.
+[f=-000001] UpdateInterfacePreset, minimapRight
+[f=-000001] Loading:  LuaUI/Widgets/gui_chili_global_commands.lua
+[f=-000001] [Key Unbinder 1] Unbinding keys for action screenshot
+[f=-000001] Removed:  LuaUI/Widgets/dbg_key_unbinder.lua
+[f=-000001] TotalHideLobbyInterface, true
+[f=-000001] GameID: a787745e9eed45cff275556da813ab11
+[f=-000001] Connection attempt from Archangel
+[f=-000001]  -> Version: 104.0.1-1435-g79d77ca maintenance [Linux 64-bit (native)]
+[f=-000001]  -> Connection established (given id 0)
+[f=-000001] [Game::ClientReadNet][LOGMSG] sender="Archangel" string="[PreGame::GameDataReceived][map-checksums]
+	server=ef2b098cee0feec3294121447d55c77e5a27d168e4b745dafbf2c6b53b5a713bab16966372705639b9432a30f2288c1423ade51c69b003f7fa058d801599a67b
+	client=ef2b098cee0feec3294121447d55c77e5a27d168e4b745dafbf2c6b53b5a713bab16966372705639b9432a30f2288c1423ade51c69b003f7fa058d801599a67b"
+[f=-000001] [Game::ClientReadNet][LOGMSG] sender="Archangel" string="[PreGame::GameDataReceived][mod-checksums]
+	server=f7404aa961d500a755dcc7800a1b7521c692a561150e526a6287cd6d0b653299f7876b4f2b1ac3c7226a872326565e2e301f547b568f5a333f37a63407309fac
+	client=f7404aa961d500a755dcc7800a1b7521c692a561150e526a6287cd6d0b653299f7876b4f2b1ac3c7226a872326565e2e301f547b568f5a333f37a63407309fac"
+[f=-000001] [Game::ClientReadNet][LOGMSG] sender="Archangel" string="[PE::CalcChecksum][BLK_SIZE=16][SHA_DATA=775904b7885d6e685a9daa677c1ddf64bef449d8b40269aaacb0f3284af16871f5154d9c4197e2e14d92c23b10c567b6a7222e27c9ad305c4caa41e1d4cf6a34]"
+[f=-000001] [Game::ClientReadNet][LOGMSG] sender="Archangel" string="[PE::CalcChecksum][BLK_SIZE=32][SHA_DATA=3417fb160bce1b6a9d08be61f455783131b427b4174e2db6a7895c93ef50d17421af565ffa0ead71e0581660c664556453c21e8587c905fcf929c1c03e074b97]"
+[f=-000001] [Game::ClientReadNet] local skirmish AI "CircuitAIstable(1)" (ID: 0, Short-Name: "CircuitAI", Version: "") took over control of team 1
+[f=-000001] [Game::ClientReadNet][LOGMSG] sender="Archangel" string="[Game::Load][lua{Rules,Gaia}={0xe9c01f50,(nil)}]"
+[f=-000001] Epicmenu: Switching to Default camera mode
+[f=-000001] Input grabbing is enabled!
+[f=-000001] Input grabbing is enabled!
+[f=-000001] <Archangel> Allies: I choose: Guardian!
+[f=-000001] DesignEvent, events_2018_04_25:game_v2:startpoint_placed, 9.22299957
+[f=-000001] DesignEvent, events_2018_04_25:game_v2:start_game_proper, 17.4490013
+[f=0000018] !transmitlobby @voice@buildUnit@add;tankcon;Welder
+[f=0000018] !transmitlobby @voice@buildUnit@add;tankraid;Kodachi
+[f=0000018] !transmitlobby @voice@buildUnit@add;tankheavyraid;Blitz
+[f=0000018] !transmitlobby @voice@buildUnit@add;tankriot;Ogre
+[f=0000018] !transmitlobby @voice@buildUnit@add;tankassault;Minotaur
+[f=0000018] !transmitlobby @voice@buildUnit@add;tankheavyassault;Cyclops
+[f=0000018] !transmitlobby @voice@buildUnit@add;tankarty;Emissary
+[f=0000018] !transmitlobby @voice@buildUnit@add;tankheavyarty;Tremor
+[f=0000018] !transmitlobby @voice@buildUnit@add;tankaa;Ettin
+[f=0000018] !transmitlobby @voice@buildUnit@reload
+[f=0000018] DesignEvent, events_2018_04_25:game_v2:unit:first_start_building:factorytank, 17.9629993
+[f=0000018] DesignEvent, events_2018_04_25:game_v2:unit_category:first_start_building_advancedFactories, 17.9629993
+[f=0000018] DesignEvent, events_2018_04_25:game_v2:unit_category:first_start_building_factories, 17.9629993
+[f=0000075] DesignEvent, events_2018_04_25:game_v2:unit:first_start_building:tankraid, 20.0410004
+[f=0000389] DesignEvent, events_2018_04_25:game_v2:unit:first_start_building:dronelight, 30.566
+[f=0000675] DesignEvent, events_2018_04_25:game_v2:unit:first_start_building:staticmex, 40.1819992
+[f=0000835] DesignEvent, events_2018_04_25:game_v2:unit:first_start_building:tankcon, 45.5059967
+[f=0000835] DesignEvent, events_2018_04_25:game_v2:unit_category:first_start_building_builders, 45.5059967
+[f=0000960] DesignEvent, events_2018_04_25:game_v2:unit:first_start_building:energysolar, 49.5429993
+[f=0000960] DesignEvent, events_2018_04_25:game_v2:unit_category:first_start_building_energyBuildings, 49.5429993
+[f=0000960] DesignEvent, events_2018_04_25:game_v2:unit_category:first_start_building_basicEnergyBuildings, 49.5429993
+[f=0001455] DesignEvent, events_2018_04_25:game_v2:unit:first_start_building:turretlaser, 66.0410004
+[f=0001455] DesignEvent, events_2018_04_25:game_v2:unit_category:first_start_building_lightGroundTurrets, 66.0410004
+[f=0002152] DesignEvent, events_2018_04_25:game_v2:unit:first_start_building:turretmissile, 89.3680038
+[f=0002773] game_message: Firefly is under attack
+[f=0002923] game_message: Firefly is under attack
+[f=0003461] game_message: Firefly is under attack
+[f=0004962] DesignEvent, events_2018_04_25:game_v2:unit:first_start_building:tankheavyraid, 182.903992
+[f=0010406] DesignEvent, events_2018_04_25:game_v2:unit:first_start_building:tankheavyassault, 364.557983
+[f=0011505] DesignEvent, events_2018_04_25:game_v2:unit:first_start_building:turretheavylaser, 401.189972
+[f=0011505] DesignEvent, events_2018_04_25:game_v2:unit_category:first_start_building_heavyGroundTurrets, 401.189972
+[f=0011838] game_message: Morph complete: Guardian lvl 1 -> Guardian lvl 2
+[f=0011845] DesignEvent, events_2018_04_25:game_v2:unit:first_start_building:turretemp, 412.556
+[f=0014494] game_message: Blitz is under attack
+[f=0014581] DesignEvent, events_2018_04_25:game_v2:unit:first_start_building:staticcon, 503.755005
+[f=0014675] game_message: Blitz is under attack
+[f=0015641] game_message: Cyclops is under attack
+[f=0016020] DesignEvent, events_2018_04_25:game_v2:unit:first_start_building:energywind, 551.69397
+[f=0016456] game_message: Cyclops is under attack
+[f=0017011] DesignEvent, events_2018_04_25:game_v2:unit:first_start_building:factoryplane, 584.726013
+[f=0017561] game_message: Lotus is under attack
+[f=0017776] game_message: Faraday is under attack
+[f=0018925] !transmitlobby @voice@buildUnit@add;planecon;Crane
+[f=0018925] !transmitlobby @voice@buildUnit@add;planefighter;Swift
+[f=0018925] !transmitlobby @voice@buildUnit@add;planeheavyfighter;Raptor
+[f=0018925] !transmitlobby @voice@buildUnit@add;bomberprec;Raven
+[f=0018925] !transmitlobby @voice@buildUnit@add;bomberriot;Phoenix
+[f=0018925] !transmitlobby @voice@buildUnit@add;bomberdisarm;Thunderbird
+[f=0018925] !transmitlobby @voice@buildUnit@add;bomberheavy;Likho
+[f=0018925] !transmitlobby @voice@buildUnit@add;planescout;Owl
+[f=0018925] !transmitlobby @voice@buildUnit@add;planelightscout;Sparrow
+[f=0018925] !transmitlobby @voice@buildUnit@reload
+[f=0019362] game_message: Cyclops is under attack
+[f=0019479] DesignEvent, events_2018_04_25:game_v2:unit:first_start_building:bomberheavy, 666.98999
+[f=0019809] game_message: Cyclops is under attack
+[f=0020268] game_message: Metal Extractor is under attack
+[f=0020499] game_message: Metal Extractor is under attack
+[f=0021338] game_message: Firefly is under attack
+[f=0024906] game_message: Cyclops is under attack
+[f=0025119] game_message: Cyclops is under attack
+[f=0025691] DesignEvent, events_2018_04_25:game_v2:unit:first_start_building:striderhub, 874.065979
+[f=0026806] game_message: Morph complete: Guardian lvl 2 -> Guardian lvl 3
+[f=0027730] game_message: Cyclops is under attack
+[f=0027772] DesignEvent, events_2018_04_25:game_v2:unit:first_start_building:striderbantha, 943.458984
+[f=0027772] DesignEvent, events_2018_04_25:game_v2:unit_category:first_start_building_gameEnder, 943.458984
+[f=0029298] DesignEvent, events_2018_04_25:game_v2:unit:first_start_building:staticrearm, 994.323975
+[f=0029532] game_message: Cyclops is under attack
+[f=0030027] game_message: Welder is under attack
+[f=0030901] !transmitlobby @voice@buildUnit@reload
+[f=0031858] game_message: Likho is under attack
+[f=0032032] game_message: Likho is under attack
+[f=0033076] game_message: Stinger is under attack
+[f=0033837] game_message: Cyclops is under attack
+[f=0034125] game_message: Cyclops is under attack
+[f=0034331] game_message: Firefly is under attack
+[f=0034759] game_message: Solar Collector is under attack
+[f=0034957] game_message: Solar Collector is under attack
+[f=0035107] game_message: Solar Collector is under attack
+[f=0035257] game_message: Solar Collector is under attack
+[f=0036050] game_message: Cyclops is under attack
+[f=0036202] game_message: Cyclops is under attack
+[f=0037180] game_message: Cyclops is under attack
+[f=0037338] game_message: Cyclops is under attack
+[f=0038008] game_message: Solar Collector is under attack
+[f=0038158] game_message: Solar Collector is under attack
+[f=0038329] game_message: Solar Collector is under attack
+[f=0038479] game_message: Solar Collector is under attack
+[f=0038971] game_message: Solar Collector is under attack
+[f=0040133] game_message: Metal Extractor is under attack
+[f=0040350] DesignEvent, events_2018_04_25:game_v2:unit:first_start_building:staticheavyradar, 1362.69006
+[f=0040869] game_message: Solar Collector is under attack
+[f=0043290] game_message: AllyTeam 0 has an overwhelming numerical advantage!
+[f=0043650] game_message: AI has been destroyed!
+[f=0043650] game_message: Archangel wins!
+[f=0043650] Submitting stats
+[f=0043650] <autoquit> Automatically exiting in 10 seconds. Move mouse to cancel.
+[f=0043650] DesignEvent, events_2018_04_25:game_v2:game:end:won, 1472.70789
+[f=0043658] <autoquit> Autoquit canceled.
+[f=0043667] [EOH::DestroySkirmishAI(id=0)]
+[f=0043682] [Game::ClientReadNet] local skirmish AI "CircuitAIstable(1)" (ID: 0) being removed from team 1
+[f=0043753] [ReloadOrRestart] Spring "/home/michael/sprDev/spring-engine-linux-masterbuild/spring" should be reloading
+[f=0043753] [SpringApp::Reload][1]
+[f=0043753] [ThreadPool::SetThreadCount][1] wanted=0 current=4 maximum=8 (init=0)
+[f=0043753] 	[async=0] threads=4 tasks=828996 {sum,avg}{exec,wait}time={{8832.445, 0.011}, {17493.510, 0.021}}ms
+[f=0043753] 		thread=1 tasks=276332 {sum,min,max,avg}{exec,wait}time={{3313.524, 0.000, 118.738, 0.012}, {4099.798, 0.000, 18446744027136.000, 0.015}}ms
+[f=0043753] 		thread=2 tasks=276332 {sum,min,max,avg}{exec,wait}time={{2905.975, 0.000, 120.184, 0.011}, {6353.053, 0.000, 7.607, 0.023}}ms
+[f=0043753] 		thread=3 tasks=276332 {sum,min,max,avg}{exec,wait}time={{2612.945, 0.000, 120.775, 0.009}, {7040.659, 0.000, 9.515, 0.025}}ms
+[f=0043753] 	[async=1] threads=4 tasks=3086 {sum,avg}{exec,wait}time={{3447.308, 1.117}, {93658.297, 30.349}}ms
+[f=0043753] 		thread=1 tasks=1032 {sum,min,max,avg}{exec,wait}time={{1280.752, 0.000, 231.772, 1.241}, {28029.271, 0.013, 625.854, 27.160}}ms
+[f=0043753] 		thread=2 tasks=1022 {sum,min,max,avg}{exec,wait}time={{1085.834, 0.000, 288.226, 1.062}, {34187.887, 0.040, 747.976, 33.452}}ms
+[f=0043753] 		thread=3 tasks=1032 {sum,min,max,avg}{exec,wait}time={{1080.721, 0.000, 210.307, 1.047}, {31441.145, 0.051, 738.129, 30.466}}ms
+[f=0043753] [ThreadPool::SetThreadCount][2] workers=0
+[f=0043753] [ThreadPool::SetThreadCount][1] wanted=4 current=1 maximum=8 (init=1)
+[f=0043753] [ThreadPool::SetThreadCount][2] workers=3
+[f=0043753] [Threading] Main thread CPU affinity mask set: 8184 (config is 65528)
+[f=0043753] [SpringApp::Reload][2]
+[f=0043753] [DemoRecorder::WriteDemoFile] writing client-demo "/home/michael/sprDev/spring-engine-linux-masterbuild/demos/20200320_050648_Comet Catcher Redux_104.0.1-1435-g79d77ca maintenance.sdfz" (2528344 bytes)
+[f=0043753] [Game::KillLua][0] dtor=0 loadscreen=(nil)
+[f=0043753] [Game::KillLua][3] dtor=0 luaUI=0xb8ffe440
+[f=0043753] Start widgetHandler:Shutdown
+[f=0043753] Shutdown - SaveOrderList Complete
+[f=0043753] Writing last game win data
+[f=0043753] Shutdown - SaveConfigData Complete
+[f=0043753] Shutdown Widget - Chili Highlight
+[f=0043753] Shutdown Widget - Save/Load API
+[f=0043753] Shutdown Widget - Draw After Chili
+[f=0043753] Shutdown Widget - EPIC Menu
+[f=0043753] Shutdown Widget - Chili Minimap
+[f=0043753] Shutdown Widget - Chili Widget Selector
+[f=0043753] Shutdown Widget - Depth of Field Shader
+[f=0043753] Shutdown Widget - Deferred rendering
+[f=0043753] Shutdown Widget - Local Team Colors
+[f=0043753] Shutdown Widget - Display Keys 2
+[f=0043753] Shutdown Widget - Save Game Menu
+[f=0043753] Shutdown Widget - HealthBars
+[f=0043753] Shutdown Widget - Noises
+[f=0043753] Shutdown Widget - Unit Icons
+[f=0043753] Shutdown Widget - Win Counter
+[f=0043753] Shutdown Widget - BuildETA
+[f=0043753] Shutdown Widget - Modular Comm Info
+[f=0043753] Shutdown Widget - Attack Warning
+[f=0043753] Shutdown Widget - CameraShake
+[f=0043753] Shutdown Widget - Chili Economy Panel Default
+[f=0043753] Shutdown Widget - Chili EndGame Window
+[f=0043753] Shutdown Widget - Chili Nuke Warning
+[f=0043753] Shutdown Widget - Chili Selections & CursorTip v2
+[f=0043753] Shutdown Widget - Chili Spectator Panels
+[f=0043753] Shutdown Widget - Context Menu
+[f=0043753] Shutdown Widget - Darkening
+[f=0043753] Shutdown Widget - Grab Input
+[f=0043753] Input grabbing is disabled!
+[f=0043753] Shutdown Widget - Highlight Geos
+[f=0043753] Shutdown Widget - Local Widgets Config
+[f=0043753] Shutdown Widget - MetalFeatures (new)
+[f=0043753] Shutdown Widget - Mex Placement Handler
+[f=0043753] Shutdown Widget - MinimapEvents
+[f=0043753] Shutdown Widget - Missile Silo Range
+[f=0043753] Shutdown Widget - Music Player
+[f=0043753] Shutdown Widget - Point Tracker
+[f=0043753] Shutdown Widget - Showeco and Grid Drawer
+[f=0043753] Shutdown Widget - Startup Info and Selector
+[f=0043753] Shutdown Widget - Stereo3D
+[f=0043753] Shutdown Widget - Transport AI
+[f=0043753] Shutdown Widget - Attack AoE
+[f=0043753] Shutdown Widget - UnitShapes
+[f=0043753] Shutdown Widget - Map Edge Extension
+[f=0043753] Shutdown Widget - Selection Send
+[f=0043753] Shutdown Widget - LupsManager
+[f=0043753] Shutdown Widget - Newton Firezone
+[f=0043753] Shutdown Widget - Receive Units Indicator
+[f=0043753] Shutdown Widget - Chili Pro Console
+[f=0043753] Shutdown Widget - Lasso Terraform GUI
+[f=0043753] Shutdown Widget - Chili Framework
+[f=0043753] Shutdown Widget - Lups
+[f=0043753] Shutdown Widget - Chili Core Selector
+[f=0043753] Shutdown Widget - Custom Markers
+[f=0043753] Shutdown Widget - Pause Screen
+[f=0043753] Shutdown Widget - Color Blindness Correction
+[f=0043753] Shutdown Widget - Layout Handler
+[f=0043753] Shutdown Widget - Outline Shader
+[f=0043753] Shutdown Widget - Persistent Build Height
+[f=0043753] Shutdown Widget - Text To Speech Control
+[f=0043753] End widgetHandler:Shutdown
+[f=0043753] [LuaMemPool::LogStats][handle=LuaUI (unsynced)] index=18446744073709551615 {numAllocs[*],allocSums[*]}={267042,52985463} {int,ext,rec}Allocs={120801754,0,0} {chunk,block}Bytes={52985463,0}
+[f=0043753] [Game::KillLua][1] dtor=0 luaGaia=(nil)
+[f=0043753] [Game::KillLua][2] dtor=0 luaRules=0xe9c01f50
+[f=0043753] Start gadgetHandler:Shutdown
+[f=0043753] Shutdown - StartSetup
+[f=0043753] Shutdown - UnitMorph
+[f=0043753] Shutdown - LupsNanoSpray
+[f=0043753] Shutdown - Missile Silo Controller
+[f=0043753] Shutdown - Modular Comm Info
+[f=0043753] Shutdown - Terrain Texture Handler
+[f=0043753] Shutdown - UnitCloakShield
+[f=0043753] Shutdown - Starlight Handler
+[f=0043753] End gadgetHandler:Shutdown
+[f=0043753] Start gadgetHandler:Shutdown
+[f=0043753] Shutdown - Save/Load
+[f=0043753] Shutdown - UnitMorph
+[f=0043753] Shutdown - Modular Comm Info
+[f=0043753] Shutdown - Retreat Command
+[f=0043753] Shutdown - Shockwaves
+[f=0043753] Shutdown - Teleport Throw
+[f=0043753] Shutdown - CustomUnitShaders
+[f=0043753] Shutdown - UnitCloakShield
+[f=0043753] Shutdown - Lups Cloak FX
+[f=0043753] Shutdown - Lups
+[f=0043753] Shutdown - Lups Shield
+[f=0043753] End gadgetHandler:Shutdown
+[f=0043753] [LuaMemPool::LogStats][handle=LuaRules (unsynced)] index=18446744073709551615 {numAllocs[*],allocSums[*]}={0,0} {int,ext,rec}Allocs={120801831,0,0} {chunk,block}Bytes={0,0}
+[f=0043753] [LuaMemPool::LogStats][handle=LuaRules (synced)] index=18446744073709551615 {numAllocs[*],allocSums[*]}={0,0} {int,ext,rec}Allocs={120801831,0,0} {chunk,block}Bytes={0,0}
+[f=0043753] [Game::KillLua][4] dtor=0
+[f=0043753] [SpringApp::Reload][3]
+[f=0043753] [Sound] [Sound::Kill] soundThread.joinable()=1
+[f=0043753] [WatchDog::DeregisterThread] deregistering controls for thread [audio]
+[f=0043753] [Sound] [Sound::UpdateThread][3] #sources=32 #items=58
+[f=0043753] [Sound] [Sound::UpdateThread][4] ctx=0x7f5c24031790 dev=0x7f5c24228d60
+[f=0043753] [Sound] [Sound::UpdateThread][5] ctx=0x7f5c24031790 dev=0x7f5c24228d60
+[f=0043753] [Sound] [Sound::Cleanup][alcDestroyContext(0x7f5c24031790)]
+[f=0043753] [Sound] [Sound::Cleanup][alcCloseDevice(0x7f5c24228d60)]
+[f=0043753] [Sound] [Sound::UpdateThread][6]
+[f=0043753] [SpringApp::Reload][4]
+[f=0043753] [Game::~CGame][1]
+[f=0043753] [Game::KillLua][0] dtor=1 loadscreen=(nil)
+[f=0043753] [Game::KillLua][3] dtor=1 luaUI=(nil)
+[f=0043753] [Game::KillLua][1] dtor=1 luaGaia=(nil)
+[f=0043753] [Game::KillLua][2] dtor=1 luaRules=(nil)
+[f=0043753] [Game::KillLua][4] dtor=1
+[f=0043753] [Game::KillMisc][1]
+[f=0043753] [Game::KillMisc][2]
+[f=0043753] [Game::KillMisc][3]
+[f=0043753] [Game::KillRendering][1]
+[f=0043753] [~CRectangleOverlapHandler] 0% overlap reduction
+[f=0043753] [3DOParser::Kill] allocated 188 pieces
+[f=0043753] [S3OParser::Kill] allocated 3525 pieces
+[f=0043753] [AssParser::Kill] allocated 362 pieces
+[f=0043753] [Game::KillInterface][1]
+[f=0043753] [Game::KillInterface][2]
+[f=0043753] [Game::KillSimulation][1]
+[f=0043753] [Game::KillSimulation][2]
+[f=0043753] [CCollisionHandler] dis-/continuous tests: 90/14924822
+[f=0043753] [Game::KillSimulation][3]
+[f=0043753] [~CPathCache(24x32)] cacheHits=0 hitPercentage=0% numHashColls=0 maxCacheSize=201
+[f=0043753] [~CPathCache(24x32)] cacheHits=915 hitPercentage=39% numHashColls=0 maxCacheSize=38
+[f=0043753] [~CPathCache(48x64)] cacheHits=1156 hitPercentage=63% numHashColls=0 maxCacheSize=201
+[f=0043753] [~CPathCache(48x64)] cacheHits=750 hitPercentage=0% numHashColls=0 maxCacheSize=201
+[f=0043753] [~CRectangleOverlapHandler] 0% overlap reduction
+[f=0043753] [~CRectangleOverlapHandler] 0% overlap reduction
+[f=0043753] [LosHandler::Kill] raycast instance cache-{hits,misses}={36540,80445}; shared=3%; cached=28%
+[f=0043753] [Game::KillSimulation][4]
+[f=0043753] [CommonDefHandler::KillStatic] 3214 sound-set data items added
+[f=0043753] [Game::~CGame][2]
+[f=0043753] [Game::~CGame][3]
+[f=0043753] [NetProto::~CNetProtocol] [UDPConnection::Statistics]
+	2408855 bytes sent   in 28162 packets (85.536 bytes/packet)
+	1926190 bytes recv'd in 19564 packets (98.456 bytes/packet)
+	{0.259x, 0.061x} relative protocol overhead {up, down}
+	0 incoming chunks dropped, 3 outgoing chunks resent
+	20202 incoming chunks processed
+
+[f=0043753] [SpringApp::Reload][5]
+[f=0043753] [SpringApp::Reload][6]
+[f=0043753] [VFS] [SpringVFS::UnMapArchives<this=0x7f5c300227e0>(reload=1)] (#mod=7655 #map=3 #menu=2682)
+[f=0043753] Scanning: /home/michael/sprDev/spring-engine-linux-masterbuild/base
+[f=0043753] Scanning: /home/michael/sprDev/spring-engine-linux-masterbuild/maps
+[f=0043753] Scanning: /home/michael/sprDev/spring-engine-linux-masterbuild/games
+[f=0043753] Scanning: /home/michael/sprDev/spring-engine-linux-masterbuild/packages
+[f=0043753] [~ScopedOnceTimer][CArchiveScanner::ScanAllDirs] 0ms
+[f=0043753] [SpringApp::Reload][7]
+[f=0043753] [SpringApp::Reload][8]
+[f=0043753] [Sound] [Sound::UpdateThread][1] cfgMaxSounds=32
+[f=0043753] [WatchDog::RegisterThread] registering controls for thread [audio]
+[f=0043753] [Sound] [ISound::Initialize] spawning sound-thread (0.3ms)
+[f=0043753] [Sound] [Sound::InitThread][1]
+[f=0043753] [Sound] [Sound::OpenOpenALDevice] opening default device "OpenAL Soft"
+[f=0043753] [Sound] [Sound::OpenOpenALDevice] device=0x7f5c24228d20 context=0x7f5c24019ab0
+[f=0043753] [Sound] [Sound::InitThread][4][OpenAL API Info]
+[f=0043753] [Sound]   Vendor:         OpenAL Community
+[f=0043753] [Sound]   Version:        1.1 ALSOFT 1.18.2
+[f=0043753] [Sound]   Renderer:       OpenAL Soft
+[f=0043753] [Sound]   AL Extensions:  AL_EXT_ALAW AL_EXT_BFORMAT AL_EXT_DOUBLE AL_EXT_EXPONENT_DISTANCE AL_EXT_FLOAT32 AL_EXT_IMA4 AL_EXT_LINEAR_DISTANCE AL_EXT_MCFORMATS AL_EXT_MULAW AL_EXT_MULAW_BFORMAT AL_EXT_MULAW_MCFORMATS AL_EXT_OFFSET AL_EXT_source_distance_model AL_EXT_SOURCE_RADIUS AL_EXT_STEREO_ANGLES AL_LOKI_quadriphonic AL_SOFT_block_alignment AL_SOFT_deferred_updates AL_SOFT_direct_channels AL_SOFT_gain_clamp_ex AL_SOFT_loop_points AL_SOFT_MSADPCM AL_SOFT_source_latency AL_SOFT_source_length AL_SOFT_source_resampler AL_SOFT_source_spatialize
+[f=0043753] [Sound]   ALC Extensions: ALC_ENUMERATE_ALL_EXT ALC_ENUMERATION_EXT ALC_EXT_CAPTURE ALC_EXT_DEDICATED ALC_EXT_disconnect ALC_EXT_EFX ALC_EXT_thread_local_context ALC_SOFTX_device_clock ALC_SOFT_HRTF ALC_SOFT_loopback ALC_SOFT_output_limiter ALC_SOFT_pause_device
+[f=0043753] [Sound]   Devices:
+[f=0043753] [Sound]     [Built-in Audio Analogue Stereo]
+[f=0043753] [Sound] [Sound::GetMaxMonoSources] #attribs=19
+[f=0043753] [Sound] [Sound::GetMaxMonoSources] {cfg,alc}MaxSounds={32,255}
+[f=0043753] [Sound]   EFX Enabled: yes
+[f=0043753] [Sound] [Sound::UpdateThread][2]
+[f=0043753] [~ScopedOnceTimer][ISound::Init::Dev] 100ms
+[f=0043753] [SpringApp::Reload][10]
+[f=-000001] [SpringApp::Reload][11]
+[f=-000001] [LuaMenuController::Reset] using menu archive "Chobby $VERSION"
+[f=-000001] [VFS] [LuaMenuVFS::AddArchive<this=0x7f5c300227e0>(arName="Chobby $VERSION", overwrite=false)] section=3 cached=1
+[f=-000001] [VFS] [LuaMenuVFS::AddArchive<this=0x7f5c300227e0>(arName="Spring content v1", overwrite=false)] section=2 cached=0
+[f=-000001] [VFS] [LuaMenuVFS::AddArchive<this=0x7f5c300227e0>(arName="Spring Bitmaps", overwrite=false)] section=2 cached=0
+[f=-000001] [VFS] [LuaMenuVFS::AddArchive<this=0x7f5c300227e0>(arName="Spring Cursors", overwrite=false)] section=2 cached=0
+[f=-000001] [SpringApp::Reload][12] #script=0
+[f=-000001] [LuaMenuController::Activate(msg="")] luaMenu=0x46e40bf0
+[f=-000001] SetLobbyFullscreenMode, 2
+[f=-000001] [SpringApp::Reload][13] reloadCount=4
+
+
+
+[f=-000001] [GR::ConfigNotify][1] key=Fullscreen val=0 (cfgFullScreen=0 sdlFullScreen=1) newRes=<1885,1025>
+[f=-000001] TotalHideLobbyInterface, false
+[f=-000001] Warning: Couldn't find texture "LuaMenu/Images/MinimapThumbnailsComet_Catcher_Redux.jpg"!
+[f=-000001] Warning: Couldn't find texture "LuaMenu/Images/Minimaps/Comet_Catcher_Redux.jpg"!
+[f=-000001] 
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SIZE_CHANGED][1] fullScreen=0
+[f=-000001] [GR::UpdateGLConfigs]
+[f=-000001] [GR::UpdateGLGeometry][1] winSize=<1885,1025>
+[f=-000001] [GR::UpdateGLGeometry][2] winSize=<1885,1025>
+[f=-000001] [GR::InitGLState]
+[f=-000001] [GR::LogDisplayMode] display-mode set to 1885x1025x24bpp@120Hz (windowed::decorated)
+[f=-000001] [~ScopedOnceTimer][GlobalRendering::UpdateGL] 0ms
+[f=-000001] [~ScopedOnceTimer][ActiveController::ResizeEvent] 0ms
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SIZE_CHANGED][2]
+
+[f=-000001] SortableList tried to scroll to non-existent item, Comet Catcher Redux
+[f=-000001] SortableList tried to scroll to non-existent item, Comet Catcher Redux
+[f=-000001] [SpringApp::Kill][1] fromRun=1
+[f=-000001] [ThreadPool::SetThreadCount][1] wanted=0 current=4 maximum=8 (init=0)
+[f=-000001] 	[async=0] threads=4 tasks=0 {sum,avg}{exec,wait}time={{0.000, 0.000}, {0.000, 0.000}}ms
+[f=-000001] 	[async=1] threads=4 tasks=3 {sum,avg}{exec,wait}time={{0.059, 0.020}, {0.159, 0.053}}ms
+[f=-000001] 		thread=1 tasks=1 {sum,min,max,avg}{exec,wait}time={{0.011, 0.011, 0.011, 0.011}, {0.029, 0.029, 0.029, 0.029}}ms
+[f=-000001] 		thread=2 tasks=1 {sum,min,max,avg}{exec,wait}time={{0.015, 0.015, 0.015, 0.015}, {0.076, 0.076, 0.076, 0.076}}ms
+[f=-000001] 		thread=3 tasks=1 {sum,min,max,avg}{exec,wait}time={{0.033, 0.033, 0.033, 0.033}, {0.054, 0.054, 0.054, 0.054}}ms
+[f=-000001] [ThreadPool::SetThreadCount][2] workers=0
+[f=-000001] [SpringApp::Kill][2]
+[f=-000001] [Sound] [Sound::Kill] soundThread.joinable()=1
+[f=-000001] [WatchDog::DeregisterThread] deregistering controls for thread [audio]
+[f=-000001] [Sound] [Sound::UpdateThread][3] #sources=32 #items=1
+[f=-000001] [Sound] [Sound::UpdateThread][4] ctx=0x7f5c24019ab0 dev=0x7f5c24228d20
+[f=-000001] [Sound] [Sound::UpdateThread][5] ctx=0x7f5c24019ab0 dev=0x7f5c24228d20
+[f=-000001] [Sound] [Sound::Cleanup][alcDestroyContext(0x7f5c24019ab0)]
+[f=-000001] [Sound] [Sound::Cleanup][alcCloseDevice(0x7f5c24228d20)]
+[f=-000001] [Sound] [Sound::UpdateThread][6]
+[f=-000001] Remember to update handler.lua once the following is in basecontent: https://github.com/spring/spring/commit/ef6df34ae5dd4eba9b192f695f9b2724da0f83c2
+[f=-000001] [Chobby] Chobby Shutdown
+[f=-000001] [LuaMemPool::LogStats][handle=LuaMenu (unsynced)] index=0 {numAllocs[*],allocSums[*]}={0,0} {int,ext,rec}Allocs={652938703,0,0} {chunk,block}Bytes={0,0}
+[f=-000001] [SpringApp::Kill][3]
+[f=-000001] [SpringApp::Kill][4] font=0x46dcb540
+[f=-000001] [SpringApp::Kill][5]
+[f=-000001] [SpringApp::Kill][6]
+[SpringApp::Kill][7]
+[LuaSocket] [~CLuaSocketRestrictions] dumping luasocket rules:
+[LuaSocket] TCP_CONNECT ALLOW * -1
+[LuaSocket] TCP_LISTEN  ALLOW * -1
+[LuaSocket] UDP_CONNECT DENY  23.83.237.166 8452
+[LuaSocket] UDP_LISTEN  ALLOW * -1
+[VFS] [SpringVFS::DeleteArchives<this=0x7f5c300227e0>]
+[VFS] [SpringVFS::DeleteArchives<this=0x7f5c300227e0>(section=0)] #archives[section]=0 #files[section]=0
+[VFS] [SpringVFS::DeleteArchives<this=0x7f5c300227e0>(section=1)] #archives[section]=0 #files[section]=0
+[VFS] [SpringVFS::DeleteArchives<this=0x7f5c300227e0>(section=2)] #archives[section]=4 #files[section]=430
+[VFS] 	archive=/home/michael/sprDev/spring-engine-linux-masterbuild/base/cursors.sdz (0x471f1560)
+[~CBufferedArchive][name=/home/michael/sprDev/spring-engine-linux-masterbuild/base/cursors.sdz] 520740 bytes cached in 110 files
+[VFS] 	archive=/home/michael/sprDev/spring-engine-linux-masterbuild/base/springcontent.sdz (0x7f5c3001c480)
+[~CBufferedArchive][name=/home/michael/sprDev/spring-engine-linux-masterbuild/base/springcontent.sdz] 191004 bytes cached in 92 files
+[VFS] 	archive=/home/michael/sprDev/spring-engine-linux-masterbuild/base/spring/bitmaps.sdz (0x471f11c0)
+[~CBufferedArchive][name=/home/michael/sprDev/spring-engine-linux-masterbuild/base/spring/bitmaps.sdz] 1540147 bytes cached in 46 files
+[VFS] 	archive=/home/michael/sprDev/spring-engine-linux-masterbuild/base/maphelper.sdz (0x471e5df0)
+[~CBufferedArchive][name=/home/michael/sprDev/spring-engine-linux-masterbuild/base/maphelper.sdz] 14008 bytes cached in 3 files
+[VFS] [SpringVFS::DeleteArchives<this=0x7f5c300227e0>(section=3)] #archives[section]=0 #files[section]=2682
+[VFS] [SpringVFS::DeleteArchives<this=0x7f5c300227e0>(section=4)] #archives[section]=0 #files[section]=0
+[VFS] [SpringVFS::DeleteArchives<this=0x7f5c300227e0>(section=5)] #archives[section]=1 #files[section]=0
+[VFS] 	archive=/home/michael/sprDev/spring-engine-linux-masterbuild/packages/3d98c8b413b6215a1869e2214e4c86c6.sdp (0x506da480)
+[~CPoolArchive] archiveFile="/home/michael/sprDev/spring-engine-linux-masterbuild/packages/3d98c8b413b6215a1869e2214e4c86c6.sdp" numZipFiles=7655 sumInflSize=694292kb sumReadTime=3358ms
+	file="unittextures/bantha_normals.dds" indx=6842 inflSize=4096kb readTime=115ms
+	file="sounds/music/war/hybrid statement.ogg" indx=5896 inflSize=5829kb readTime=95ms
+	file="sounds/music/war/rhythm of the sea.ogg" indx=5898 inflSize=2225kb readTime=91ms
+	file="sounds/music/peace/far beyond the stars.ogg" indx=5886 inflSize=6427kb readTime=75ms
+	file="sounds/music/victory/modern warstory.ogg" indx=5893 inflSize=3745kb readTime=53ms
+	file="unittextures/gritty1.dds" indx=7045 inflSize=5461kb readTime=43ms
+	file="sounds/music/war/with gun & crucifix.ogg" indx=5902 inflSize=2752kb readTime=42ms
+	file="luaui/images/unit_retreat.png" indx=3707 inflSize=1kb readTime=41ms
+	file="unittextures/penetrator_lordmuffe_tex2-v2.dds" indx=7106 inflSize=5461kb readTime=40ms
+	file="unittextures/detriment_1.dds" indx=6988 inflSize=5461kb readTime=40ms
+[~CBufferedArchive][name=/home/michael/sprDev/spring-engine-linux-masterbuild/packages/3d98c8b413b6215a1869e2214e4c86c6.sdp] 321909626 bytes cached in 3686 files
+[VFS] [SpringVFS::DeleteArchives<this=0x7f5c300227e0>(section=6)] #archives[section]=1 #files[section]=0
+[VFS] 	archive=/home/michael/sprDev/spring-engine-linux-masterbuild/maps/comet_catcher_redux.sd7 (0x4756d480)
+[VFS] [SpringVFS::DeleteArchives<this=0x7f5c300227e0>(section=7)] #archives[section]=0 #files[section]=0
+[VFS] [SpringVFS::DeleteArchives<this=0x7f5c300227e0>(section=8)] #archives[section]=1 #files[section]=0
+[VFS] 	archive=/home/michael/sprDev/spring-engine-linux-masterbuild/games/cho.sdd (0x46643710)
+[SpringApp::Kill][8]
+[WatchDog::DeregisterThread] deregistering controls for thread [main]
+[WatchDog::Uninstall][1] hangDetectorThread=0x2011b90 (joinable=1)
+[WatchDog::Uninstall][2]
+[WatchDog::Uninstall][3]
+[SpringApp::Kill][9]

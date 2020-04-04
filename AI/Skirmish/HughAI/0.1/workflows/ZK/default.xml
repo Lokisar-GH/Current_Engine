@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<root workflowName="default">
+<list fieldname="orders">
+<listitem priority="2.0" quantity="1" unitname="armvp"/>
+<listitem priority="2.1" quantity="2" unitname="armfav"/>
+<listitem priority="2.0" quantity="10" unitname="armstump"/>
+<listitem priority="2.0" quantity="10" unitname="armsam"/>
+<listitem priority="1.95" quantity="4" unitname="armmex"/>
+<listitem priority="1.95" quantity="4" unitname="armsolar"/>
+<listitem priority="1.9" quantity="3" unitname="armcv"/>
+<listitem priority="1.8" quantity="1" unitname="armmstor"/>
+<listitem priority="1.8" quantity="1" unitname="armavp"/>
+<listitem priority="2.0" quantity="3" unitname="armbull"/>
+<listitem priority="2.0" quantity="2" unitname="armmart"/>
+<listitem priority="1.9" quantity="1" unitname="armseer"/>
+<listitem priority="1.7" quantity="3" unitname="armyork"/>
+<listitem priority="1.7" quantity="3" unitname="armbull"/>
+<listitem priority="1.7" quantity="2" unitname="armmart"/>
+<listitem priority="0.9" quantity="2" unitname="armacv"/>
+<listitem priority="0.8" quantity="4" unitname="armmmkr"/>
+<listitem priority="0.8" quantity="1" unitname="armarad"/>
+<listitem priority="0.8" quantity="1" unitname="armestor"/>
+<listitem priority="0.7" quantity="1" unitname="armalab"/>
+<listitem priority="0.7" quantity="2" unitname="armfark"/>
+<listitem priority="0.6" quantity="20" unitname="armbull"/>
+<listitem priority="0.6" quantity="20" unitname="armyork"/>
+<listitem priority="0.6" quantity="20" unitname="armmart"/>
+<listitem priority="0.5" quantity="1" unitname="armseer"/>
+<listitem priority="0.5" quantity="1" unitname="armsjam"/>
+<listitem priority="0.4" quantity="50" unitname="armmav"/>
+<listitem priority="0.3" quantity="4" unitname="armfark"/>
+</list>
+</root>
